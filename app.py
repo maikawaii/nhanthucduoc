@@ -45,7 +45,7 @@ model = AutoModelForImageClassification.from_pretrained(model_name)
 processor = AutoProcessor.from_pretrained(model_name)
 
 # Giao diện chính
-st.sidebar.title("Ứng dụng Nhận diện Dược liệu")
+st.sidebar.title("Mời các bác nhận thức dược liệu")
 page = st.sidebar.radio("Chọn trang:", ["Trang chủ", "Trang đối chiếu"])
 
 # Trang chủ
