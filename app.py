@@ -1,85 +1,52 @@
 import streamlit as st
-from PIL import Image
-import torch
 from transformers import AutoModelForImageClassification, AutoProcessor
-import numpy as np
+import torch
+from PIL import Image
 
 # Tải mô hình và processor từ Hugging Face
-model_name = "Laimaimai/herbal_identification"
+model_name = "Laimaimai/herbal_identification"  # Tên mô hình của bạn trên Hugging Face
 model = AutoModelForImageClassification.from_pretrained(model_name)
 processor = AutoProcessor.from_pretrained(model_name)
 
-# Thay đổi giao diện: Màu sắc nền và font chữ
-st.markdown("""
+# Lấy labels từ mô hình
+labels = model.config.id2label  # id2label là từ điển từ id -> tên label (tên cây)
+
+# Tiêu đề với màu sắc và kích thước
+st.markdown("<h1 style='text-align: center; color: #4CAF50;'>Ứng dụng nhận dạng dược liệu</h1>", unsafe_allow_html=True)
+
+# Tiêu đề phụ
+st.markdown("<h3 style='text-align: center; color: #FF6347;'>Chọn ảnh để nhận diện cây dược liệu</h3>", unsafe_allow_html=True)
+
+# Thêm background đẹp
+st.markdown(
+    """
     <style>
-        body {
-            background-color: #f0f8ff;
-            font-family: 'Arial', sans-serif;
-        }
-        .title {
-            color: #2E8B57;
-            font-size: 36px;
-            font-weight: bold;
-            text-align: center;
-        }
-        .header {
-            text-align: center;
-            color: #3CB371;
-            font-size: 20px;
-        }
-        .result {
-            background-color: #ffffff;
-            padding: 10px;
-            border-radius: 8px;
-            box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
-        }
-        .result p {
-            font-size: 18px;
-        }
-        .footer {
-            text-align: center;
-            margin-top: 20px;
-            color: #3CB371;
-        }
+    .stApp {
+        background-color: #F0F8FF;
+    }
     </style>
-""", unsafe_allow_html=True)
+    """, unsafe_allow_html=True
+)
 
-# Tiêu đề ứng dụng
-st.markdown('<h1 class="title">Nhận diện dược liệu</h1>', unsafe_allow_html=True)
+# Tải ảnh từ người dùng
+uploaded_file = st.file_uploader("Chọn ảnh dược liệu", type=["jpg", "jpeg", "png"])
 
-# Hướng dẫn người dùng
-st.markdown('<p class="header">Chọn ảnh dược liệu để nhận diện cây và dự đoán các loại cây tương ứng.</p>', unsafe_allow_html=True)
+if uploaded_file:
+    # Mở ảnh đã tải lên
+    image = Image.open(uploaded_file)
 
-# Nhận đầu vào ảnh từ người dùng
-image = st.file_uploader("Tải lên ảnh", type=["jpg", "jpeg", "png"])
-
-if image is not None:
-    # Hiển thị ảnh tải lên
-    st.image(image, caption="Ảnh tải lên", use_column_width=True)
-    
-    # Xử lý ảnh
-    img = Image.open(image).convert("RGB")
-    img = img.resize((224, 224))  # Resize ảnh nếu cần
-
-    # Chuyển ảnh thành định dạng phù hợp với mô hình
-    inputs = processor(images=img, return_tensors="pt")
-
-    # Dự đoán với mô hình
+    # Xử lý ảnh và thực hiện dự đoán
+    inputs = processor(images=image, return_tensors="pt")
     with torch.no_grad():
-        logits = model(**inputs).logits
-        probs = torch.nn.functional.softmax(logits, dim=-1)
+        outputs = model(**inputs)
 
-    # Lấy top 5 dự đoán
-    top_k = torch.topk(probs, 5)
-    labels = top_k.indices[0].numpy()
-    scores = top_k.values[0].numpy()
+    # Lấy top 5 kết quả dự đoán
+    logits = outputs.logits
+    top_5 = torch.topk(logits, 5)
 
-    # Hiển thị kết quả top 5 dự đoán
-    st.markdown('<div class="result">', unsafe_allow_html=True)
-    st.write("Top 5 cây dược liệu dự đoán:")
+    # Hiển thị tên cây và độ tự tin (phần trăm)
+    st.markdown("<h2 style='color: #008080;'>Top 5 cây dự đoán:</h2>", unsafe_allow_html=True)
     for i in range(5):
-        st.write(f"{i+1}. Cây {labels[i]} - {scores[i]*100:.2f}%")
-    st.markdown('</div>', unsafe_allow_html=True)
-
-# Thêm footer (chân trang)
-st.markdown('<p class="footer">Ứng dụng nhận diện dược liệu - Streamlit</p>', unsafe_allow_html=True)
+        label = labels[top_5.indices[0][i].item()]  # Lấy tên cây từ labels
+        confidence = torch.nn.functional.softmax(logits, dim=-1)[0][top_5.indices[0][i].item()].item() * 100
+        st.write(f"<b>{label}</b>: {confidence:.2f}%", unsafe_allow_html=True)
