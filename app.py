@@ -6,7 +6,7 @@ from PIL import Image
 import io
 
 # 1. URL của file labels.txt trên GitHub
-url = "https://raw.githubusercontent.com/username/repository-name/branch-name/labels.txt"
+url = "https://raw.githubusercontent.com/maikawaii/nhanthucduoc/refs/heads/main/label.txt"
 
 # 2. Tải file labels.txt về
 response = requests.get(url)
