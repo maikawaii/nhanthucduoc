@@ -5,7 +5,7 @@ import torch
 from PIL import Image
 
 # Thêm CSS để hiển thị hình nền
-forest_image_url = "https://i.pinimg.com/736x/8c/38/aa/8c38aa0ac0140540d62c47d2c625c5ed.jpg"  # Link tới hình ảnh cánh rừng của bạn
+forest_image_url = "https://i.pinimg.com/736x/db/c4/85/dbc485158a3fa63e5e32a10bd4360f9a.jpg"  # Link tới hình ảnh cánh rừng của bạn
 st.markdown(
     f"""
     <style>
