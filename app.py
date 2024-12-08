@@ -1,52 +1,53 @@
 import streamlit as st
+import requests
 from transformers import AutoModelForImageClassification, AutoProcessor
 import torch
 from PIL import Image
+import io
 
-# Tải mô hình và processor từ Hugging Face
-model_name = "Laimaimai/herbal_identification"  # Tên mô hình của bạn trên Hugging Face
+# 1. URL của file labels.txt trên GitHub
+url = "https://raw.githubusercontent.com/username/repository-name/branch-name/labels.txt"
+
+# 2. Tải file labels.txt về
+response = requests.get(url)
+
+# Đảm bảo tải thành công
+if response.status_code == 200:
+    labels = response.text.splitlines()  # Đọc các tên cây từ file labels.txt
+else:
+    labels = []
+    st.error("Không thể tải labels.txt từ GitHub.")
+
+# 3. Tải mô hình và processor từ Hugging Face
+model_name = "Laimaimai/herbal_identification"  # Thay bằng tên mô hình của bạn
 model = AutoModelForImageClassification.from_pretrained(model_name)
 processor = AutoProcessor.from_pretrained(model_name)
 
-# Lấy labels từ mô hình
-labels = model.config.id2label  # id2label là từ điển từ id -> tên label (tên cây)
-
-# Tiêu đề với màu sắc và kích thước
-st.markdown("<h1 style='text-align: center; color: #4CAF50;'>Ứng dụng nhận dạng dược liệu</h1>", unsafe_allow_html=True)
-
-# Tiêu đề phụ
-st.markdown("<h3 style='text-align: center; color: #FF6347;'>Chọn ảnh để nhận diện cây dược liệu</h3>", unsafe_allow_html=True)
-
-# Thêm background đẹp
-st.markdown(
-    """
-    <style>
-    .stApp {
-        background-color: #F0F8FF;
-    }
-    </style>
-    """, unsafe_allow_html=True
-)
+# 4. Giao diện người dùng Streamlit
+st.title("Ứng dụng Nhận diện Dược Liệu")
 
 # Tải ảnh từ người dùng
-uploaded_file = st.file_uploader("Chọn ảnh dược liệu", type=["jpg", "jpeg", "png"])
+uploaded_file = st.file_uploader("Chọn hình ảnh", type=["jpg", "jpeg", "png"])
 
-if uploaded_file:
-    # Mở ảnh đã tải lên
+if uploaded_file is not None:
+    # Mở ảnh
     image = Image.open(uploaded_file)
 
-    # Xử lý ảnh và thực hiện dự đoán
-    inputs = processor(images=image, return_tensors="pt")
-    with torch.no_grad():
-        outputs = model(**inputs)
+    # Hiển thị ảnh
+    st.image(image, caption="Ảnh đã tải lên", use_column_width=True)
 
-    # Lấy top 5 kết quả dự đoán
-    logits = outputs.logits
+    # 5. Tiền xử lý ảnh và dự đoán
+    inputs = processor(images=image, return_tensors="pt")
+
+    with torch.no_grad():
+        logits = model(**inputs).logits
+
+    # 6. Lấy top 5 kết quả dự đoán
     top_5 = torch.topk(logits, 5)
 
-    # Hiển thị tên cây và độ tự tin (phần trăm)
-    st.markdown("<h2 style='color: #008080;'>Top 5 cây dự đoán:</h2>", unsafe_allow_html=True)
+    # Hiển thị kết quả dự đoán
+    st.write("Top 5 cây dự đoán kèm phần trăm:")
     for i in range(5):
-        label = labels[top_5.indices[0][i].item()]  # Lấy tên cây từ labels
+        label = labels[top_5.indices[0][i].item()]  # Tên cây từ labels.txt
         confidence = torch.nn.functional.softmax(logits, dim=-1)[0][top_5.indices[0][i].item()].item() * 100
-        st.write(f"<b>{label}</b>: {confidence:.2f}%", unsafe_allow_html=True)
+        st.write(f"{label}: {confidence:.2f}%")
