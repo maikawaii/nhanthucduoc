@@ -50,7 +50,7 @@ page = st.sidebar.radio("Chọn trang:", ["Trang chủ", "Trang đối chiếu"]
 
 # Trang chủ
 if page == "Trang chủ":
-    st.title("Nhận diện Dược liệu")
+    st.title("Mời các bác nhập cây để em đoán ")
     uploaded_file = st.file_uploader("Nhập ảnh vào đây bạn nhé ", type=["jpg", "jpeg", "png"])
 
     if uploaded_file is not None:
