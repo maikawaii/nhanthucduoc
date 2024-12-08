@@ -5,7 +5,7 @@ import torch
 from PIL import Image
 
 # Thêm CSS để hiển thị hình nền
-forest_image_url = "https://i.pinimg.com/736x/db/c4/85/dbc485158a3fa63e5e32a10bd4360f9a.jpg"  # Link tới hình ảnh cánh rừng của bạn
+forest_image_url = "https://i.pinimg.com/736x/4a/24/2c/4a242ce2f6ec13cb5711dc7de7aa8742.jpg"  # Link tới hình ảnh cánh rừng của bạn
 st.markdown(
     f"""
     <style>
@@ -50,8 +50,8 @@ page = st.sidebar.radio("Chọn trang:", ["Trang chủ", "Trang đối chiếu"]
 
 # Trang chủ
 if page == "Trang chủ":
-    st.title("Ứng dụng Nhận diện Dược liệu")
-    uploaded_file = st.file_uploader("Chọn hình ảnh", type=["jpg", "jpeg", "png"])
+    st.title("Nhận diện Dược liệu")
+    uploaded_file = st.file_uploader("Nhập ảnh vào đây bạn nhé ", type=["jpg", "jpeg", "png"])
 
     if uploaded_file is not None:
         # Hiển thị ảnh
@@ -78,7 +78,7 @@ if page == "Trang chủ":
         # Lưu top 1 dự đoán cho trang đối chiếu
         st.session_state["selected_label"] = labels[top_5_indices[0].item()]
     else:
-        st.info("Vui lòng tải lên một hình ảnh.")
+        st.info("Cho tôi xin 1 ảnh bạn yêu ơi.")
 
 # Trang đối chiếu
 elif page == "Trang đối chiếu":
