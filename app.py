@@ -60,7 +60,8 @@ model = AutoModelForImageClassification.from_pretrained(model_name)
 processor = AutoProcessor.from_pretrained(model_name)
 
 # Giao diện chính
-st.sidebar.title"Vui lòng dự đoán cây sau đó chuyển sang trang đối chiếu để xem thông tin"
+st.sidebar.title("Vui lòng dự đoán cây sau đó chuyển sang trang đối chiếu để xem thông tin")
+
 page = st.sidebar.radio("Chọn trang:", ["Trang chủ", "Trang đối chiếu"])
 
 # Trang chủ
