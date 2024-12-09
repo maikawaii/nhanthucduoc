@@ -77,4 +77,34 @@ if page == "Trang chủ":
         # Lấy top 5 kết quả
         top_5 = torch.topk(logits, 5)
         top_5_indices = top_5.indices[0]
-        top_5_confidences =
+        top_5_confidences = torch.nn.functional.softmax(logits, dim=-1)[0][top_5_indices] * 100
+
+        # Hiển thị top 5 kết quả
+        st.write("**Top 5 cây dự đoán:**")
+        for i in range(5):
+            label = labels[top_5_indices[i].item()]
+            confidence = top_5_confidences[i].item()
+
+            # Accordion để mở thông tin chi tiết cây
+            with st.expander(f"{i + 1}. {label} ({confidence:.2f}%)"):
+                plant_details = plant_info.get(label, "Không có thông tin chi tiết cho cây này.")
+                plant_details = plant_details.split("\n")
+                for detail in plant_details:
+                    st.write(detail)
+
+# Trang đối chiếu
+elif page == "Trang đối chiếu":
+    st.title("Thông tin Dược liệu")
+
+    if labels and plant_info:
+        selected_plant = st.selectbox("Chọn cây để xem thông tin:", options=labels)
+
+        # Hiển thị thông tin cây được chọn
+        plant_details = plant_info.get(selected_plant, "Không có thông tin cho cây này.")
+        if plant_details:
+            st.subheader(selected_plant)
+            plant_details = plant_details.split("\n")
+            for detail in plant_details:
+                st.write(detail)
+    else:
+        st.error("Dữ liệu cây hoặc thông tin cây chưa sẵn sàng.")
