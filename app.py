@@ -150,10 +150,8 @@ elif page == "Trang đối chiếu":
             # Hiển thị hình ảnh cây (nếu có)
             if selected_label_code in plant_images:
                 image_url = plant_images[selected_label_code]
-                if "drive.google.com" in image_url:
-                    # Sửa lại URL để lấy ảnh trực tiếp từ Google Drive
-                    image_url = image_url.replace("https://drive.google.com/file/d/", "https://drive.google.com/uc?id=").split("/view")[0]
-                st.image(image_url, caption=f"Hình ảnh của {selected_plant}", use_column_width=True)
+               st.image(image_url, caption=f"Hình ảnh của {label_vietnamese}", use_column_width=True)
+
         else:
             st.warning("Không tìm thấy thông tin cây được chọn.")
     else:
