@@ -109,47 +109,46 @@ if page == "Trang chủ":
     uploaded_file = st.file_uploader("Nhập ảnh của bạn:", type=["jpg", "jpeg", "png"])
 
     if uploaded_file:
-        # Hiển thị ảnh
-        image = Image.open(uploaded_file)
-         st.image("https://images.pexels.com/photos/2318554/pexels-photo-2318554.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2")
+    # Hiển thị ảnh
+    image = Image.open(uploaded_file)
+    st.image("https://images.pexels.com/photos/2318554/pexels-photo-2318554.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2")
 
-        
+    # Dự đoán
+    inputs = processor(images=image, return_tensors="pt")
+    with torch.no_grad():
+        logits = model(**inputs).logits
 
-        # Dự đoán
-        inputs = processor(images=image, return_tensors="pt")
-        with torch.no_grad():
-            logits = model(**inputs).logits
+    # Lấy top 5 kết quả
+    top_5 = torch.topk(logits, 5)
+    top_5_indices = top_5.indices[0]
+    top_5_confidences = torch.nn.functional.softmax(logits, dim=-1)[0][top_5_indices] * 100
 
-        # Lấy top 5 kết quả
-        top_5 = torch.topk(logits, 5)
-        top_5_indices = top_5.indices[0]
-        top_5_confidences = torch.nn.functional.softmax(logits, dim=-1)[0][top_5_indices] * 100
+    if top_5_confidences[0].item() < 50:  # Ngưỡng xác suất
+        st.warning("Không nhận diện được cây nào khớp với ảnh này.")
+    else:
+        # Hiển thị top 5 kết quả
+        st.write("**Top 5 cây dự đoán:**")
+        for i in range(5):
+            label_code = labels[top_5_indices[i].item()]
+            
+            # Lấy tên cây từ label_mapping (hoặc dùng label_code nếu không có trong label_mapping)
+            plant_name_vietnamese = label_mapping.get(label_code, label_code)  # Tên cây tiếng Việt
+            
+            # Lấy thông tin chi tiết từ plant_info
+            plant_details = plant_info.get(label_code, {})
+            plant_description = plant_details.get("description", "Không có thông tin chi tiết.")
+            plant_image_url = plant_details.get("image", None)
 
-        if top_5_confidences[0].item() < 50:  # Ngưỡng xác suất
-            st.warning("Không nhận diện được cây nào khớp với ảnh này.")
-        else:
-            # Hiển thị top 5 kết quả
-            st.write("**Top 5 cây dự đoán:**")
-            for i in range(5):
-                label_code = labels[top_5_indices[i].item()]
-                
-                # Lấy tên cây từ label_mapping (hoặc dùng label_code nếu không có trong label_mapping)
-                plant_name_vietnamese = label_mapping.get(label_code, label_code)  # Tên cây tiếng Việt
-                
-                # Lấy thông tin chi tiết từ plant_info
-                plant_details = plant_info.get(label_code, {})
-                plant_description = plant_details.get("description", "Không có thông tin chi tiết.")
-                plant_image_url = plant_details.get("image", None)
+            with st.expander(f"{i + 1}. {plant_name_vietnamese} ({top_5_confidences[i].item():.2f}%)"):
+                col1, col2 = st.columns([1, 2])
+                with col1:
+                    if plant_image_url:
+                        img = load_image_from_url(plant_image_url)
+                        if img:
+                            st.image(img, caption=f"Hình ảnh của {plant_name_vietnamese}")
+                with col2:
+                    st.write(plant_description)
 
-                with st.expander(f"{i + 1}. {plant_name_vietnamese} ({top_5_confidences[i].item():.2f}%)"):
-                    col1, col2 = st.columns([1, 2])
-                    with col1:
-                        if plant_image_url:
-                            img = load_image_from_url(plant_image_url)
-                            if img:
-                                st.image(img, caption=f"Hình ảnh của {plant_name_vietnamese}")
-                    with col2:
-                        st.write(plant_description)
 
 # Trang đối chiếu
 elif page == "Trang đối chiếu":
