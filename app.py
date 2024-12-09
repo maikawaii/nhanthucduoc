@@ -34,7 +34,23 @@ info_url = "https://raw.githubusercontent.com/maikawaii/nhanthucduoc/main/label_
 response_info = requests.get(info_url)
 if response_info.status_code == 200:
     info_data = response_info.text.splitlines()
-    plant_info = {line.split(":")[0]: line.split(":")[1] for line in info_data if ":" in line}  # Dictionary thông tin
+    plant_info = {}
+    current_plant = None
+    current_info = []
+    
+    for line in info_data:
+        if line.startswith("39_"):  # Dò tìm tên cây bắt đầu bằng mã số (ví dụ 39_Duong_quy)
+            if current_plant:
+                # Lưu thông tin cây trước đó vào từ điển
+                plant_info[current_plant] = "\n".join(current_info)
+            current_plant = line.strip()  # Lưu tên cây hiện tại
+            current_info = []  # Khởi tạo lại thông tin cây
+        current_info.append(line.strip())  # Thêm thông tin cây vào danh sách
+    
+    # Lưu cây cuối cùng
+    if current_plant:
+        plant_info[current_plant] = "\n".join(current_info)
+    st.success("Tải thông tin cây thành công.")
 else:
     plant_info = {}
     st.error("Không thể tải label_info.txt từ GitHub.")
@@ -75,13 +91,8 @@ if page == "Trang chủ":
             confidence = top_5_confidences[i].item()
             st.write(f"{i + 1}. {label} ({confidence:.2f}%)")
 
-        # Lưu top 1 dự đoán cho trang đối chiếu
-        st.session_state["selected_label"] = labels[top_5_indices[0].item()]
-    else:
-        st.info("Cho tôi xin 1 ảnh bạn yêu ơi.")
-
-# Trang đối chiếu
-elif page == "Trang đối chiếu":
+else:
+    # Trang đối chiếu - Người dùng chọn cây để đọc thông tin
     st.title("Thông tin Dược liệu")
 
     if labels and plant_info:
@@ -90,7 +101,11 @@ elif page == "Trang đối chiếu":
 
         if selected_plant in plant_info:
             st.subheader(selected_plant)
-            st.write(plant_info[selected_plant])  # Hiển thị thông tin cây
+            plant_details = plant_info[selected_plant].split("\n")
+
+            # Hiển thị thông tin cây theo từng phần
+            for detail in plant_details:
+                st.write(detail)  # Hiển thị từng dòng thông tin cây
         else:
             st.warning("Không có thông tin cho cây này.")
     else:
