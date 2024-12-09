@@ -1,12 +1,3 @@
-﻿10_Tuc_doan
-Tục đoạn
-Tên tiếng Việt: Tục đoạn, Sơn cân thái, Oa thái, Đầu vù (Hmông), Rễ thái, Sâm nam
-Tên khoa học: Dipsacus japonicus Miq.
-Họ: Dipsacaceae (Tục đoạn)
-Công dụng: Củ khô sắc uống có tác dụng tiêu viêm, giảm đau, chữa nhức gân xương, mụn nhọt, bong gân, sai khớp, phụ nữ hay bị sẩy thai, bạch đới, di tinh.
- Thành phần hoá học
-Bao gồm: tinh dầu, tannin, saponin.
-
 
 11_Thien_mon
 Thiên môn đông
@@ -19,9 +10,7 @@ Thành phần hoá học
 * Ngoài ra còn có chất nhầy. Có tài liệu nói còn có tinh bột, sacaroza. Các hoạt chất khác chưa rõ.
 
 
-
 12_Sai_ho
-
 Sài hồ
 Tên tiếng Việt: Bắc sài hồ, sài hồ, sà diệp sài hồ, trúc diệp sài hồ.
 Tên khoa học: Bupleurum chinense DC.
@@ -835,3 +824,11 @@ Công dụng: Có khả năng bổ thận, trị đau xương, hành huyết ph�
 Thành phần hóa học
 Trong cốt toái bổ Drymria fortunei có hesperi- din (C A., 1970,73, 11382j) và 25-34,89% tinh bột (Trung Quốc thực vật chí, 1961, 447).
 
+10_Tuc_doan
+ Tục đoạn
+Tên tiếng Việt: Tục đoạn, Sơn cân thái, Oa thái, Đầu vù (Hmông), Rễ thái, Sâm nam
+Tên khoa học: Dipsacus japonicus Miq.
+Họ: Dipsacaceae (Tục đoạn)
+Công dụng: Củ khô sắc uống có tác dụng tiêu viêm, giảm đau, chữa nhức gân xương, mụn nhọt, bong gân, sai khớp, phụ nữ hay bị sẩy thai, bạch đới, di tinh.
+ Thành phần hoá học
+Bao gồm: tinh dầu, tannin, saponin.
