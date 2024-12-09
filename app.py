@@ -111,7 +111,9 @@ if page == "Trang chủ":
     if uploaded_file:
         # Hiển thị ảnh
         image = Image.open(uploaded_file)
-        st.image(image, caption="Ảnh đã tải lên", use_column_width=True)
+         st.image("https://images.pexels.com/photos/2318554/pexels-photo-2318554.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2")
+
+        
 
         # Dự đoán
         inputs = processor(images=image, return_tensors="pt")
