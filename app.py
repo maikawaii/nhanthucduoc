@@ -108,7 +108,7 @@ if page == "Trang chủ":
     st.title("Nhận diện Dược liệu")
     uploaded_file = st.file_uploader("Nhập ảnh của bạn:", type=["jpg", "jpeg", "png"])
 
-    if uploaded_file:
+if uploaded_file:
     # Hiển thị ảnh
     image = Image.open(uploaded_file)
     st.image("https://images.pexels.com/photos/2318554/pexels-photo-2318554.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2")
