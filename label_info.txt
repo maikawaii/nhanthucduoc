@@ -1,4 +1,4 @@
-10_Tuc_doan
+﻿10_Tuc_doan
 Tục đoạn
 Tên tiếng Việt: Tục đoạn, Sơn cân thái, Oa thái, Đầu vù (Hmông), Rễ thái, Sâm nam
 Tên khoa học: Dipsacus japonicus Miq.
@@ -15,8 +15,8 @@ Tên khoa học: Asparagus cochinchinensis (Lour.) Merr.
 Họ: Asparagaceae (Thiên môn)
 Công dụng: Ho, tiêu đờm, táo bón (Rễ sắc uống). Cao huyết áp (Lá sắc uống).
 Thành phần hoá học
-•	Trong thiên môn đông có asparagin là một axit amin có tinh thể hình trụ, ngậm một phân tử nước, đun tới 100°C thì mất phân tử nước, độ chảy 234°- 235°C, tan trong nước nóng, chỉ hơi tan trong nước lạnh, 1g tan trong 1,47ml nước 20°. Với nước sôi, asparagin có thể thuỷ phân để cho axit aspartic và amoniac.
-•	Ngoài ra còn có chất nhầy. Có tài liệu nói còn có tinh bột, sacaroza. Các hoạt chất khác chưa rõ.
+* Trong thiên môn đông có asparagin là một axit amin có tinh thể hình trụ, ngậm một phân tử nước, đun tới 100°C thì mất phân tử nước, độ chảy 234°- 235°C, tan trong nước nóng, chỉ hơi tan trong nước lạnh, 1g tan trong 1,47ml nước 20°. Với nước sôi, asparagin có thể thuỷ phân để cho axit aspartic và amoniac.
+* Ngoài ra còn có chất nhầy. Có tài liệu nói còn có tinh bột, sacaroza. Các hoạt chất khác chưa rõ.
 
 
 
@@ -51,8 +51,8 @@ Tên khoa học: Imperata cylindrica (L.) Raeusch.
 Họ: Poaceae (Lúa)
 Công dụng: Giải độc, giải nhiệt, lợi tiểu, ho gà (Thân rễ sắc uống).
 Thành phần hóa học
-•	Cỏ tranh non chứa protein 6,56%, Ca 0,39%, N 1.05% , P 0,22%, tinh bột 10,07%, vitamin A và C.
-•	Thân rễ chứa đường toàn phần.
+* Cỏ tranh non chứa protein 6,56%, Ca 0,39%, N 1.05% , P 0,22%, tinh bột 10,07%, vitamin A và C.
+* Thân rễ chứa đường toàn phần.
 
 
 16_Cau_ky_tu
@@ -62,15 +62,15 @@ Tên khoa học: Lycium chinense Mill.
 Họ: Cà (Solanaceae)
 Công dụng: Câu kỷ tử được coi là vị thuốc bổ toàn thân, dùng cho cơ thể suy nhược, can thận âm quỵ, tinh huyết bất túc, thần kinh suy nhược, lưng gối mỏi đau, hoa mắt, thị lực giảm, di tinh, đái đường.
 Thành phần hóa học
-•	Quả câu kỷ chứa tinh dầu, trong đó 36 thành phần trung tính đã được nhận dạng bằng sắc ký khí liên hợp vói phổ khối. Hai sesquiterpen được nhận dạng là dehyđro – α – cyperon và solavetivon. Methyl linoleat chiếm tỷ lệ cao (18%) trong phân đoạn trung tính. Các ester của các acid béo C14, C16 và C18 cũng có với tỷ lệ cao. Ngoài ra, quả còn có betain, Zeaxanthin, physalien.
-•	Hạt chứa nhiều sterol: 4,4 – dimethylsterol, cycloartanol, cycloartenol, 24 – methylen cycloartanol (các chất này chiếm tỳ lệ cao), một số dẫn chất của lanosterol (các dẫn chất này chiếm tỷ lệ thấp). Trong số các sterol này có gramisterol (44%), citrostadienol (18%), lophenol (9%), cycloeucalenol (8%), nor – cycloartenol (6%), obtusifoliol (6%).
-•	Hai chất còn được chiết tách từ quả và nhận dạng là β – sitosterol và acid melissic.
-•	Vỏ cây cũng chứa β – sitosterol và acid melissic. Ngoài ra, còn có acid linoleic, 5α- stigmastan – 3,6 – dion, sugiol.
-•	Vỏ rễ chứa một alcaloic gọi là kukoamin và một dipeptid gọi lyciumamid (N – benzoyl – L – phenylalanyl – L – phenylalaninol acetat).
-•	Lá chứa betain, các lycinumwithanolid A và B, tinh dầu trong đó có hydroxydehydro – β – ionol.
-•	Câu kỷ còn được ghi là có scopoletin, acid vanilic, betain, nicotinamin.
-•	Quả câu kỷ vẫn được nhập, lấy từ loài Lycium barbarum L, một loài rất phổ biến trong y học cổ truyền của Trung Quốc. 100 quả chứa 3,1g protein, 1,9g lipid, 9,1g carbohydrat, 1,6g chất xơ, 22,5mg Ca, 56mg p, 1,3mg Fe, 19,6mg caroten, 0,08 thiamin, 0, 14mg riboflavin, 0,67mg acid nicotinic và 42,6mg acid ascorbic.
-•	Theo A.Y.Leung và cs, 1996, quả chứa 8 – 10% acid amin trong đó chừng một nửa ở dạng tự do: acid aspartic 1,2%, prolin 0,65%, acid glutamic 0,63%, alanin 0,37%, arginin 0,19%, serin 0,14% và 9 acid amin khác.
+* Quả câu kỷ chứa tinh dầu, trong đó 36 thành phần trung tính đã được nhận dạng bằng sắc ký khí liên hợp vói phổ khối. Hai sesquiterpen được nhận dạng là dehyđro - α - cyperon và solavetivon. Methyl linoleat chiếm tỷ lệ cao (18%) trong phân đoạn trung tính. Các ester của các acid béo C14, C16 và C18 cũng có với tỷ lệ cao. Ngoài ra, quả còn có betain, Zeaxanthin, physalien.
+* Hạt chứa nhiều sterol: 4,4 - dimethylsterol, cycloartanol, cycloartenol, 24 - methylen cycloartanol (các chất này chiếm tỳ lệ cao), một số dẫn chất của lanosterol (các dẫn chất này chiếm tỷ lệ thấp). Trong số các sterol này có gramisterol (44%), citrostadienol (18%), lophenol (9%), cycloeucalenol (8%), nor - cycloartenol (6%), obtusifoliol (6%).
+* Hai chất còn được chiết tách từ quả và nhận dạng là β - sitosterol và acid melissic.
+* Vỏ cây cũng chứa β - sitosterol và acid melissic. Ngoài ra, còn có acid linoleic, 5α- stigmastan - 3,6 - dion, sugiol.
+* Vỏ rễ chứa một alcaloic gọi là kukoamin và một dipeptid gọi lyciumamid (N - benzoyl - L - phenylalanyl - L - phenylalaninol acetat).
+* Lá chứa betain, các lycinumwithanolid A và B, tinh dầu trong đó có hydroxydehydro - β - ionol.
+* Câu kỷ còn được ghi là có scopoletin, acid vanilic, betain, nicotinamin.
+* Quả câu kỷ vẫn được nhập, lấy từ loài Lycium barbarum L, một loài rất phổ biến trong y học cổ truyền của Trung Quốc. 100 quả chứa 3,1g protein, 1,9g lipid, 9,1g carbohydrat, 1,6g chất xơ, 22,5mg Ca, 56mg p, 1,3mg Fe, 19,6mg caroten, 0,08 thiamin, 0, 14mg riboflavin, 0,67mg acid nicotinic và 42,6mg acid ascorbic.
+* Theo A.Y.Leung và cs, 1996, quả chứa 8 - 10% acid amin trong đó chừng một nửa ở dạng tự do: acid aspartic 1,2%, prolin 0,65%, acid glutamic 0,63%, alanin 0,37%, arginin 0,19%, serin 0,14% và 9 acid amin khác.
 
 
 17_Do_trong
@@ -80,10 +80,10 @@ Tên khoa học: Eucommia ulmoides Oliv
 Họ: Eucommiaceae (Đỗ trọng)
 Công dụng: Chữa đau lưng mỏi gối, tê thấp, tê phù, cao huyết áp, di tinh, liệt dương, hay đi đái đêm, bại liệt, phụ nữ có thai đau bụng, động thai ra huyết (Vỏ sắc uống).
 Thành phần hóa học
-•	Đỗ trọng được nhiều người nghiên cứu để sử dụng chất nhựa của nó có tính chất như cao su
-•	Theo J. Parkin (1921) trong đỗ trọng có 5% độ ẩm; 2,5% tro, 70% nhựa và 22,5% gutta pecka. Tuy nhiên chất gutta pecka này có tính chất đàn hồi kém gutta pecka thật, việc chiết xuất lại khó khăn, hiệu suất thu được chỉ 2% trong khi chiết xuất ở các cây khác có gutta pecka hiệu suất thu được cao gấp 2-3 lần. Từ sau đại chiến lần thứ 2, Liên Xô cũ trồng rất nhiều ở vùng Capcado để lấy chất gutta pecka. Theo sự nghiên cứu của các nhà bác học Liên Xô cũ trong vỏ cây đỗ trọng có 3-7% chất có tính chất của gutta pecka , trong lá có 2%, trong quả có 27,34%. ở nhiệt độ 45-700, chất gutta pecka của đỗ trọng có tính chất dẻo rất cao, khả năng chịu nước biển và độ cách điện cũng cao do đó dùng làm vật cách điện và để bọc dây điện ngầm dưới biển
-•	Ngoài chất như gutta pecka trong đỗ trọng có chứa chất màu, chất anbumin, chất béo, tinh dầu và muối vô cơ
-•	Trong lá có tanin và nhựa. không có ancaloit. Dù sao hoạt chất cũng chưa rõ
+* Đỗ trọng được nhiều người nghiên cứu để sử dụng chất nhựa của nó có tính chất như cao su
+* Theo J. Parkin (1921) trong đỗ trọng có 5% độ ẩm; 2,5% tro, 70% nhựa và 22,5% gutta pecka. Tuy nhiên chất gutta pecka này có tính chất đàn hồi kém gutta pecka thật, việc chiết xuất lại khó khăn, hiệu suất thu được chỉ 2% trong khi chiết xuất ở các cây khác có gutta pecka hiệu suất thu được cao gấp 2-3 lần. Từ sau đại chiến lần thứ 2, Liên Xô cũ trồng rất nhiều ở vùng Capcado để lấy chất gutta pecka. Theo sự nghiên cứu của các nhà bác học Liên Xô cũ trong vỏ cây đỗ trọng có 3-7% chất có tính chất của gutta pecka , trong lá có 2%, trong quả có 27,34%. ở nhiệt độ 45-700, chất gutta pecka của đỗ trọng có tính chất dẻo rất cao, khả năng chịu nước biển và độ cách điện cũng cao do đó dùng làm vật cách điện và để bọc dây điện ngầm dưới biển
+* Ngoài chất như gutta pecka trong đỗ trọng có chứa chất màu, chất anbumin, chất béo, tinh dầu và muối vô cơ
+* Trong lá có tanin và nhựa. không có ancaloit. Dù sao hoạt chất cũng chưa rõ
 
 18_Dang_sam
 Đảng sâm
@@ -114,15 +114,15 @@ Họ: Liliaceae (Bách hợp)
 Công dụng: Chữa ho, long đờm, thổ huyết, tắc sữa, cầm máu, hen
 Thành phần hoá học
 Trong xuyên bối mẫu-Frililiaria roylei có những ancaloit sau đây:
-•	Peiminin C27H43O3N
-•	Peimin C27H45O4N
-•	Peimisin C27H43O4N
-•	Peimidin C27H45O2N
-•	Peimitidin C27H43.47O3N
-•	Fritimin C38H62O3N2
+* Peiminin C27H43O3N
+* Peimin C27H45O4N
+* Peimisin C27H43O4N
+* Peimidin C27H45O2N
+* Peimitidin C27H43.47O3N
+* Fritimin C38H62O3N2
 Trong triết bối mẫu-Frililiaria verticiliata có:
-•	Chủ yếu các ancaloit peimin và peiminin, ngoài ra còn bốn ancaloit với số lượng ít hơn là peimisin, peimiphin C27H46O3N, peimidin, peimitidin. Có tác giả còn lấy được propeimin có cấu trúc sterolic C26H44O3 hoặc C27H46O3
-•	Ngô Vĩnh Hy đã xác định peimin là đihydroxy- solanidin hoậc tương đương với bydroxydihydrorubijervin.
+* Chủ yếu các ancaloit peimin và peiminin, ngoài ra còn bốn ancaloit với số lượng ít hơn là peimisin, peimiphin C27H46O3N, peimidin, peimitidin. Có tác giả còn lấy được propeimin có cấu trúc sterolic C26H44O3 hoặc C27H46O3
+* Ngô Vĩnh Hy đã xác định peimin là đihydroxy- solanidin hoậc tương đương với bydroxydihydrorubijervin.
 
 
 20_Tho_ty_tu
@@ -142,9 +142,9 @@ Tên khoa học: Astragalus membranaceus (Fisch) Bunge
 Họ: Fabaceae (Đậu)
 Công dụng: Chữa sốt, đái đường, đái đục, lở loét, phong thấp, suy nhược cơ thể, lở loét mãn tính (Rễ).
 Thành phần hóa học
-•	Trong Hoàng kỳ có polysaccarid: astragalan, saccarose, glucose, tinh bột, chất nhầy, gôm.
-•	Saponin: người ta đã tách ra được các astragalosid như: astragalosid I, astragalosid II, astragalosid III, astragalosid IV, astragalosid V, astragalosid VI, astragalosid VII, astragalosid VIII,isoastragalosid I, isoastragalosid II, soyasaponin I…
-•	Flavonoid: 2′,4′ – Dihydroxy-5,6- Dimethoxyisoflavane…Các acid amin: Cholin, Betain, acid Folic…Sistosterol.
+* Trong Hoàng kỳ có polysaccarid: astragalan, saccarose, glucose, tinh bột, chất nhầy, gôm.
+* Saponin: người ta đã tách ra được các astragalosid như: astragalosid I, astragalosid II, astragalosid III, astragalosid IV, astragalosid V, astragalosid VI, astragalosid VII, astragalosid VIII,isoastragalosid I, isoastragalosid II, soyasaponin I...
+* Flavonoid: 2′,4′ - Dihydroxy-5,6- Dimethoxyisoflavane...Các acid amin: Cholin, Betain, acid Folic...Sistosterol.
 
 22_Coi_xay
 Cối xay
@@ -154,8 +154,8 @@ Tên đồng nghĩa: Sida indica L.
 Họ: Malvaceae (Bông)
 Công dụng: Phong thấp, tê bại, đau nhức gân xương, ngã ứ huyết, viêm gan cấp, viêm ruột, lỵ...Vỏ lợi tiểu, đi tiểu nước đái đỏ, mụn nhọt. Hạt có tác dụng xổ.
 Thành phần hóa học
-•	Flavonoid, hợp chất phenol, acid amin, acid hữu cơ, đường. Các flavonoid là gossypin, gossypitin, cyanidin-3-rutinosid. Các acid amin là alanin, acid glutamic, arginin, valin. Các đường là glucose, fructose, galactose.
-•	Hạt chứa 5% dầu béo, các acid béo là acid palmitic, acid stearic và một số acid béo khác; phần không xà phòng hóa chiếm 1,7%
+* Flavonoid, hợp chất phenol, acid amin, acid hữu cơ, đường. Các flavonoid là gossypin, gossypitin, cyanidin-3-rutinosid. Các acid amin là alanin, acid glutamic, arginin, valin. Các đường là glucose, fructose, galactose.
+* Hạt chứa 5% dầu béo, các acid béo là acid palmitic, acid stearic và một số acid béo khác; phần không xà phòng hóa chiếm 1,7%
 
 23_Huyen_sam
 Huyền sâm
@@ -174,10 +174,10 @@ Tên khoa học: Morus alba L.
 Họ: Moraceae (Dâu tằm)
 Công dụng: Chữa phù thũng, dị ứng, ho, tê thấp (Vỏ rễ, cành). Thuốc an thần (Lá).
 Thành phần hoá học
-•	Lá Dâu chứa inokosteron, ecdysteron, morocetin, umbelliferon, scopoletin, scopolin, a-, b- hexenal, trigonellin và nhiều acid amin. Còn có chất cao su, tanin, caroten, vitamin C, pentozan, đường.
-•	Vỏ rễ Dâu chứa các acid hữu cơ, tanin, pectin và những hợp chất flavonoid bao gồm morin, mulberrin, mulberronchromen, cyclomulberrin, cyclomulberrochromen.
-•	Quả Dâu chứa đường (glucose và fructose), acid malic và acid succinic, protein, tanin, vitamin C, caroten, sắc tố màu đỏ anthocyanidin.
-•	Tổ bọ ngựa trên cây Dâu chứa protid, chất béo, muối sắt, calcium.
+* Lá Dâu chứa inokosteron, ecdysteron, morocetin, umbelliferon, scopoletin, scopolin, a-, b- hexenal, trigonellin và nhiều acid amin. Còn có chất cao su, tanin, caroten, vitamin C, pentozan, đường.
+* Vỏ rễ Dâu chứa các acid hữu cơ, tanin, pectin và những hợp chất flavonoid bao gồm morin, mulberrin, mulberronchromen, cyclomulberrin, cyclomulberrochromen.
+* Quả Dâu chứa đường (glucose và fructose), acid malic và acid succinic, protein, tanin, vitamin C, caroten, sắc tố màu đỏ anthocyanidin.
+* Tổ bọ ngựa trên cây Dâu chứa protid, chất béo, muối sắt, calcium.
 
 25_Diep_ha_chau
 Chó đẻ răng cưa (Diệp hạ châu đắng)
@@ -186,13 +186,13 @@ Tên khoa học: Phyllanthus niruri L.
 Họ: Euphorbiaceae (Thầu dầu)
 Công dụng: Thuốc thông tiểu, thông sữa, điều kinh, thông kinh trục ứ. Đắp ngoài chữa mụn nhọt, lở ngứa.
 Thành phần hóa học
-•	Flavonoid: kaempferol, quercetin, rutin.
-•	Triterpen: stigmasterol, stigmasterol – 3 – 0 – b – glucosid, b – sitosterol, b – sitosterol glucosid, lup – 20 – en – 3b – ol.
-•	Tanin: acid elagic, acid 3, 3′, 4 – tri – 0 – methyl elagic, acid galic.
-•	Phenol: methylbrevifolin carboxylat.
-•	Acid hữu cơ: acid succinic, acid ferulic, acid dotriacontanoic.
-•	Các thành phần khác: n-octadecan, acid dehydrochebulic methyl ester, triacontanol, phylanthurinol acton.
-•	Lignan: phylanthin (Không nhầm Phylantin = methoxysecurinin là alcaloid có nhân quinolizidin với phylantin là lignan).
+* Flavonoid: kaempferol, quercetin, rutin.
+* Triterpen: stigmasterol, stigmasterol - 3 - 0 - b - glucosid, b - sitosterol, b - sitosterol glucosid, lup - 20 - en - 3b - ol.
+* Tanin: acid elagic, acid 3, 3′, 4 - tri - 0 - methyl elagic, acid galic.
+* Phenol: methylbrevifolin carboxylat.
+* Acid hữu cơ: acid succinic, acid ferulic, acid dotriacontanoic.
+* Các thành phần khác: n-octadecan, acid dehydrochebulic methyl ester, triacontanol, phylanthurinol acton.
+* Lignan: phylanthin (Không nhầm Phylantin = methoxysecurinin là alcaloid có nhân quinolizidin với phylantin là lignan).
 
 26_Kim_anh
 Kim anh
@@ -201,8 +201,8 @@ Tên khoa học: Rosa laevigata Michx.
 Họ: Rosaceae (Hoa hồng)
 Công dụng: Thuốc bổ, điều hoà thần kinh, di mộng tinh, bạch đới, ỉa chảy, lỵ kéo dài, đổ mồ hôi và ho mạn tính (Quả bỏ hạt). Chấn thương, lưng gối mỏi đau (Rễ). Sưng tấy, lở loét, bỏng (Lá).
 Thành phần hoá học
-•	Kim anh tử là một nguồn vitamin C, khá lớn, tỉ lệ hơn 1%. Định lượng vitamin C trong quả giả kim anh ở Lạng Sơn, chúng tôi thấy 1,360 mg trong 100 g.
-•	Trong quả (ta gọi nhầm là hạt) có chất glucosid độc, do đó “khi dùng ta vẫn phải bỏ hạt đi. Ngoài ra còn có tanin, đường, chất nhầy, acid hữu cơ chất nhầy.
+* Kim anh tử là một nguồn vitamin C, khá lớn, tỉ lệ hơn 1%. Định lượng vitamin C trong quả giả kim anh ở Lạng Sơn, chúng tôi thấy 1,360 mg trong 100 g.
+* Trong quả (ta gọi nhầm là hạt) có chất glucosid độc, do đó "khi dùng ta vẫn phải bỏ hạt đi. Ngoài ra còn có tanin, đường, chất nhầy, acid hữu cơ chất nhầy.
 
 27_Cat_can
 28_Co_ngot
@@ -222,13 +222,13 @@ Họ: Asteraceae (Cúc)
 Công dụng: Chữa đau đầu, đau mắt, tê thấp, lợi tiểu, hoa lâu ngày (Hoa sắc hoặc ngâm rượu uống). vết thương sưng tấy (Lá, Hoa)
 Thành phần hóa học
 Cúc hoa vàng chứa:
-•	Carotenoid (chrysanthemoxanthin)
-•	Tinh dầu trong đó có pinen, sabinen, myrcen, terpinen, p cymen, cineol, thuyon, chrysanthenon, borneol, linalyl acetat, bornyl acetat, cadinen, caryophyllen oxyd cadinol, chrysanthetriol.
-•	Sesquiterpen: angeloyl cumambrin B, arteglasin…
-•	Flavonoid: acaciin, glucopyranosid, acacetın, galactopyrianosid, chrysanthemin.
-•	Acid amin: adenin, cholin,stachydrin.
-•	Các thành phần khác gồm: indicumenon, Sitos -terol, amyrin, friedelin, sesamin, Vitamin A (W. Tang và cs, 1992, Trung dược từ hải III 1997. Tài nguyên cây thuốc Việt Nam 1993)
-•	Hạt chứa 15,80% dầu béo.
+* Carotenoid (chrysanthemoxanthin)
+* Tinh dầu trong đó có pinen, sabinen, myrcen, terpinen, p cymen, cineol, thuyon, chrysanthenon, borneol, linalyl acetat, bornyl acetat, cadinen, caryophyllen oxyd cadinol, chrysanthetriol.
+* Sesquiterpen: angeloyl cumambrin B, arteglasin...
+* Flavonoid: acaciin, glucopyranosid, acacetın, galactopyrianosid, chrysanthemin.
+* Acid amin: adenin, cholin,stachydrin.
+* Các thành phần khác gồm: indicumenon, Sitos -terol, amyrin, friedelin, sesamin, Vitamin A (W. Tang và cs, 1992, Trung dược từ hải III 1997. Tài nguyên cây thuốc Việt Nam 1993)
+* Hạt chứa 15,80% dầu béo.
 
 
 2_Hoe_hoa
@@ -240,8 +240,8 @@ Họ: Fabaceae (Đậu)
 Công dụng: Chữa cao huyết áp, phòng ngừa chứng đứt mạch máu não, ho ra máu, đái ra máu, đau mắt; còn chữa chảy máu cam, băng huyết, trĩ chảy máu, xích bạch lỵ (Nụ hoa hoặc quả).
  Thành phần hoá học
 Nụ hòa là nguyên liệu giàu rutin so với các nguyên liệu khác (theo Dược điển Việt Nam tập 2) quy định hàm lượng rutin phải đạt 20%. Với nụ hòe Việt Nam, hiệu suất chiết xuất có thể đạt tới 34%.
-•	Rutin còn có ở bộ phận khác của cây: 4-11% ở vỏ quả, 0,5-2% ở hạt, 5-6% ở lá chét và 0,5-2% ở cành non.
-•	Qua chế biến, hàm lượng rutin có thể thay đổi, đạt 34,7% ở dạng sống; 28,9% ở dạng sao vàng và 18,5% ở dạng sao cháy (theo Phạm Xuân Sinh và cs.1997).
+* Rutin còn có ở bộ phận khác của cây: 4-11% ở vỏ quả, 0,5-2% ở hạt, 5-6% ở lá chét và 0,5-2% ở cành non.
+* Qua chế biến, hàm lượng rutin có thể thay đổi, đạt 34,7% ở dạng sống; 28,9% ở dạng sao vàng và 18,5% ở dạng sao cháy (theo Phạm Xuân Sinh và cs.1997).
 Ngoài các chất rutin và quercetin, quả còn chứa genistein, sophoricoside.
 Hạt hòe chứa 1,75% flavonoid toàn phần, trong đó có rutin 0,5%, một số alkaloid 0,035% trong đó có cytisin, sophocarpin.
 
@@ -263,11 +263,11 @@ Tên khoa học: Desmodium styracifolium (Osb.) Merr.
 Họ: Fabaceae (Đậu)
 Công dụng: Sỏi niệu đạo, sỏi bàng quang, sỏi mật, hoàng đản, phong thấp, cảm cúm, ho, kinh nguyệt không đều, băng lậu bạch đới (cả cây sắc uống). Viêm tuyến mang tai, mụn nhọt.
 Thành phần hóa học
-•	Flavonoids: Kaempferol, quercetin, astragalin, vicenin 1, vicenin 2, vicenin 3, schaftoside, isoschaftoside, vitexin, isovitexin
-•	Alkaloids: Desmodimine, desmodilactone,…
-•	Terpenoids: Lupeol, soyasaponin I, soyasapogenol B, soyasapogenol E, …
-•	Ngoài ra còn có: các hợp chất Steroides, Phenolic acid, Polysaccharid, Tinh dầu dễ bay hơi.
-•	Kim tiền thảo thu thập được ở Việt Nam có fIavonoid 0,46 % và saponin 3,1 %.
+* Flavonoids: Kaempferol, quercetin, astragalin, vicenin 1, vicenin 2, vicenin 3, schaftoside, isoschaftoside, vitexin, isovitexin
+* Alkaloids: Desmodimine, desmodilactone,...
+* Terpenoids: Lupeol, soyasaponin I, soyasapogenol B, soyasapogenol E, ...
+* Ngoài ra còn có: các hợp chất Steroides, Phenolic acid, Polysaccharid, Tinh dầu dễ bay hơi.
+* Kim tiền thảo thu thập được ở Việt Nam có fIavonoid 0,46 % và saponin 3,1 %.
 
 32_Dan_sam
 Đan Sâm
@@ -281,7 +281,7 @@ Hơn 30 hợp chất diterpen đã được phân lập và nhận dạng từ �
 Các hợp chất thân nước:
 Acid phenolic là thành phần chính của các hợp chất thân nước từ Đan sâm. Đã phân lập và nhận dạng được 15  hợp chất acid phenolic, bao gồm polyphenolic acid (acid salvianolic) và các hợp chất liên quan (danshensu, protocatechuic aldehyd và protocatechuic acid).
 Các thành phần khác:
-Ngoài acid phenolic và các hợp chất diterpen, còn phân lập được một số thành phần khác như: baicalin, β-sitosterol, ursolic acid và daucosterol phân lập từ dịch chiết cồn; 5,3’-dihydroxy-7,4’-dimethoxy flavanon phân lập từ dịch chiết ethyl acetat.
+Ngoài acid phenolic và các hợp chất diterpen, còn phân lập được một số thành phần khác như: baicalin, β-sitosterol, ursolic acid và daucosterol phân lập từ dịch chiết cồn; 5,3'-dihydroxy-7,4'-dimethoxy flavanon phân lập từ dịch chiết ethyl acetat.
 
 33_Chi_tu
 Dành dành
@@ -290,9 +290,9 @@ Tên khoa học: Gardenia augusta (L.) Merr.
 Họ: Rubiaceae (Cà phê)
 Công dụng: Chữa sốt vàng da, cầm máu (Quả, hạt). Đau mắt đỏ (Lá tươi).
 Thành phần hoá học
-•	Trong Dành dành có một loại glucozit màu vàng gọi là gacdenin. Khi thuỷ phân cho phần không đường gọi là gacdenidin tương tự với chất α-croxetin Choạt chất của vị hồng hoa
-•	Ngoài ra trong Dành dành còn có tannin, tinh dầu, chất pectin
-•	α-croxetin là một sắc tố màu vàng, độ chảy 273oC, không tan trong phần lớn dung môi hữu cơ, tác dụng với natri, canxi và ammoniac cho muối có tinh thể. Cấu tạo của gacdenidin hay α-croxetin đã được xác định như sau: trong dành dành có chứa 10-20% manit
+* Trong Dành dành có một loại glucozit màu vàng gọi là gacdenin. Khi thuỷ phân cho phần không đường gọi là gacdenidin tương tự với chất α-croxetin Choạt chất của vị hồng hoa
+* Ngoài ra trong Dành dành còn có tannin, tinh dầu, chất pectin
+* α-croxetin là một sắc tố màu vàng, độ chảy 273oC, không tan trong phần lớn dung môi hữu cơ, tác dụng với natri, canxi và ammoniac cho muối có tinh thể. Cấu tạo của gacdenidin hay α-croxetin đã được xác định như sau: trong dành dành có chứa 10-20% manit
 
 34_Ngai_Cuu
 Ngải diệp
@@ -323,10 +323,10 @@ Tên khoa học: Achyranthes bidentata Blume
 Họ: Amaranthaceae (Rau rền)
 Công dụng: Tê thấp, đau nhức gân xương, kinh nguyệt không đều; còn chữa cảm mạo, phát sốt, sổ mũi; sốt rét, lỵ; viêm màng tai; quai bị, viêm thận phù thũng, đái rắt, đái buốt (Rễ).
 Thành phần hóa học chính
-•	Rễ Ngưu tất có chứa khoảng 4% saponin toàn phần trong đó có acid oleanolic [(3beta)-3-Hydroxyolean-12-en-28-oic acid] 0,096%, và acid oleanolic α -L-rhamnopyranosyl – β – D- galactopyranosid. Rễ còn chứa ecdysteron và inokosteron. Hàm lượng ecdysteron khoảng 0,037%.
-•	Rễ Ngưu tất chứa một saccharid là fructan mạch ngắn với mức độ trùng hợp trung bình là 8. Chất saccharid này có tác dụng cải thiện hệ miễn dịch (Yu Bias và cs, 1995)
-•	Rễ còn có một peptidpolysaccharid trong đó 24,1% là peptid bao gồm glycin, serin, acid glutamic và acid aspartic. Chất peptidpolysaccharid này có tác dụng miễn dịch (Fang J. N, và cs, 1990; CZ 114: 29994k)
-•	Betain có trong rễ với hàm lượng 0,93-1,029% đã được chứng minh là ổn định trong quá trình chế biến. Rễ khô còn có emodin và physcion.
+* Rễ Ngưu tất có chứa khoảng 4% saponin toàn phần trong đó có acid oleanolic [(3beta)-3-Hydroxyolean-12-en-28-oic acid] 0,096%, và acid oleanolic α -L-rhamnopyranosyl - β - D- galactopyranosid. Rễ còn chứa ecdysteron và inokosteron. Hàm lượng ecdysteron khoảng 0,037%.
+* Rễ Ngưu tất chứa một saccharid là fructan mạch ngắn với mức độ trùng hợp trung bình là 8. Chất saccharid này có tác dụng cải thiện hệ miễn dịch (Yu Bias và cs, 1995)
+* Rễ còn có một peptidpolysaccharid trong đó 24,1% là peptid bao gồm glycin, serin, acid glutamic và acid aspartic. Chất peptidpolysaccharid này có tác dụng miễn dịch (Fang J. N, và cs, 1990; CZ 114: 29994k)
+* Betain có trong rễ với hàm lượng 0,93-1,029% đã được chứng minh là ổn định trong quá trình chế biến. Rễ khô còn có emodin và physcion.
 
 37_Bach_truat
 Bạch truật
@@ -335,7 +335,7 @@ Tên khoa học: Atractylodes macrocephala Koidz
 Họ: Asteraceae (Cúc)
 Công dụng: Sốt, phù thũng, viêm ruột mãn tính, viêm dạ dày, bổ gan, ho, đái tháo đường, suy nhược cơ thể, suy tỳ bị trướng, tiêu hoá kém, bụng trướng, phụ nữ huyết suy, sốt rét mạn tính....
 Thành phần hóa học
-•	Trong bạch truật có tinh dầu (1,4%), nhưng thành phần hoạt chất chưa rõ. Có tác giả nói rằng trong bạch truật có atractylola C15H16O và atractylon C14H18O, vitamin A.
+* Trong bạch truật có tinh dầu (1,4%), nhưng thành phần hoạt chất chưa rõ. Có tác giả nói rằng trong bạch truật có atractylola C15H16O và atractylon C14H18O, vitamin A.
 
 38_Nhan_tran
 Nhân trần
@@ -344,8 +344,8 @@ Tên khoa học: Adenosma caeruleum R. Br.
 Họ: Scrophulariaceae (Hoa mõm chó)
 Công dụng: Cảm sốt, điều kinh, dễ tiêu, vàng da, bệnh gan, tiểu tiện đục, bại liệt, thấp khớp ở trẻ em, mề đay (cả cây sắc uống).
 Thành phần hoá học
-•	Toàn cây nhân trần chứa tinh dầu với hàm lượng 1% gồm paracymen (chủ yếu nên là pinen limonen, cineol, ancthol.
-•	Ngoài ra, còn có acid nhân thơm, coumarin, sesquiterpen và flavonoid.
+* Toàn cây nhân trần chứa tinh dầu với hàm lượng 1% gồm paracymen (chủ yếu nên là pinen limonen, cineol, ancthol.
+* Ngoài ra, còn có acid nhân thơm, coumarin, sesquiterpen và flavonoid.
 
 
 39_Duong_quy
@@ -356,25 +356,25 @@ Họ: Apiaceae (Hoa tán)
 Công dụng: Thuốc bổ máu, chữa bệnh thiếu máu xanh xao, gầy yếu, mệt mỏi; đau đầu, đau lưng, đau ngực, viêm khớp, chân tay tê nhức, táo bón, mụn nhọt lở ngứa, kinh nguyệt không đều, đau bụng kinh; còn dù
 Thành phần hóa học
 Đương quy Trung Quốc chứa
-•	Tinh dầu 0,2 – 0,4%: tinh dầu đương quy là chất lỏng màu vàng sẫm, tỷ trọng ở 150 oC là 0,955.
-•	Coumarin
-•	Acid hữu cơ
-•	Polysachrid
-•	Acid amin
-•	Vitamin B1,B12,E
-•	Polyacetylen
-•	Sterol
-•	Nguyên tố vi lượng: Mg, ca, nhôm, Cr, Đồng, kẽm…
-•	Thành phần khác: brefeldin.
+* Tinh dầu 0,2 - 0,4%: tinh dầu đương quy là chất lỏng màu vàng sẫm, tỷ trọng ở 150 oC là 0,955.
+* Coumarin
+* Acid hữu cơ
+* Polysachrid
+* Acid amin
+* Vitamin B1,B12,E
+* Polyacetylen
+* Sterol
+* Nguyên tố vi lượng: Mg, ca, nhôm, Cr, Đồng, kẽm...
+* Thành phần khác: brefeldin.
 Đương quy Nhật Bản
-•	Tinh dầu ở rễ là 0.26%
-•	Lá đương quy Nhật Bản trồng ở Thanh Trì (Hà Nội) chứa 0,6 – 0,7% tinh dầu (so với khối lượng khô tuyệt đối).
-•	Lá đương quy Nhật Bản trồng ở Thái Nguyên chứa 0,64 – 0,88% tinh dầu.
-•	Coumarin
-•	Polysachrid
-•	Acid amin
-•	Polyacetylen
-•	Sterol
+* Tinh dầu ở rễ là 0.26%
+* Lá đương quy Nhật Bản trồng ở Thanh Trì (Hà Nội) chứa 0,6 - 0,7% tinh dầu (so với khối lượng khô tuyệt đối).
+* Lá đương quy Nhật Bản trồng ở Thái Nguyên chứa 0,64 - 0,88% tinh dầu.
+* Coumarin
+* Polysachrid
+* Acid amin
+* Polyacetylen
+* Sterol
 
 3_Linh_chi
 Nấm linh chi
@@ -383,11 +383,11 @@ Tên khoa học: Ganoderma lucidum (Leyss ex. Fr.) Karst
 Họ: Ganodermataceae
 Công dụng: Suy nhược thần kinh, huyếp áp cao, đau mạch vành, thấp khớp.
 Thành phần hoá học
-•	Mặc dầu mới được đưa vào sử dụng rộng rãi ở Trung Quốc vào 20 năm gần đây, nhưng nhiều viện nghiên cứu thuộc các tỉnh khác nhau ở Trung Quốc đã nghiên cứu nhưng cũng chưa tìm được hoạt chất. Chúng tôi kê sau đây kết quả nghiên cứu của một số cơ sở:
-•	Viện nghiên cứu tỉnh Quảng Đông nghiên cứu thành phần hoá học của nấm linh chi mọc hoang dại thấy: Nước 12-13%, lignin 13-14%, hợp chất có N 1,6-2,1 %, hợp chất phenol 0,08-0,1%, tro 0,022%, xelluloza 54-56%, chất béo 1,9-2%, chất khử 4-5%, hợp chất steroit 0,14-0,16%. Có tài liệu cho biết trong nấm linh chi có 0,3-0,4 % ergosterol (C28H44O).
-•	Viện nghiên cứu kháng sinh Tứ Xuyên tìm thấy axit amin, protein, saponin, steroit.
-•	Học viện y học Bắc Kinh phát hiện đường khử và đường kép axit amin, dầu béo.
-•	Theo những công trình nghiên cứu mới nhất của Viện nghiên cứu linh chi hoang dại của toàn Trung Quốc thì trong hỗn hợp 6 loại linh chi có hàm lượng germanium cao hơn lượng germanium có trong nhân sâm từ 5 đến 8 lần. Germanium giúp khí huyết lưu thông, các tế bào hấp thu oxy tốt hơn. Lượng polysacarit cao có trong linh chi tăng cường sự miễn dịch của cơ thể, làm mạnh gan, cô lập và diệt các tế bào ung thư. Axit ganoderic có tác dụng chống dị ứng và chống viêm.
+* Mặc dầu mới được đưa vào sử dụng rộng rãi ở Trung Quốc vào 20 năm gần đây, nhưng nhiều viện nghiên cứu thuộc các tỉnh khác nhau ở Trung Quốc đã nghiên cứu nhưng cũng chưa tìm được hoạt chất. Chúng tôi kê sau đây kết quả nghiên cứu của một số cơ sở:
+* Viện nghiên cứu tỉnh Quảng Đông nghiên cứu thành phần hoá học của nấm linh chi mọc hoang dại thấy: Nước 12-13%, lignin 13-14%, hợp chất có N 1,6-2,1 %, hợp chất phenol 0,08-0,1%, tro 0,022%, xelluloza 54-56%, chất béo 1,9-2%, chất khử 4-5%, hợp chất steroit 0,14-0,16%. Có tài liệu cho biết trong nấm linh chi có 0,3-0,4 % ergosterol (C28H44O).
+* Viện nghiên cứu kháng sinh Tứ Xuyên tìm thấy axit amin, protein, saponin, steroit.
+* Học viện y học Bắc Kinh phát hiện đường khử và đường kép axit amin, dầu béo.
+* Theo những công trình nghiên cứu mới nhất của Viện nghiên cứu linh chi hoang dại của toàn Trung Quốc thì trong hỗn hợp 6 loại linh chi có hàm lượng germanium cao hơn lượng germanium có trong nhân sâm từ 5 đến 8 lần. Germanium giúp khí huyết lưu thông, các tế bào hấp thu oxy tốt hơn. Lượng polysacarit cao có trong linh chi tăng cường sự miễn dịch của cơ thể, làm mạnh gan, cô lập và diệt các tế bào ung thư. Axit ganoderic có tác dụng chống dị ứng và chống viêm.
 
 40_Nho_noi
 Cỏ nhọ nồi
@@ -397,9 +397,9 @@ Tên đồng nghĩa: Verbesina prostrata L.
 Họ: Asteraceae (Cúc)
 Công dụng: Cầm máu, ho ra máu, chảy máu cam, viêm gan, sốt xuất huyết, tử cung xuất huyết, viêm ruột, lỵ (cả cây).
 Thành phần hóa học
-•	Theo các nhà nghiên cứu trước, trong nhọ nồi có một ít tinh dầu, tannin, chất đắng, carotene và chất ancaloit gọi là ecliptin. Có sách nói chất ancaloit là nicotin.
-•	Năm 1959 Govindachari T.R và đồng sự đã chiết được từ cỏ nhọ nồi một chất wedelolacton là một cumarin lacton. Sau đó tác giả cũng thấy chất này trong cây sài đất (công thức wedelolacton, xem ở cây sài đất).
-•	Ngoài wedelolacton, năm 1972 K.K Bharagava (Ind.J.Chem 8,72:810) còn tách được demetyl wedelolacton và một flavonozit chưa xác định.
+* Theo các nhà nghiên cứu trước, trong nhọ nồi có một ít tinh dầu, tannin, chất đắng, carotene và chất ancaloit gọi là ecliptin. Có sách nói chất ancaloit là nicotin.
+* Năm 1959 Govindachari T.R và đồng sự đã chiết được từ cỏ nhọ nồi một chất wedelolacton là một cumarin lacton. Sau đó tác giả cũng thấy chất này trong cây sài đất (công thức wedelolacton, xem ở cây sài đất).
+* Ngoài wedelolacton, năm 1972 K.K Bharagava (Ind.J.Chem 8,72:810) còn tách được demetyl wedelolacton và một flavonozit chưa xác định.
 
 41_Dao_nhan
 42_Cat_canh
@@ -409,8 +409,8 @@ Tên khoa học: Platycodon grandiflorum (Jacq.) A. DC.
 Họ: Campanulaceae ( Hoa chuông)
 Công dụng: Thuốc ho, tiêu đờm, viêm họng, hen suyễn khó thở, lỵ (Rễ).
 Thành phần hoá học
-•	Trong rễ cát cánh có chừng 2% kikyosaponin C29H48O11 là một chất saponin vô định hình. Kikyosaponin thêm axit và đun sôi sẽ cho kikyosapogenIn C23H38O5 và một phân tử galactoza. Ngoài ra còn có phytosterola C27H46O và inulin.
-•	Sự nghiên cứu mới đây chứng minh trong lá, hoa, và thân, cành cát cánh đều có chứa saponin. Saponin này có tác dụng phá huyết mạnh hơn saponin trong rễ, kikyosapogenin có tác dụng phá huyết mạnh gấp 2 lần sapogenin của viễn chí (Polygala senega).
+* Trong rễ cát cánh có chừng 2% kikyosaponin C29H48O11 là một chất saponin vô định hình. Kikyosaponin thêm axit và đun sôi sẽ cho kikyosapogenIn C23H38O5 và một phân tử galactoza. Ngoài ra còn có phytosterola C27H46O và inulin.
+* Sự nghiên cứu mới đây chứng minh trong lá, hoa, và thân, cành cát cánh đều có chứa saponin. Saponin này có tác dụng phá huyết mạnh hơn saponin trong rễ, kikyosapogenin có tác dụng phá huyết mạnh gấp 2 lần sapogenin của viễn chí (Polygala senega).
 
 43_Ha_kho_thao
 Hạ khô thảo
@@ -450,10 +450,10 @@ Tên khoa học: Rhus chinensis Mill.
 Họ: Anacardiaceae (Đào lộn hột)
 Công dụng: Lỵ ra máu, ỉa chảy, giải độc. Lòi dom, lở loét, vết thương. Viêm chân răng, sưng tấy. Rễ và lá dùng chữa cảm mạo phát nhiệt thổ huyết, ăn uống khó tiêu, ỉa lỏng, đòn ngã gãy xương, vết thương
 Thành phần hóa học
-Ngũ bội tử chứa galotanin 60 – 77%, thành phần phức tạp, trọng lượng phân tử là 1434. Thành phần chủ yếu là pentaundecagaloyl glucose, 1, 2, 3, 4, 6 – penta – O – galoyl – β- D – glucose (Trung dược từ hải I, 1993).
-Hạt chứa tanin 50 – 70%, có khi 80%, thành phần chủ yếu là penta – m – digaloyl – β – glucose. Ngoài ra còn có acid galic 2 – 4%, lipid, nhựa, tinh bột, acid hữu cơ, acid tartric, acid citric, flavonoid (Trung dược lừ hải II, 1996).
-Rễ có flavon, phenol, acid hữu cơ, tanin, dầu béo. Nhiều chất đã được phân lập từ rễ là acid galic, 7 – hydroxy – 6 – methoxycoumarin, scopoletin, methyl galat, 3, 7, 4′ – trihydroxyílavon 3, 7, 3′, 4′ – tetrahyciroxyflavon, fisetin, quercetin (Trung dược từ hải II, 1996).
-Từ cây muối, người ta còn chiết tách được β- silosierol, 3 – (heptadecvl) – catechol (CA 121:153.321 x).
+Ngũ bội tử chứa galotanin 60 - 77%, thành phần phức tạp, trọng lượng phân tử là 1434. Thành phần chủ yếu là pentaundecagaloyl glucose, 1, 2, 3, 4, 6 - penta - O - galoyl - β- D - glucose (Trung dược từ hải I, 1993).
+Hạt chứa tanin 50 - 70%, có khi 80%, thành phần chủ yếu là penta - m - digaloyl - β - glucose. Ngoài ra còn có acid galic 2 - 4%, lipid, nhựa, tinh bột, acid hữu cơ, acid tartric, acid citric, flavonoid (Trung dược lừ hải II, 1996).
+Rễ có flavon, phenol, acid hữu cơ, tanin, dầu béo. Nhiều chất đã được phân lập từ rễ là acid galic, 7 - hydroxy - 6 - methoxycoumarin, scopoletin, methyl galat, 3, 7, 4′ - trihydroxyílavon 3, 7, 3′, 4′ - tetrahyciroxyflavon, fisetin, quercetin (Trung dược từ hải II, 1996).
+Từ cây muối, người ta còn chiết tách được β- silosierol, 3 - (heptadecvl) - catechol (CA 121:153.321 x).
 
 49_Ngu_gia_bi
 Ngũ gia bì hương
@@ -477,9 +477,9 @@ Tên tiếng Việt: Râu ngô
 Tên khoa học: Stigmata Maydis
 Công dụng: Viêm túi mật, viêm gan với hiện tượng trở ngài bài tiết mật. Có thể phối hợp với vitamin K để làm thuốc cầm máu Còn dùng làm thuốc thông tiểu tiện, dùng trong các bệnh về tim, đau thận
 Thành phần hoá học
-•	Trong râu ngô có chất xitosterol, stigmasterol, chất dầu, tinh dầu, saponin, glucozit đắng, vitamin C, vitamin K, chất nhầy và một số chất khác
-•	1g râu ngô chứa tới 1600 đơn vị sinh lý vitamin K
-•	Tỷ lệ muối kali trong râu ngô cũng cao: 20g râu ngô phơi khô chứa 0,028g canxi và 0,532g kali
+* Trong râu ngô có chất xitosterol, stigmasterol, chất dầu, tinh dầu, saponin, glucozit đắng, vitamin C, vitamin K, chất nhầy và một số chất khác
+* 1g râu ngô chứa tới 1600 đơn vị sinh lý vitamin K
+* Tỷ lệ muối kali trong râu ngô cũng cao: 20g râu ngô phơi khô chứa 0,028g canxi và 0,532g kali
 
 51_Nguu_bang_tu
 Ngưu bàng
@@ -488,10 +488,10 @@ Tên khoa học: Arctium lappa L.
 Họ: Asteraceae (Cúc)
 Công dụng: Bổ, giải độc, mụn nhọt, cảm sốt, làm ra mồ hôi (Rễ sắc uống).
 Thành phần hoá học
-•	Trong quả ngưu bàng (gọi nhầm là hạt) người ta đã chiết xuất được 25-30% chất béo và một chất glucozit gọi là actiin C27H34O11.H2O. Ngoài ra còn chất lappin (ancaloit). Khi thuỷ phân chất actiin (arctiin) bằng axit nhẹ, ta sẽ được chất actigenin C21H24O6 và glucoza.
-•	Trong chất béo thành phần chủ yếu gồm các glyxerit của các axit panmitic, stearic và oleic.
-•	Trong rễ ngưu bàng có tới 57% inulin (có khi tới 70%), 5-6% glucoza, một ít chất béo (0,40%), chất nhầy, chất đắng, nhựa và muối kali (nitrat và cacbonat).
-•	Trong lá có men oxydaza rất mạnh
+* Trong quả ngưu bàng (gọi nhầm là hạt) người ta đã chiết xuất được 25-30% chất béo và một chất glucozit gọi là actiin C27H34O11.H2O. Ngoài ra còn chất lappin (ancaloit). Khi thuỷ phân chất actiin (arctiin) bằng axit nhẹ, ta sẽ được chất actigenin C21H24O6 và glucoza.
+* Trong chất béo thành phần chủ yếu gồm các glyxerit của các axit panmitic, stearic và oleic.
+* Trong rễ ngưu bàng có tới 57% inulin (có khi tới 70%), 5-6% glucoza, một ít chất béo (0,40%), chất nhầy, chất đắng, nhựa và muối kali (nitrat và cacbonat).
+* Trong lá có men oxydaza rất mạnh
 
 52_Cam_thao_dat
 Cam thảo nam
@@ -513,12 +513,12 @@ Họ: Polygonaceae
 Công dụng: Thân rễ làm thuốc có tác dụng mạnh dạ dày, chữa đi tả. Thân kiện vị, chữa ăn uống không tiêu, đau bụng. Liều cao có tác dụng gây xổ.
 Thành phần hoá học
 Trong đại hoàng có hai loại hoạt chất tác dụng trái ngược nhau.
-•	Loại hoạt chất có tính chất thu liễm-là hợp chất có tanin (rheotannoglucozit).
-•	Loại hoạt chất có tác dụng tẩy: Rheoanthraglucozit.
-•	Thành phần chủ yếu trong các rheotanoglucozit là glucogalin. Khi thuỷ phân, glucogalin sẽ cho axit galic và glucoza. Ngoài ra còn có axit galic, catechin và terarin. Khi tetrarin chịu tác dụng của axit loãng sẽ cho glucozareosmin (rheosmin), axit xinamic và axit galic.
-•	Tỷ lệ các antraglucozit toàn bộ trong đại hoàng vào chừng 2-4,5%, trong đó một phần ở trạng thái tự do, một phần ở trạng thái kết hợp.
-•	Theo Wasicky và Heinz thì trong đại hoàng tươi chủ yếu có antraglucozit ở dạng kết hợp mà không có ở dạng tự do.
-•	Tuy nhiên, theo 1. Kroeber (1923), tác dụng tẩy của đại hoàng không phụ thuộc hoàn toàn vào tỷ lệ antragliicozit thấp mà vẫn tác dụng tẩy mạnh hoặc có loại đã lấy bớt antraglucozit đi rồi mà tác dụng vẫn còn.
+* Loại hoạt chất có tính chất thu liễm-là hợp chất có tanin (rheotannoglucozit).
+* Loại hoạt chất có tác dụng tẩy: Rheoanthraglucozit.
+* Thành phần chủ yếu trong các rheotanoglucozit là glucogalin. Khi thuỷ phân, glucogalin sẽ cho axit galic và glucoza. Ngoài ra còn có axit galic, catechin và terarin. Khi tetrarin chịu tác dụng của axit loãng sẽ cho glucozareosmin (rheosmin), axit xinamic và axit galic.
+* Tỷ lệ các antraglucozit toàn bộ trong đại hoàng vào chừng 2-4,5%, trong đó một phần ở trạng thái tự do, một phần ở trạng thái kết hợp.
+* Theo Wasicky và Heinz thì trong đại hoàng tươi chủ yếu có antraglucozit ở dạng kết hợp mà không có ở dạng tự do.
+* Tuy nhiên, theo 1. Kroeber (1923), tác dụng tẩy của đại hoàng không phụ thuộc hoàn toàn vào tỷ lệ antragliicozit thấp mà vẫn tác dụng tẩy mạnh hoặc có loại đã lấy bớt antraglucozit đi rồi mà tác dụng vẫn còn.
 
 54_Hoai_son
 Hoài Sơn
@@ -561,10 +561,10 @@ Tên khoa học: Smilax glabra Wall. ex Roxb.
 Họ: Smilacaceae ( Khúc khắc)
 Công dụng: Tê thấp, nhọt độc, giang mai, bệnh viêm đại tràng, viêm thận, viêm bàng quang, đau bụng ỉa chảy (Thân rễ).
 Thành phần hóa học chính
-•	Chứa saponin, tannin, chất nhựa.
-•	Thân rễ chứa isoengelitin , astilbin , isoastilbin , engeletin.
-•	Rễ chứa tinh bột.
-•	Lá còn chứ quercetin , kaempferol.
+* Chứa saponin, tannin, chất nhựa.
+* Thân rễ chứa isoengelitin , astilbin , isoastilbin , engeletin.
+* Rễ chứa tinh bột.
+* Lá còn chứ quercetin , kaempferol.
 
 59_Mach_mon
 Mạch môn đông
@@ -591,9 +591,9 @@ Tên khoa học: Xanthium strumarium L.
 Họ: Asteraceae (Cúc)
 Công dụng: Tiêu độc, chữa mụn nhọt, chống lở loét, an thần, hạ huyết áp, đau khớp, bướu cổ (Quả sắc uống). Bướu cổ (cả cây).
 Thành phần hóa học
-•	Hiện nay chưa rõ hoạt chất của quả ké là gì. Mới biết rằng trong quả ké có chừng 30% chất béo, 1,27% một chất glucozit gọi là xanthostrumarin tương ứng với chất datixin, chưa rõ tính chất 3,3% nhựa và vitamin C, saponin,
-•	Carboxy atractylozit ở dạng muối có tác dụng hạ đường huyết rất mạnh, có độc tính.
-•	Xanthetin và xamhamin là những chất có tác dụng kháng khuẩn.
+* Hiện nay chưa rõ hoạt chất của quả ké là gì. Mới biết rằng trong quả ké có chừng 30% chất béo, 1,27% một chất glucozit gọi là xanthostrumarin tương ứng với chất datixin, chưa rõ tính chất 3,3% nhựa và vitamin C, saponin,
+* Carboxy atractylozit ở dạng muối có tác dụng hạ đường huyết rất mạnh, có độc tính.
+* Xanthetin và xamhamin là những chất có tác dụng kháng khuẩn.
 Toàn cây chứa nhiều đốt. Trong hai năm 1969 và 1970, Đỗ Tất Lợi, Phạm Kim Loan và Nguyên Văn Cát (Truờng đại học dược khoa Hà Nội) đã định tính và định lượng iốt trong cây ké Việt Nam thấy rằng dù cây ké mọc ở miền núi, hay đồng bằng, gần biển hay xa biển đều có chứa iốt với hàm lượng khá cao. lá hoặc thân chứa trung bình 200 microgam, 1g qủa chứa 220-230 microgam, nước sắc 15 phút cô thành cao chứa 300 microgam trong 1g cao: Nếu nấu lâu 5 giờ có thể chứa tới 420-430 microgam trong 1g cao. Trên cơ sở phân đã đề nghị dùng ké trong điều trị bướu cổ.
 
 61_Tang_bach_bi
@@ -604,7 +604,7 @@ Tên khoa học: Glycyrrhiza uralensis Fisch. ex DC.
 Họ: Fabaceae (Đậu)
 Công dụng: Chữa ho, ho mất tiếng, viêm họng. Cảm, ỉa chảy, viêm loét dạ dày (Thân rễ sắc uống). Còn dùng trong sản xuất mỹ phẩm, chế nước giải khát, làm mứt kẹo, tẩm thuốc lá.
 Thành phần hóa học
-Rễ của Cảm thảo – G. uralensis chứa glucid 4,7-10,97%, tinh bột 4,17-5,92%. Hoạt chất thuộc nhóm sapanosid là glycyrrhizin; thuộc nhóm flavonoid là liquiritin, liquiritigenin, isoliquiritin, isoliquiritigenin, neo-liquiritin, neoisoliquiritin, licurazid. Rễ Cam thảo nhẵn – G. glabra chứa 20-25% tinh bột, 3-10% glucose và saccharose, các cumarin, triterpen và các sterol. Dược liệu chứa các hoạt chất saponosid và flavonoid. Thuộc nhóm saponosid, có hoạt chất ngọt là glycyrrhizin, acid liquiritic..; thuộc nhóm các flavonoid có liquiritin, isoliquiritin, liquiritingenin, isoliquiritigenin, licurasid và các hợp chất oestrogen có nhân sterol.
+Rễ của Cảm thảo - G. uralensis chứa glucid 4,7-10,97%, tinh bột 4,17-5,92%. Hoạt chất thuộc nhóm sapanosid là glycyrrhizin; thuộc nhóm flavonoid là liquiritin, liquiritigenin, isoliquiritin, isoliquiritigenin, neo-liquiritin, neoisoliquiritin, licurazid. Rễ Cam thảo nhẵn - G. glabra chứa 20-25% tinh bột, 3-10% glucose và saccharose, các cumarin, triterpen và các sterol. Dược liệu chứa các hoạt chất saponosid và flavonoid. Thuộc nhóm saponosid, có hoạt chất ngọt là glycyrrhizin, acid liquiritic..; thuộc nhóm các flavonoid có liquiritin, isoliquiritin, liquiritingenin, isoliquiritigenin, licurasid và các hợp chất oestrogen có nhân sterol.
 
 63_O_tac_cot
 Mai mực
@@ -646,16 +646,16 @@ Họ: Rhamnaceae (Táo)
 Công dụng: Ho, an thần trị mất ngủ, hồi hộp, mồ hôi trộm (Nhân hạt). ỉa chảy, bỏng, cầm máu (Lá).
 Thành phần hoá học
 Nhiều tài liệu nghiên cứu về toan táo nhân, nhưng chưa thống nhất.
-1.	Có tài liệu (Trung Quốc hoá học tạp chí,1936) nói trong táo nhân có 2 loại phytosterol, một chất có độ chảy 288-290ºC, công thức là C26H42O2, tan trong ête, một chất có độ chảy 259-260ºC, tan trong clorofoc. Ngoài ra còn chứa dầu. Không có ancaloit.
-2.	Theo một tài liệu khác (Nhật dược chí, 1940) thành phần chủ yếu là axit betulinic tinh thể hình phiến, tan trong rượu, độ chảy 316-320ºC và betulin C30H28O3. Ngoài ra còn có nhiều vitamin C.
-3.	Theo sự nghiên cứu của hệ Dược viện y học Bắc Kinh gần đây, trong nhân hạt táo có 2,52% saponin và có phản ứng ancaloit.
-Theo s. Shibata và cộng sự (Phvtochem. 1970,677 và 1974 13, 2829) trong nhân táo – Zizyphus jujuba Mill. var. spinosus Hu hoặc Ziziphus spinosus Hu có 0,1% saponin bao gồm jujubozit A và B với genin là jujubogenin với độ chảy 25-27ºC, αD25 = -36″ (trong cồn êtylic). Khi thuỷ phân jujubozit bằng axit sẽ được jujubogenin. và tiến lên một bước thành chất ebelin lacton có độ chảy 182-185ºC, (α)D = – 140 (trong clorofoc).
-4.	Trong lá táo có rutin và quexetin.
+1. Có tài liệu (Trung Quốc hoá học tạp chí,1936) nói trong táo nhân có 2 loại phytosterol, một chất có độ chảy 288-290ºC, công thức là C26H42O2, tan trong ête, một chất có độ chảy 259-260ºC, tan trong clorofoc. Ngoài ra còn chứa dầu. Không có ancaloit.
+2. Theo một tài liệu khác (Nhật dược chí, 1940) thành phần chủ yếu là axit betulinic tinh thể hình phiến, tan trong rượu, độ chảy 316-320ºC và betulin C30H28O3. Ngoài ra còn có nhiều vitamin C.
+3. Theo sự nghiên cứu của hệ Dược viện y học Bắc Kinh gần đây, trong nhân hạt táo có 2,52% saponin và có phản ứng ancaloit.
+Theo s. Shibata và cộng sự (Phvtochem. 1970,677 và 1974 13, 2829) trong nhân táo - Zizyphus jujuba Mill. var. spinosus Hu hoặc Ziziphus spinosus Hu có 0,1% saponin bao gồm jujubozit A và B với genin là jujubogenin với độ chảy 25-27ºC, αD25 = -36″ (trong cồn êtylic). Khi thuỷ phân jujubozit bằng axit sẽ được jujubogenin. và tiến lên một bước thành chất ebelin lacton có độ chảy 182-185ºC, (α)D = - 140 (trong clorofoc).
+4. Trong lá táo có rutin và quexetin.
 
 68_Ban_ha
 Bán hạ
 Tên Tiếng Việt: Bán hạ.
-Tên khác: Củ chóc; lá Ha chìa; cây Chóc chuột; Chưởng diệp bán hạ…
+Tên khác: Củ chóc; lá Ha chìa; cây Chóc chuột; Chưởng diệp bán hạ...
 Tên khoa học:
 Bán hạ Việt Nam: Typhonium divaricatum Decne (Arum divaricatum L., Arum trilobatum Lour), Typhonium trilobatum (Schott).
 Cây Bán hạ Trung Quốc: Pinellia ternata (Thunb) Breiter hay Pinellia tuberifera Tenore.
@@ -673,8 +673,8 @@ Họ: Solanaceae (Cà)
 Công dụng: Chữa tê thấp, đau nhức xương khớp, phù thũng, ho gà, rắn cắn, viêm gan, giải độc gan, mụn nhọt, lở ngứa (Rễ sắc uống)
 Thành phần hóa học
 Theo Đỗ Tất Lợi, toàn cây và nhiều nhất là rễ CGL chứa alcaloid, tinh bột, saponosid, flavonoid.
-Rễ và lá cà gai leo chứa cholesterol, β – sitosterol, lanosterol, dihydrolanosterol; alcaloid mới là solasodenon; hai aglycon là solasodin và neochlorogenin. Ngoài ra, rễ còn chứa 3β – hydroxyl – 5α – pregnan – 16 – on. Khi thủy phân dịch chiết rễ, phần đường thu được gồm D-glucose, D-galactose, L-rhamnose (Hoàng Thanh Hương).
-Theo Dictionary of Natural Products on CD-ROM (1997) và Trung dược từ hải (1997), Cà gai leo có chứa solasodenon và 3β – hydroxyl – 5α – pregnan – 16 – on.
+Rễ và lá cà gai leo chứa cholesterol, β - sitosterol, lanosterol, dihydrolanosterol; alcaloid mới là solasodenon; hai aglycon là solasodin và neochlorogenin. Ngoài ra, rễ còn chứa 3β - hydroxyl - 5α - pregnan - 16 - on. Khi thủy phân dịch chiết rễ, phần đường thu được gồm D-glucose, D-galactose, L-rhamnose (Hoàng Thanh Hương).
+Theo Dictionary of Natural Products on CD-ROM (1997) và Trung dược từ hải (1997), Cà gai leo có chứa solasodenon và 3β - hydroxyl - 5α - pregnan - 16 - on.
 
 6_Y_di
 Ý dĩ
@@ -683,7 +683,7 @@ Tên khoa học: Coix lachryma-jobi L.
 Họ: Poaceae (Hòa thảo)
 Công dụng: Bổ, phù thũng, viêm ruột, bạch đới, phong thấp, loét dạ dày, loét ổ tử cung, ỉa chảy (Hạt).
 Thành phần hóa học
-Trong ý dĩ nhân có khoảng 65% chất hydratcacbon, 5,4% chất béo, 13,7% chất protit và các axit amin như leuxin, lysin, acginin, tysosin, histidin, chất coixin hay coixol là một chất protit đặc biệt của ý dĩ, và axit glutamic. Tro có chừng 2,3%. Trong rễ ý dĩ cũng có chừng 17,6% chất protein, 7,2% chất béo và 52% tinh bột. C8H703N (6 – metoxy benzolon) độ chảy 151- 152°C.
+Trong ý dĩ nhân có khoảng 65% chất hydratcacbon, 5,4% chất béo, 13,7% chất protit và các axit amin như leuxin, lysin, acginin, tysosin, histidin, chất coixin hay coixol là một chất protit đặc biệt của ý dĩ, và axit glutamic. Tro có chừng 2,3%. Trong rễ ý dĩ cũng có chừng 17,6% chất protein, 7,2% chất béo và 52% tinh bột. C8H703N (6 - metoxy benzolon) độ chảy 151- 152°C.
 
 70_Kho_qua
 Mướp đắng
@@ -692,8 +692,8 @@ Tên khoa học: Momordica charantia L.
 Họ: Cucurbitaceae ( Bầu bí)
 Công dụng: Ho, tả, lỵ, giun, dễ tiêu, tê thấp (Quả). Lòi dom (Lá giã đắp). Rôm sảy (Quả nấu nước tắm). Bệnh về gan và lá lách. Ở Ấn Độ, quả và lá chữa trẻ, hủi, vàng da và tẩy giun.
 Thành phần hoá học
-•	Quả có chứa một chất glucozit đắng gọi là momordicoside. Ngoài ra còn có vitamin B, C, betain, protein (0,6%).
-•	Hạt có chất dầu và một chất đắng chưa xác định. Năm 1950, Airan J. w. và N. D. Gatge (Ấn Độ) có nghiên cứu dầu và khô dầu hạt mướp đắng (Chemical examination of Korlaplants- Chrrent Sci. India, 10.1950).
+* Quả có chứa một chất glucozit đắng gọi là momordicoside. Ngoài ra còn có vitamin B, C, betain, protein (0,6%).
+* Hạt có chất dầu và một chất đắng chưa xác định. Năm 1950, Airan J. w. và N. D. Gatge (Ấn Độ) có nghiên cứu dầu và khô dầu hạt mướp đắng (Chemical examination of Korlaplants- Chrrent Sci. India, 10.1950).
 
 71_Xuyen_tam_lien
 Xuyên tâm liên
@@ -703,13 +703,13 @@ Họ: Acanthaceae (Ô rô)
 Công dụng: Chữa sốt, cúm, ho, viêm họng, viêm phổi, sưng amygdal, viêm đường tiết niệu, viêm âm đạo, viêm loét cổ tử cung, khí hư, ỉa chảy, lỵ, huyết áp cao...
 Thành phần hóa học
 Xuyên tâm liên chứa 2 nhóm hoạt chất chính là diterpen lacton và flavonoid.
-Các diterpen lacton là andrographolid, deoxyandrographolid, neoandrographolid, homoandrographolid, 14 – deoxy – 11 – oxoandrographolid, 14 – deoxy – 11 – 12 – didehydro – andrographolid, andrographosid, 14 deoxyandrographosid, deoxyandrographolid – 19 – β – D – glucosid, 14 – deoxy – 12 – methoxyandrographolid, andrograpanin, andropanosid, ent – 14β – hyđroxy – 8 (17), 12 – labadien -15, 16 – olid – 3 β, 19 – oxyd.
-•	Hàm lượng andrographolid ở lá là 2,6%, ở thân là 0,1 – 0,4%. Lá chứa hơn 2% andrographolid trước khi cây ra hoa, sau đó chỉ còn dưới 0,5%. Theo quy định của Dược điển Trung Quốc 1997 (bản in tiếng Anh) xuyên tâm liên chứa không được dưới 0,4% dehydroandrographolid.
-•	Xuyên tâm liên còn có andrographisid, deoxyandrographisid, 14 – deoxy – 11, 12 – dihydroandrographisid, 6′ – acetyl neoandrographolid.
-•	Một dẫn chất của andrographolid tan trong nước là sản phẩm cộng với Na bisulflt có được dùng làm thuốc hạ sốt.
-Các flavonoid là 7 – O – methylwogonin, wogonin, oroxylin A, apigenin – 7, 4′ – dimethyl ether, andrographin, paniculin, mono – O – methylwithin.
-Rễ còn có 2’, 5 – dihydroxy – 7, 8 – dunethoxyisislavon – 2′ – o – p – D – glucosid và 3β- hyđroxy – 5 – stigmasta – 9 (11), 22 (2P) – đien (CA. 124: 312. 288x).
-Ngoài ra, xuyên tâm liên còn có các chất khác là andrographan, anđrographon, andrographosterin, panicolid, p – sitosterol – D – glucosid, a – sitosterol, acid cafeic, carvacrol, eugenol, acid myristic, hentriacontan, tritriacontan.
+Các diterpen lacton là andrographolid, deoxyandrographolid, neoandrographolid, homoandrographolid, 14 - deoxy - 11 - oxoandrographolid, 14 - deoxy - 11 - 12 - didehydro - andrographolid, andrographosid, 14 deoxyandrographosid, deoxyandrographolid - 19 - β - D - glucosid, 14 - deoxy - 12 - methoxyandrographolid, andrograpanin, andropanosid, ent - 14β - hyđroxy - 8 (17), 12 - labadien -15, 16 - olid - 3 β, 19 - oxyd.
+* Hàm lượng andrographolid ở lá là 2,6%, ở thân là 0,1 - 0,4%. Lá chứa hơn 2% andrographolid trước khi cây ra hoa, sau đó chỉ còn dưới 0,5%. Theo quy định của Dược điển Trung Quốc 1997 (bản in tiếng Anh) xuyên tâm liên chứa không được dưới 0,4% dehydroandrographolid.
+* Xuyên tâm liên còn có andrographisid, deoxyandrographisid, 14 - deoxy - 11, 12 - dihydroandrographisid, 6′ - acetyl neoandrographolid.
+* Một dẫn chất của andrographolid tan trong nước là sản phẩm cộng với Na bisulflt có được dùng làm thuốc hạ sốt.
+Các flavonoid là 7 - O - methylwogonin, wogonin, oroxylin A, apigenin - 7, 4′ - dimethyl ether, andrographin, paniculin, mono - O - methylwithin.
+Rễ còn có 2', 5 - dihydroxy - 7, 8 - dunethoxyisislavon - 2′ - o - p - D - glucosid và 3β- hyđroxy - 5 - stigmasta - 9 (11), 22 (2P) - đien (CA. 124: 312. 288x).
+Ngoài ra, xuyên tâm liên còn có các chất khác là andrographan, anđrographon, andrographosterin, panicolid, p - sitosterol - D - glucosid, a - sitosterol, acid cafeic, carvacrol, eugenol, acid myristic, hentriacontan, tritriacontan.
 
 72_Nhan_sam
 Nhân sâm
@@ -718,10 +718,10 @@ Tên khoa học: Panax ginseng C. A. Mey.
 Họ: Araliaceae (Nhân sâm)
 Công dụng: Bổ năm tạng (tâm, can, tỳ, phế, thận) yên tinh thần, định hồn phách, làm khỏi sợ hãi, trừ tà khí, sáng mắt, uống lâu nhẹ mình, tăng tuổi thọ, chữa các chứng đau ruột, dạ dày, nôn mửa.
 Thành phần hoá học
-•	Thành phần Saponin gồm các ginsenosides: Ginsenosides Ro, Re, Rg1, Rg2, Rg3, Rh1, Rh2, Ra1, Ra2,… Các ginsenosides này có tác dụng: giải độc, chống viêm gan, tác dụng kiểm soát kết tập tiểu cầu, tác dụng kháng tiểu đường, tránh xơ cứng động mạch, tác dụng làm giảm đau liên quan đến tế bào thần kinh não, tác dụng tăng cường sinh lý, tác dụng hạ đường huyết, chống tiểu đường, tác dụng chống loét dạ dày…
-•	Trong đó, thành phần Rh2, Rg3 có tác dụng khống chế và kìm hãm sự phát triển của khối u, ngăn ngừa bệnh ung thư. Hiện nay, bằng công nghệ tiên tiến hơn, các nhà khoa học đã sử dụng thành phần Rh2, Rg3 từ Hồng Sâm để chế biến các loại thuốc ngăn ngừa tế bào ung thư, dùng để hỗ trợ trong việc điều trị các bệnh ung thư.
-•	Các thành phần Malnonyl Rb1, Rb2, Rc, Rd có tác dụng chống lão hóa, chống lại quá trình lão hóa của cơ thể duy trì thể trạng và kéo dài tuổi xuân. Nhờ vào các hoạt chất này, các ngành chăm sóc sắc đẹp  đã chế tạo ra nhiều loại kem Hồng Sâm chống lão hóa, làm đẹp da, làm giảm các vết nám mang lại nét đẹp rạng ngời cho các chị em phụ nữ.
-•	Ngoài các thành phần ginsenosides, Malnonyl, Nhân Sâm chứa 7 hợp chất polyacetylen, 17 axit béo (axit palnitic, axit stearic, oleic, ) trong đó có đủ 8 loại axit cần thiết cho cơ thể và 20 nguyên tố hóa học Fe, Mn, Co, Se, K. Các thành phần khác là glucid, tinh dầu… cung cấp đầy đủ những vi chất cần thiết cho cơ thể.
+* Thành phần Saponin gồm các ginsenosides: Ginsenosides Ro, Re, Rg1, Rg2, Rg3, Rh1, Rh2, Ra1, Ra2,... Các ginsenosides này có tác dụng: giải độc, chống viêm gan, tác dụng kiểm soát kết tập tiểu cầu, tác dụng kháng tiểu đường, tránh xơ cứng động mạch, tác dụng làm giảm đau liên quan đến tế bào thần kinh não, tác dụng tăng cường sinh lý, tác dụng hạ đường huyết, chống tiểu đường, tác dụng chống loét dạ dày...
+* Trong đó, thành phần Rh2, Rg3 có tác dụng khống chế và kìm hãm sự phát triển của khối u, ngăn ngừa bệnh ung thư. Hiện nay, bằng công nghệ tiên tiến hơn, các nhà khoa học đã sử dụng thành phần Rh2, Rg3 từ Hồng Sâm để chế biến các loại thuốc ngăn ngừa tế bào ung thư, dùng để hỗ trợ trong việc điều trị các bệnh ung thư.
+* Các thành phần Malnonyl Rb1, Rb2, Rc, Rd có tác dụng chống lão hóa, chống lại quá trình lão hóa của cơ thể duy trì thể trạng và kéo dài tuổi xuân. Nhờ vào các hoạt chất này, các ngành chăm sóc sắc đẹp  đã chế tạo ra nhiều loại kem Hồng Sâm chống lão hóa, làm đẹp da, làm giảm các vết nám mang lại nét đẹp rạng ngời cho các chị em phụ nữ.
+* Ngoài các thành phần ginsenosides, Malnonyl, Nhân Sâm chứa 7 hợp chất polyacetylen, 17 axit béo (axit palnitic, axit stearic, oleic, ) trong đó có đủ 8 loại axit cần thiết cho cơ thể và 20 nguyên tố hóa học Fe, Mn, Co, Se, K. Các thành phần khác là glucid, tinh dầu... cung cấp đầy đủ những vi chất cần thiết cho cơ thể.
 
 73_Bach_gioi_tu
 Bạch giới tử
@@ -731,7 +731,7 @@ Họ: Cải (Brassicaceae).
 Công dụng: trị hàn đờm ở ngực, ho suyễn do hàn đờm, căng đầy đau bụng, đau nhức tứ chi cả người do đờm, giảm cơn đau, đinh nhọt.
 Thành phần hóa học
 Theo sách của GS Đỗ tất Lợi trong Giới tử có 1 glucosid gọi là sinigrin, chất men myroxin, sinapic acid, một ít alkaloid gọi là saponin, chất nhầy, protid và chưừng 37% chất béo, trong đó chủ yếu là este của sinapic acid, arachidic acid, linolenic acid. Glucosinolate (Jens K N và cộng sự, Entomol Exp Apppl, 1979, 25 (3): 227 (C A 1979, 91: 87848h).
-Bạch giới tử còn chứa Sinalbin (Ngải Mễ Đạt Phu,Tối Tân Sinh Dược Học (Nhật Bản) 1953: 205), Sinapine (Regenbrecht J và cộng sự, Phytochemistry 1985, 24 (3): 407). Lysine, Arginine, Histidine (Appelqvist L A và cộng sự, Qual Plant-Plant Foods Rum Nutr 1977, 27 (3 – 4): 255 (C A 1978 88: 73221z).
+Bạch giới tử còn chứa Sinalbin (Ngải Mễ Đạt Phu,Tối Tân Sinh Dược Học (Nhật Bản) 1953: 205), Sinapine (Regenbrecht J và cộng sự, Phytochemistry 1985, 24 (3): 407). Lysine, Arginine, Histidine (Appelqvist L A và cộng sự, Qual Plant-Plant Foods Rum Nutr 1977, 27 (3 - 4): 255 (C A 1978 88: 73221z).
 
 74_Tam_that
 Tam Thất có tên khoa học: Panax pseudo-ginseng Wall, 
@@ -740,23 +740,23 @@ Tác dụng của Tam thất
 Trong y học cổ truyền:
 Tam thất có vị đắng ngọt, tính ấm, vào các kinh can, thận. Có tác dụng hoạt huyết, bổ huyết, cầm máu, tiêu ứ huyết, tiêu sưng, giảm đau. Tam thất nam có vị cay, đắng, tính ôn. Có tác dụng thông kinh, hoạt huyết, tán ứ, tiêu thũng, chỉ thống.[3]
 Trong y học hiện đại:
-•	Tam thất có tác dụng bổ dưỡng: tăng lực, tăng sức đề kháng, điều hòa miễn dịch.
-•	Kích thích tâm thần, chống trầm uất.
-•	Bảo vệ tim chống lại những tác nhân gây loạn nhịp. Chất notoginsenoside trong Tam thất có tác dụng giãn mạch, ngăn ngừa xơ vữa động mạch, tăng khả năng chịu đựng của cơ thể khi bị thiếu Oxy.
-•	Cầm máu, tiêu máu, tiêu sưng: Chữa các trường hợp chảy máu do chấn thương (kể cả nội tạng), tiêu máu ứ do phẫu thuật, va dập gây bầm tím phần mềm. Bột Tam thất rắc giúp cầm máu nhanh các vết thương.
-•	Giảm sinh khối u, do đó làm giảm tốc độ phát triển u, hạn chế sự di căn của tế bào ung thư, kéo dài cuộc sống cho bệnh nhân ung thư.
+* Tam thất có tác dụng bổ dưỡng: tăng lực, tăng sức đề kháng, điều hòa miễn dịch.
+* Kích thích tâm thần, chống trầm uất.
+* Bảo vệ tim chống lại những tác nhân gây loạn nhịp. Chất notoginsenoside trong Tam thất có tác dụng giãn mạch, ngăn ngừa xơ vữa động mạch, tăng khả năng chịu đựng của cơ thể khi bị thiếu Oxy.
+* Cầm máu, tiêu máu, tiêu sưng: Chữa các trường hợp chảy máu do chấn thương (kể cả nội tạng), tiêu máu ứ do phẫu thuật, va dập gây bầm tím phần mềm. Bột Tam thất rắc giúp cầm máu nhanh các vết thương.
+* Giảm sinh khối u, do đó làm giảm tốc độ phát triển u, hạn chế sự di căn của tế bào ung thư, kéo dài cuộc sống cho bệnh nhân ung thư.
  Thành phần hóa học
-•	Thành phần hoá học chính của Tam thất là các saponin thuộc nhóm dammaran mà phần aglycon cũng là 2 chất: 20(S) protopanaxadiol và 20(S) protopanaxatriol như ở Nhân sâm.
-•	Các saponin thường gặp trong rễ củ là:
-•	a. Các saponin có phần aglycon là 20(S) protopanaxadiol: G-Rb1, G-Rb2, G-Rd, Gy-XVII, N-R4, N-Fa.
-•	b. Các Saponin có phần aglycon là 20(S) protopanaxatriol: G-Re, G-Rg1, G-Rg2, G-Rh1, 20Glc-G-Rf, N-R1, N-R2, N-R3, N-R6.
-•	Trong số các saponin trên, G-Rb1 có hàm lượng 1,8% và G-Rg1 1,9% còn G-Rb2 và G-Rc thì rất thấp.
+* Thành phần hoá học chính của Tam thất là các saponin thuộc nhóm dammaran mà phần aglycon cũng là 2 chất: 20(S) protopanaxadiol và 20(S) protopanaxatriol như ở Nhân sâm.
+* Các saponin thường gặp trong rễ củ là:
+* a. Các saponin có phần aglycon là 20(S) protopanaxadiol: G-Rb1, G-Rb2, G-Rd, Gy-XVII, N-R4, N-Fa.
+* b. Các Saponin có phần aglycon là 20(S) protopanaxatriol: G-Re, G-Rg1, G-Rg2, G-Rh1, 20Glc-G-Rf, N-R1, N-R2, N-R3, N-R6.
+* Trong số các saponin trên, G-Rb1 có hàm lượng 1,8% và G-Rg1 1,9% còn G-Rb2 và G-Rc thì rất thấp.
 *(Chú thích: G = Gingsenoside, Gy = gypenoside, N = notoginsenoside)
-•	Các bộ phận khác của cây như rễ con, lá hoa đều có saponin nhóm dammaran [2].
-•	Các nhà khoa học đã phân lập được hai saponin chủ yếu của Tam thất Việt Nam và xác định chúng là ginsenoside Rb1 và ginsenoside Rg1.
-•	Saponin Rg có tác dụng hưng phấn trung khu thần kinh, có tác dụng chống mệt mỏi, tăng khả năng lao động trí óc và chân tay, nhưng loại Saponin như Rb thì có tác dụng ức chế trung khu thần kinh biểu hiện an thần gây ngủ.
-•	Tất cả các loại tổng saponin của rễ cũng như của lá Sâm Tam thất đều có tác dụng giảm đau rõ rệt.
-•	
+* Các bộ phận khác của cây như rễ con, lá hoa đều có saponin nhóm dammaran [2].
+* Các nhà khoa học đã phân lập được hai saponin chủ yếu của Tam thất Việt Nam và xác định chúng là ginsenoside Rb1 và ginsenoside Rg1.
+* Saponin Rg có tác dụng hưng phấn trung khu thần kinh, có tác dụng chống mệt mỏi, tăng khả năng lao động trí óc và chân tay, nhưng loại Saponin như Rb thì có tác dụng ức chế trung khu thần kinh biểu hiện an thần gây ngủ.
+* Tất cả các loại tổng saponin của rễ cũng như của lá Sâm Tam thất đều có tác dụng giảm đau rõ rệt.
+* 
 
 
 75_Bach_chi
@@ -766,10 +766,10 @@ Tên khoa học: Angelica dahurica (Fisch. ex Hoffm.) Maxim.
 Họ: Apiaceae (Hoa tán)
 Công dụng: Cảm sốt, nhức đầu, đau răng, viêm mũi, sổ mũi, nhức xương, phong thấp, bạch đới; cầm máu khi đại tiện ra máu, chảy máu cam, mụn nhọn mưng mủ, viêm tuyến vú (Rễ).
 Thành phần hoá học
-•	Trong bạch chỉ có các hoạt chất sau đây: Oxypeucedanin, imperatorin, isoimperatorin, phellopterin, byak-angelixin, izobyakangelicol hay anhydrobyakangelixin có độ chảy 108- 109°C, angelicol, xanthotoxin, neobyakangelicol, marmesin có độ chảy 189,50C, năng suất quay cực αD+26°8 (trong clorofoc), nodakenetin tả tuyền αD -22°4, scopoletin.
-•	Các chất này có cấu trúc cơ bản. Ngoài ra người ta còn chiết được chất alloizoimperatorin có độ chảy 228-230°C (thăng hoa) và 5 metoxy-8-andehytpsoralen có độ chảy 215-217°C, những chất đó vốn không có trong bạch chỉ nhưng có thể xuất hiện trong quá trình chiết xuất từ những chất izoimpertorin hoặc chất neobyakangelicol mà sinh ra.
-•	Trong xuyên bạch chỉ ngoài chất bergapten, umbelliferon còn có anomalin (độ chảy 105-106°C ).
-•	Một tác giả khác đã lấy từ xuyên bạch chỉ được chừng 0,43% một chất gọi là angelicotoxin, một chất nhựa màu vàng, vị đắng có tính chất kích thích; ngoài ra còn có 0,2% chất byakangelixin C17H1g07, 0,2% chất byakangelicola C17H16O6 axit angelic C4H7COOH và tinh dầu.
+* Trong bạch chỉ có các hoạt chất sau đây: Oxypeucedanin, imperatorin, isoimperatorin, phellopterin, byak-angelixin, izobyakangelicol hay anhydrobyakangelixin có độ chảy 108- 109°C, angelicol, xanthotoxin, neobyakangelicol, marmesin có độ chảy 189,50C, năng suất quay cực αD+26°8 (trong clorofoc), nodakenetin tả tuyền αD -22°4, scopoletin.
+* Các chất này có cấu trúc cơ bản. Ngoài ra người ta còn chiết được chất alloizoimperatorin có độ chảy 228-230°C (thăng hoa) và 5 metoxy-8-andehytpsoralen có độ chảy 215-217°C, những chất đó vốn không có trong bạch chỉ nhưng có thể xuất hiện trong quá trình chiết xuất từ những chất izoimpertorin hoặc chất neobyakangelicol mà sinh ra.
+* Trong xuyên bạch chỉ ngoài chất bergapten, umbelliferon còn có anomalin (độ chảy 105-106°C ).
+* Một tác giả khác đã lấy từ xuyên bạch chỉ được chừng 0,43% một chất gọi là angelicotoxin, một chất nhựa màu vàng, vị đắng có tính chất kích thích; ngoài ra còn có 0,2% chất byakangelixin C17H1g07, 0,2% chất byakangelicola C17H16O6 axit angelic C4H7COOH và tinh dầu.
 
 76_Sa_sam
 Sa sâm nam
@@ -787,10 +787,10 @@ Tên khoa học: Paeonia lactiflora Pall.
 Họ: Paeoniaceae
 Công dụng: Cả cây tươi chữa đau nhức, chữa tả lỵ, giải nhiệt, cảm mạo. Củ sao tẩm chữa các bệnh về máu, thống kinh nguyệt. Củ sao vàng chữa đau bụng máu. Củ sao cháy chữa băng huyết.
 Thành phần hóa học
-•	Rễ bạch thược chứa 3,30 – 570% paconiflorin, oxypaeoniflorin, albiflorin, benzoyl paconiflorin
-•	Ngoài ra, rễ còn có ít hoặc không có paconol, paeonosid hoac paeonolid, lactiflorin, (Z) – (ISSR) – B – punen – 10 – vl vicianosid, B – sitosterol, B – sitosterol – ca – glucosid, acid benzoic (vào khoảng 1%), acid palmitic, acid cis-9, 2-octadccadienoic, nhiều alkan (C24 – C26), daucosterol, acid galic, methyl galat, d -catechin, myoinositol, sucrose và glucogalin.
-•	Theo Kokei Kamiya và cộng sự, 1997, bạch thược còn chứa các hợp chất triterpen và flavonold Các hợp chất triterpen từ rễ là acid oleanolic, hederagenin, 11, 12 α – cpoxy-3β, 23-dhydrovvolean – 28, 13β – olid: 30 – norhederagenin; acid hetulinic, 3β – hydroxyolean – 12 – en – 28 – al. 11α, 12α – cpoxy – 3β, 23 – dihydroxy – 30 – norolean – 20 (29) – en 28, 13- old.
-•	Các flavonoid từ lá (1.06%) bao gồm kaempferol – 3 = O = β – D-glucosid và kaempferol – 3.7 – di – O – β- glucosid.
+* Rễ bạch thược chứa 3,30 - 570% paconiflorin, oxypaeoniflorin, albiflorin, benzoyl paconiflorin
+* Ngoài ra, rễ còn có ít hoặc không có paconol, paeonosid hoac paeonolid, lactiflorin, (Z) - (ISSR) - B - punen - 10 - vl vicianosid, B - sitosterol, B - sitosterol - ca - glucosid, acid benzoic (vào khoảng 1%), acid palmitic, acid cis-9, 2-octadccadienoic, nhiều alkan (C24 - C26), daucosterol, acid galic, methyl galat, d -catechin, myoinositol, sucrose và glucogalin.
+* Theo Kokei Kamiya và cộng sự, 1997, bạch thược còn chứa các hợp chất triterpen và flavonold Các hợp chất triterpen từ rễ là acid oleanolic, hederagenin, 11, 12 α - cpoxy-3β, 23-dhydrovvolean - 28, 13β - olid: 30 - norhederagenin; acid hetulinic, 3β - hydroxyolean - 12 - en - 28 - al. 11α, 12α - cpoxy - 3β, 23 - dihydroxy - 30 - norolean - 20 (29) - en 28, 13- old.
+* Các flavonoid từ lá (1.06%) bao gồm kaempferol - 3 = O = β - D-glucosid và kaempferol - 3.7 - di - O - β- glucosid.
 
 78_Cam_thao_day
 Cam thảo dây
@@ -799,8 +799,8 @@ Tên khoa học: Abrus precatorius L.
 Họ: Fabaceae (Đậu)
 Công dụng: Thuốc giải nhiệt, ho, giải độc (Dây mang lá sắc uống). Dùng ngoài, hạt giã đắp làm mụn nhọt chóng vở mủ. Hạt độc.
 Thành phần hóa học
-•	Rễ và lá dây cam thảo chứa một chất ngọt tương tự như glyxyrizin có trong rễ cam thảo bắc. Tuy nhiên lượng chất ngọt này rất ít lại có vị khó chịu và đắng. Tỷ lệ chất này chỉ có 1-2%. Hạt chứa một chất protid độc gọi là abrin C12H14N2O2, chất abralin H13H14O7 là một glucosid có tinh thể, men tiêu hóa chất béo lipase 2,5% chất béo, chất henagglutinin làm đông máu, và nhiều men urease. Vỏ ngoài hạt có sắc tố màu đỏ.
-•	Có tài liệu nói có axit abrussic.
+* Rễ và lá dây cam thảo chứa một chất ngọt tương tự như glyxyrizin có trong rễ cam thảo bắc. Tuy nhiên lượng chất ngọt này rất ít lại có vị khó chịu và đắng. Tỷ lệ chất này chỉ có 1-2%. Hạt chứa một chất protid độc gọi là abrin C12H14N2O2, chất abralin H13H14O7 là một glucosid có tinh thể, men tiêu hóa chất béo lipase 2,5% chất béo, chất henagglutinin làm đông máu, và nhiều men urease. Vỏ ngoài hạt có sắc tố màu đỏ.
+* Có tài liệu nói có axit abrussic.
 
 7_Can_khuong
 Gừng
@@ -809,14 +809,14 @@ Tên khoa học: Zingiber officinale Roscoe
 Họ: Zingiberaceae (Gừng)
 Công dụng: Chữa đau bụng, ỉa chảy, dễ tiêu, tê thấp, nhức đầu, ngạt mũi, nôn mửa, bụng đầy trướng (Thân rễ sắc uống). Vỏ củ chữa phù thũng. Củ gừng còn phối hợp với các vị thuốc khác chữa trúng phong.
 Thành phần hoá học
-•	Trong gừng có từ 2-3% tinh dầu. ngoài ra còn có chất nhựa dầu (5%), chất béo (3,7%), tinh bột và các chất cay như zingeron, zingerola và shogaola
-•	Tinh dầu gừng có tỷ trọng 0,878 tả tuyền, năng suất quay cực -250 ở -50C, độ sôi 1553000. Trong tinh dầu có α camphen, β phelandren, một cacbua: zingiberen C15H24, một rượu sesquitecpen, một ít xitrala bocneola và geraniola
-•	Nhựa gồm một nhựa trung tính, hai nhựa axit
-•	Zingerola là một chất lỏng sánh, màu vàng không mùi, vị rất cay, độ sôi ở 18mm thuỷ ngân là 235-2400C. Bản thân chất này không đơn thuần, khi cùng đun sôi với Ba (OH)2 sẽ bị phân giải cho những chất andehyt bay hơi, những chất cay có tinh thể gọi là zingeron C11H14O3 và một chất ở thể dầu gọi là shogaola
-•	Shogaola có độ sôi 201-203oC
-•	Zingeron có tinh thể, độ sôi 40-41oC, vị rất cay
-•	Căn cứ vào sự hiểu biết hiện nay về cấu tạo hoá học những chất có cấu tạo trên đây trong đó n lớn hơn 1 thì đều có vị cay như các chất trong gừng
-•	Do những công thức trên chúng ta hiểu được tại sao khi ngâm gừng lâu với một dung dịch 5/KOH thì sẽ mất hết tính chất cay
+* Trong gừng có từ 2-3% tinh dầu. ngoài ra còn có chất nhựa dầu (5%), chất béo (3,7%), tinh bột và các chất cay như zingeron, zingerola và shogaola
+* Tinh dầu gừng có tỷ trọng 0,878 tả tuyền, năng suất quay cực -250 ở -50C, độ sôi 1553000. Trong tinh dầu có α camphen, β phelandren, một cacbua: zingiberen C15H24, một rượu sesquitecpen, một ít xitrala bocneola và geraniola
+* Nhựa gồm một nhựa trung tính, hai nhựa axit
+* Zingerola là một chất lỏng sánh, màu vàng không mùi, vị rất cay, độ sôi ở 18mm thuỷ ngân là 235-2400C. Bản thân chất này không đơn thuần, khi cùng đun sôi với Ba (OH)2 sẽ bị phân giải cho những chất andehyt bay hơi, những chất cay có tinh thể gọi là zingeron C11H14O3 và một chất ở thể dầu gọi là shogaola
+* Shogaola có độ sôi 201-203oC
+* Zingeron có tinh thể, độ sôi 40-41oC, vị rất cay
+* Căn cứ vào sự hiểu biết hiện nay về cấu tạo hoá học những chất có cấu tạo trên đây trong đó n lớn hơn 1 thì đều có vị cay như các chất trong gừng
+* Do những công thức trên chúng ta hiểu được tại sao khi ngâm gừng lâu với một dung dịch 5/KOH thì sẽ mất hết tính chất cay
 
 8_Ty_Giai
 Tỳ giải
