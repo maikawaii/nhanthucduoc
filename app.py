@@ -4,6 +4,17 @@ from transformers import AutoModelForImageClassification, AutoProcessor
 import torch
 from PIL import Image
 
+# Thêm CSS để thiết lập hình nền
+st.markdown("""
+    <style>
+        .stApp {
+            background-image: url('https://link-to-your-image.jpg');
+            background-size: cover;
+            background-position: center;
+        }
+    </style>
+""", unsafe_allow_html=True)
+
 # Tải file labels.txt
 url = "https://raw.githubusercontent.com/maikawaii/nhanthucduoc/refs/heads/main/label.txt"
 response = requests.get(url)
@@ -95,3 +106,14 @@ else:
             st.subheader(selected_plant)
             plant_details = plant_details.split("\n")
 
+            # Hiển thị hình ảnh cây (nếu có)
+            if plant_image_url:
+                st.image(plant_image_url, caption=f"Hình ảnh của {selected_plant}", use_column_width=True)
+
+            # Hiển thị thông tin cây
+            for detail in plant_details:
+                st.write(detail)  # Hiển thị từng dòng thông tin cây
+        else:
+            st.warning("Không có thông tin cho cây này.")
+    else:
+        st.error("Dữ liệu cây hoặc thông tin cây chưa sẵn sàng.")
