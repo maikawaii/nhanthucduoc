@@ -56,7 +56,13 @@ if response_info.status_code == 200:
             if line.startswith("Tên:"):
                 plant_info[current_plant]["name"] = line.split(":", 1)[1].strip()
             elif line.startswith("Mô tả:"):
-                plant_info[current_plant]["description"] += "\n\n" + line.split(":", 1)[1].strip()
+                plant_info[current_plant]["description"] += "\n\n**Mô tả:** " + line.split(":", 1)[1].strip()
+            elif line.startswith("Đặc điểm nhận thức chính:"):
+                plant_info[current_plant]["description"] += "\n\n**Đặc điểm nhận thức chính:** " + line.split(":", 1)[1].strip()
+            elif line.startswith("Thành phần hóa học:"):
+                plant_info[current_plant]["description"] += "\n\n**Thành phần hóa học:** " + line.split(":", 1)[1].strip()
+            elif line.startswith("Công dụng:"):
+                plant_info[current_plant]["description"] += "\n\n**Công dụng:** " + line.split(":", 1)[1].strip()
             elif line.startswith("Hình ảnh:"):
                 image_url = line.split(":", 1)[1].strip()
                 if "drive.google.com" in image_url:
@@ -64,7 +70,7 @@ if response_info.status_code == 200:
                     image_url = image_url.replace("https://drive.google.com/file/d/", "https://drive.google.com/uc?id=").split("/view")[0]
                 plant_info[current_plant]["image"] = image_url
             else:
-                plant_info[current_plant]["description"] += "\n" + line.strip()
+                plant_info[current_plant]["description"] += " " + line.strip()
 else:
     st.error("Không thể tải label_info.txt từ GitHub.")
 
@@ -75,7 +81,7 @@ processor = AutoProcessor.from_pretrained(model_name)
 
 # Giao diện chính
 st.sidebar.title("Vui lòng chọn trang:")
-page = st.sidebar.radio("Điều hướng:", ["Trang chủ", "Trang đối chiếu", "Tìm kiếm cây"])
+page = st.sidebar.radio("Điều hướng:", ["Trang chủ", "Trang đối chiếu"])
 
 # Trang chủ
 if page == "Trang chủ":
@@ -115,7 +121,7 @@ if page == "Trang chủ":
                         if plant_image_url:
                             st.image(plant_image_url, caption=f"Hình ảnh của {plant_name}")
                     with col2:
-                        st.write(plant_description)
+                        st.markdown(plant_description)
 
 # Trang đối chiếu
 elif page == "Trang đối chiếu":
@@ -139,32 +145,6 @@ elif page == "Trang đối chiếu":
                     st.image(plant_image_url, caption=f"Hình ảnh của {plant_name}")
             with col2:
                 st.subheader(plant_name)
-                st.write(plant_description)
+                st.markdown(plant_description)
 
-# Tìm kiếm cây
-elif page == "Tìm kiếm cây":
-    st.title("Tìm kiếm cây bằng từ khóa")
-    search_query = st.text_input("Nhập từ khóa tìm kiếm:")
 
-    if search_query:
-        results = [
-            (k, v["name"])
-            for k, v in plant_info.items()
-            if search_query.lower() in v["name"].lower() or search_query.lower() in v["description"].lower()
-        ]
-
-        if results:
-            for label_code, plant_name in results:
-                plant_details = plant_info[label_code]
-                plant_description = plant_details["description"]
-                plant_image_url = plant_details["image"]
-
-                st.subheader(plant_name)
-                col1, col2 = st.columns([1, 2])
-                with col1:
-                    if plant_image_url:
-                        st.image(plant_image_url, caption=f"Hình ảnh của {plant_name}")
-                with col2:
-                    st.write(plant_description)
-        else:
-            st.warning("Không tìm thấy cây phù hợp.")
