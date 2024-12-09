@@ -110,19 +110,22 @@ if page == "Trang chủ":
             st.write("**Top 5 cây dự đoán:**")
             for i in range(5):
                 label_code = labels[top_5_indices[i].item()]
+                
+                # Lấy tên cây từ label_mapping (hoặc dùng label_code nếu không có trong label_mapping)
+                plant_name_vietnamese = label_mapping.get(label_code, label_code)  # Tên cây tiếng Việt
+                
+                # Lấy thông tin chi tiết từ plant_info
                 plant_details = plant_info.get(label_code, {})
-                plant_name = plant_details.get("name", label_code)
                 plant_description = plant_details.get("description", "Không có thông tin chi tiết.")
                 plant_image_url = plant_details.get("image", None)
 
-                with st.expander(f"{i + 1}. {plant_name} ({top_5_confidences[i].item():.2f}%)"):
+                with st.expander(f"{i + 1}. {plant_name_vietnamese} ({top_5_confidences[i].item():.2f}%)"):
                     col1, col2 = st.columns([1, 2])
                     with col1:
                         if plant_image_url:
-                            st.image(plant_image_url, caption=f"Hình ảnh của {plant_name}")
+                            st.image(plant_image_url, caption=f"Hình ảnh của {plant_name_vietnamese}")
                     with col2:
-                        st.markdown(plant_description)
-
+                        st.write(plant_description)
 # Trang đối chiếu
 elif page == "Trang đối chiếu":
     st.title("Thông tin Dược liệu (Tham khảo từ sách Dược liệu)")
