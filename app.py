@@ -109,4 +109,62 @@ if page == "Trang chủ":
                 plant_description = plant_details.get("description", "Không có thông tin chi tiết.")
                 plant_image_url = plant_details.get("image", None)
 
-                with st.expander(f"{i + 1}. {plant
+                with st.expander(f"{i + 1}. {plant_name} ({top_5_confidences[i].item():.2f}%)"):
+                    col1, col2 = st.columns([1, 2])
+                    with col1:
+                        if plant_image_url:
+                            st.image(plant_image_url, caption=f"Hình ảnh của {plant_name}")
+                    with col2:
+                        st.write(plant_description)
+
+# Trang đối chiếu
+elif page == "Trang đối chiếu":
+    st.title("Thông tin Dược liệu (Tham khảo từ sách Dược liệu)")
+
+    if labels and plant_info:
+        vietnamese_labels = [label_mapping.get(label, label) for label in labels]
+        selected_plant = st.selectbox("Chọn cây để xem thông tin:", options=vietnamese_labels)
+
+        selected_label_code = next((k for k, v in label_mapping.items() if v == selected_plant), None)
+
+        if selected_label_code:
+            plant_details = plant_info.get(selected_label_code, {})
+            plant_name = plant_details.get("name", "Không rõ")
+            plant_description = plant_details.get("description", "Không có thông tin.")
+            plant_image_url = plant_details.get("image", None)
+
+            col1, col2 = st.columns([1, 2])
+            with col1:
+                if plant_image_url:
+                    st.image(plant_image_url, caption=f"Hình ảnh của {plant_name}")
+            with col2:
+                st.subheader(plant_name)
+                st.write(plant_description)
+
+# Tìm kiếm cây
+elif page == "Tìm kiếm cây":
+    st.title("Tìm kiếm cây bằng từ khóa")
+    search_query = st.text_input("Nhập từ khóa tìm kiếm:")
+
+    if search_query:
+        results = [
+            (k, v["name"])
+            for k, v in plant_info.items()
+            if search_query.lower() in v["name"].lower() or search_query.lower() in v["description"].lower()
+        ]
+
+        if results:
+            for label_code, plant_name in results:
+                plant_details = plant_info[label_code]
+                plant_description = plant_details["description"]
+                plant_image_url = plant_details["image"]
+
+                st.subheader(plant_name)
+                col1, col2 = st.columns([1, 2])
+                with col1:
+                    if plant_image_url:
+                        st.image(plant_image_url, caption=f"Hình ảnh của {plant_name}")
+                with col2:
+                    st.write(plant_description)
+        else:
+            st.warning("Không tìm thấy cây phù hợp.")
