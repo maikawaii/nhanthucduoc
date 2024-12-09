@@ -120,7 +120,6 @@ if page == "Trang chủ":
                     with col1:
                         if plant_image_url:
                             st.image(plant_image_url, caption=f"Hình ảnh của {plant_name}")
-
                     with col2:
                         st.markdown(plant_description)
 
@@ -147,5 +146,4 @@ elif page == "Trang đối chiếu":
             with col2:
                 st.subheader(plant_name)
                 st.markdown(plant_description)
-
 
