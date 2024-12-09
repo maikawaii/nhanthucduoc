@@ -119,7 +119,7 @@ if page == "Trang chủ":
                     col1, col2 = st.columns([1, 2])
                     with col1:
                         if plant_image_url:
-                            st.image(plant_image_url, caption=f"Hình ảnh của {plant_name}", use_column_width=True)
+                            st.image(plant_image_url, caption=f"Hình ảnh của {plant_name}")
 
                     with col2:
                         st.markdown(plant_description)
