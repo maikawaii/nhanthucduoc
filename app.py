@@ -150,7 +150,7 @@ elif page == "Trang đối chiếu":
             # Hiển thị hình ảnh cây (nếu có)
             if selected_label_code in plant_images:
                 image_url = plant_images[selected_label_code]
-               st.image(image_url, caption=f"Hình ảnh của {label_vietnamese}", use_column_width=True)
+         st.image(image_url, caption=f"Hình ảnh của {label_vietnamese}", use_column_width=True)
 
         else:
             st.warning("Không tìm thấy thông tin cây được chọn.")
