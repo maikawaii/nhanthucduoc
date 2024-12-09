@@ -5,7 +5,7 @@ import torch
 from PIL import Image
 
 # Thêm CSS để hiển thị hình nền
-forest_image_url = "https://i.pinimg.com/736x/4a/24/2c/4a242ce2f6ec13cb5711dc7de7aa8742.jpg"  # Link tới hình ảnh cánh rừng của bạn
+forest_image_url = "https://i.pinimg.com/736x/ee/02/7b/ee027bb6c2329be99954e4784e79899e.jpg"  # Link tới hình ảnh cánh rừng của bạn
 st.markdown(
     f"""
     <style>
@@ -60,13 +60,13 @@ model = AutoModelForImageClassification.from_pretrained(model_name)
 processor = AutoProcessor.from_pretrained(model_name)
 
 # Giao diện chính
-st.sidebar.title("Mời các bác nhận thức dược liệu")
+st.sidebar.titliệu"Vui lòng dự đoán cây sau đó chuyển sang trang đối chiếu để xem thông tin")
 page = st.sidebar.radio("Chọn trang:", ["Trang chủ", "Trang đối chiếu"])
 
 # Trang chủ
 if page == "Trang chủ":
-    st.title("Mời các bác nhập cây để em đoán ")
-    uploaded_file = st.file_uploader("Nhập ảnh vào đây bạn nhé ", type=["jpg", "jpeg", "png"])
+    st.title("Nhận diện dược liệu")
+    uploaded_file = st.file_uploader("Nhập ảnh vào đây bạn nhé, sau khi dự đoán vui lòng sang trang đối chiếu để confirm kết quả và xem thêm thông tin", type=["jpg", "jpeg", "png"])
 
     if uploaded_file is not None:
         # Hiển thị ảnh
