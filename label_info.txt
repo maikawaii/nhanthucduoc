@@ -825,7 +825,7 @@ Thành phần hóa học
 Trong cốt toái bổ Drymria fortunei có hesperi- din (C A., 1970,73, 11382j) và 25-34,89% tinh bột (Trung Quốc thực vật chí, 1961, 447).
 
 10_Tuc_doan
-https://i.pinimg.com/736x/b6/c2/9f/b6c29f10e14dbddc7e5a3ec68d7cb63f.jpg
+ image_url:https://i.pinimg.com/736x/b6/c2/9f/b6c29f10e14dbddc7e5a3ec68d7cb63f.jpg
  Tục đoạn
 Tên tiếng Việt: Tục đoạn, Sơn cân thái, Oa thái, Đầu vù (Hmông), Rễ thái, Sâm nam
 Tên khoa học: Dipsacus japonicus Miq.
