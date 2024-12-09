@@ -39,7 +39,7 @@ if response_info.status_code == 200:
     current_info = []
     
     for line in info_data:
-        if line.startswith("1_") or line.startswith("2_") or line.startswith("3_"):  # Xử lý các mã cây bắt đầu từ 1_, 2_...
+        if any(line.startswith(label) for label in labels):  # Kiểm tra xem có phải là tên cây không
             if current_plant:  # Lưu thông tin cây trước đó vào từ điển
                 plant_info[current_plant] = "\n".join(current_info)
             current_plant = line.strip()  # Lưu tên cây hiện tại
@@ -105,13 +105,7 @@ else:
             st.subheader(selected_plant)
             plant_details = plant_details.split("\n")
 
-            # Hiển thị thông tin cây theo từng phần
-            start_index = labels.index(selected_plant)
-            next_plant_index = start_index + 1
-            if next_plant_index < len(labels):
-                next_plant = labels[next_plant_index]
-                # Lấy thông tin cây từ selected_plant đến next_plant
-                plant_details = plant_details[:plant_details.index(next_plant)]
+            # Hiển thị thông tin cây
             for detail in plant_details:
                 st.write(detail)  # Hiển thị từng dòng thông tin cây
         else:
