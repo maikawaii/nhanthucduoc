@@ -95,14 +95,3 @@ else:
             st.subheader(selected_plant)
             plant_details = plant_details.split("\n")
 
-            # Hiển thị hình ảnh cây (nếu có)
-            if plant_image_url:
-                st.image(plant_image_url, caption=f"Hình ảnh của {selected_plant}", use_column_width=True)
-
-            # Hiển thị thông tin cây
-            for detail in plant_details:
-                st.write(detail)  # Hiển thị từng dòng thông tin cây
-        else:
-            st.warning("Không có thông tin cho cây này.")
-    else:
-        st.error("Dữ liệu cây hoặc thông tin cây chưa sẵn sàng.")
