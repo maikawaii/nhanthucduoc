@@ -27,6 +27,19 @@ labels = response.text.splitlines() if response.status_code == 200 else []
 if not labels:
     st.error("Không thể tải labels.txt từ GitHub.")
 
+# Tải file ánh xạ mã -> tên tiếng Việt
+mapping_url = "https://raw.githubusercontent.com/maikawaii/nhanthucduoc/main/label_vietnamese.txt"
+response_mapping = requests.get(mapping_url)
+label_mapping = {}
+
+if response_mapping.status_code == 200:
+    mapping_data = response_mapping.text.splitlines()
+    for line in mapping_data:
+        key, value = line.split("=", 1)  # Phân tách mã và tên tiếng Việt
+        label_mapping[key.strip()] = value.strip()
+else:
+    st.error("Không thể tải file ánh xạ mã sang tên tiếng Việt.")
+
 # Tải file label_info.txt
 info_url = "https://raw.githubusercontent.com/maikawaii/nhanthucduoc/main/label_info.txt"
 response_info = requests.get(info_url)
@@ -82,12 +95,13 @@ if page == "Trang chủ":
         # Hiển thị top 5 kết quả
         st.write("**Top 5 cây dự đoán:**")
         for i in range(5):
-            label = labels[top_5_indices[i].item()]
+            label_code = labels[top_5_indices[i].item()]
+            label_vietnamese = label_mapping.get(label_code, label_code)  # Lấy tên tiếng Việt hoặc mã gốc
             confidence = top_5_confidences[i].item()
 
             # Accordion để mở thông tin chi tiết cây
-            with st.expander(f"{i + 1}. {label} ({confidence:.2f}%)"):
-                plant_details = plant_info.get(label, "Không có thông tin chi tiết cho cây này.")
+            with st.expander(f"{i + 1}. {label_vietnamese} ({confidence:.2f}%)"):
+                plant_details = plant_info.get(label_code, "Không có thông tin chi tiết cho cây này.")
                 plant_details = plant_details.split("\n")
                 for detail in plant_details:
                     st.write(detail)
@@ -97,14 +111,21 @@ elif page == "Trang đối chiếu":
     st.title("Thông tin Dược liệu")
 
     if labels and plant_info:
-        selected_plant = st.selectbox("Chọn cây để xem thông tin:", options=labels)
+        # Chuyển labels thành danh sách tên tiếng Việt
+        vietnamese_labels = [label_mapping.get(label, label) for label in labels]
+        selected_plant = st.selectbox("Chọn cây để xem thông tin:", options=vietnamese_labels)
+
+        # Tìm mã cây tương ứng với tên tiếng Việt
+        selected_label_code = next((k for k, v in label_mapping.items() if v == selected_plant), None)
 
         # Hiển thị thông tin cây được chọn
-        plant_details = plant_info.get(selected_plant, "Không có thông tin cho cây này.")
-        if plant_details:
+        if selected_label_code:
+            plant_details = plant_info.get(selected_label_code, "Không có thông tin cho cây này.")
             st.subheader(selected_plant)
             plant_details = plant_details.split("\n")
             for detail in plant_details:
                 st.write(detail)
+        else:
+            st.warning("Không tìm thấy thông tin cây được chọn.")
     else:
         st.error("Dữ liệu cây hoặc thông tin cây chưa sẵn sàng.")
