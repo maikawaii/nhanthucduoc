@@ -39,9 +39,8 @@ if response_info.status_code == 200:
     current_info = []
     
     for line in info_data:
-        if line.startswith("15_"):  # Dò tìm tên cây bắt đầu bằng mã số (ví dụ 15_Bach_mao_can)
-            if current_plant:
-                # Lưu thông tin cây trước đó vào từ điển
+        if line.startswith("10_") or line.startswith("11_"):  # Dò tìm tên cây bắt đầu bằng mã số (ví dụ 10_Tuc_doan)
+            if current_plant:  # Lưu thông tin cây trước đó vào từ điển
                 plant_info[current_plant] = "\n".join(current_info)
             current_plant = line.strip()  # Lưu tên cây hiện tại
             current_info = []  # Khởi tạo lại thông tin cây
@@ -99,9 +98,12 @@ else:
         # Hiển thị danh sách 78 cây
         selected_plant = st.selectbox("Chọn cây để xem thông tin:", options=labels)
 
-        if selected_plant in plant_info:
+        # Lấy thông tin cây dựa trên mã cây được chọn
+        plant_details = plant_info.get(selected_plant)
+        
+        if plant_details:
             st.subheader(selected_plant)
-            plant_details = plant_info[selected_plant].split("\n")
+            plant_details = plant_details.split("\n")
 
             # Hiển thị thông tin cây theo từng phần
             for detail in plant_details:
