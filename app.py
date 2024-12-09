@@ -5,7 +5,7 @@ import torch
 from PIL import Image
 
 # Thêm CSS để hiển thị hình nền
-forest_image_url = "https://images.pexels.com/photos/2318554/pexels-photo-2318554.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2"  # Link hình nền
+forest_image_url = "https://images.pexels.com/photos/2318554/pexels-photo-2318554.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2"
 st.markdown(
     f"""
     <style>
@@ -38,7 +38,7 @@ if response_info.status_code == 200:
     current_info = []
 
     for line in info_data:
-        if any(line.startswith(label) for label in labels):  # Kiểm tra nếu là nhãn cây
+        if any(line.startswith(label) for label in labels):
             if current_plant:
                 plant_info[current_plant] = "\n".join(current_info)
             current_plant = line.strip()
@@ -55,36 +55,26 @@ model_name = "Laimaimai/herbal_identification"
 model = AutoModelForImageClassification.from_pretrained(model_name)
 processor = AutoProcessor.from_pretrained(model_name)
 
-# Trang chính
-st.title("Nhận diện Dược liệu")
-uploaded_file = st.file_uploader("Nhập ảnh của bạn:", type=["jpg", "jpeg", "png"])
+# Giao diện chính
+st.sidebar.title("Vui lòng chọn trang:")
+page = st.sidebar.radio("Điều hướng:", ["Trang chủ", "Trang đối chiếu"])
 
-if uploaded_file:
-    # Hiển thị ảnh
-    image = Image.open(uploaded_file)
-    st.image(image, caption="Ảnh đã tải lên", use_column_width=True)
+# Trang chủ
+if page == "Trang chủ":
+    st.title("Nhận diện Dược liệu")
+    uploaded_file = st.file_uploader("Nhập ảnh của bạn:", type=["jpg", "jpeg", "png"])
 
-    # Dự đoán
-    inputs = processor(images=image, return_tensors="pt")
-    with torch.no_grad():
-        logits = model(**inputs).logits
+    if uploaded_file:
+        # Hiển thị ảnh
+        image = Image.open(uploaded_file)
+        st.image(image, caption="Ảnh đã tải lên", use_column_width=True)
 
-    # Lấy top 5 kết quả
-    top_5 = torch.topk(logits, 5)
-    top_5_indices = top_5.indices[0]
-    top_5_confidences = torch.nn.functional.softmax(logits, dim=-1)[0][top_5_indices] * 100
+        # Dự đoán
+        inputs = processor(images=image, return_tensors="pt")
+        with torch.no_grad():
+            logits = model(**inputs).logits
 
-    # Hiển thị top 5 kết quả
-    st.write("**Top 5 cây dự đoán:**")
-    for i in range(5):
-        label = labels[top_5_indices[i].item()]
-        confidence = top_5_confidences[i].item()
-
-        # Accordion để mở rộng thông tin cây
-        with st.expander(f"{i + 1}. {label} ({confidence:.2f}%)"):
-            plant_details = plant_info.get(label, "Không có thông tin chi tiết cho cây này.")
-            plant_details = plant_details.split("\n")
-
-            for detail in plant_details:
-                st.write(detail)
-
+        # Lấy top 5 kết quả
+        top_5 = torch.topk(logits, 5)
+        top_5_indices = top_5.indices[0]
+        top_5_confidences =
