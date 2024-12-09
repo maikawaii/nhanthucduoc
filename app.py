@@ -44,22 +44,31 @@ else:
 info_url = "https://raw.githubusercontent.com/maikawaii/nhanthucduoc/main/label_info.txt"
 response_info = requests.get(info_url)
 plant_info = {}
+plant_images = {}  # Lưu URL hình ảnh cho mỗi cây
 
 if response_info.status_code == 200:
     info_data = response_info.text.splitlines()
     current_plant = None
     current_info = []
+    current_image_url = None
 
     for line in info_data:
         if any(line.startswith(label) for label in labels):
             if current_plant:
                 plant_info[current_plant] = "\n".join(current_info)
+                if current_image_url:
+                    plant_images[current_plant] = current_image_url
             current_plant = line.strip()
             current_info = []
+            current_image_url = None  # Reset URL hình ảnh
+        elif line.startswith("Hình ảnh:"):
+            current_image_url = line.split(":")[1].strip()  # Lấy URL hình ảnh
         current_info.append(line.strip())
 
     if current_plant:
         plant_info[current_plant] = "\n".join(current_info)
+        if current_image_url:
+            plant_images[current_plant] = current_image_url
 else:
     st.error("Không thể tải label_info.txt từ GitHub.")
 
@@ -106,6 +115,10 @@ if page == "Trang chủ":
                 for detail in plant_details:
                     st.write(detail)
 
+                # Hiển thị hình ảnh cây (nếu có)
+                if label_code in plant_images:
+                    st.image(plant_images[label_code], caption=f"Hình ảnh của {label_vietnamese}")
+
 # Trang đối chiếu
 elif page == "Trang đối chiếu":
     st.title("Thông tin Dược liệu")
@@ -125,6 +138,10 @@ elif page == "Trang đối chiếu":
             plant_details = plant_details.split("\n")
             for detail in plant_details:
                 st.write(detail)
+
+            # Hiển thị hình ảnh cây (nếu có)
+            if selected_label_code in plant_images:
+                st.image(plant_images[selected_label_code], caption=f"Hình ảnh của {selected_plant}")
         else:
             st.warning("Không tìm thấy thông tin cây được chọn.")
     else:
