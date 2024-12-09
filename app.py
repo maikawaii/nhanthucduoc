@@ -101,28 +101,32 @@ if page == "Trang chủ":
         top_5_indices = top_5.indices[0]
         top_5_confidences = torch.nn.functional.softmax(logits, dim=-1)[0][top_5_indices] * 100
 
-        # Hiển thị top 5 kết quả
-        st.write("**Top 5 cây dự đoán:**")
-        for i in range(5):
-            label_code = labels[top_5_indices[i].item()]
-            label_vietnamese = label_mapping.get(label_code, label_code)  # Lấy tên tiếng Việt hoặc mã gốc
-            confidence = top_5_confidences[i].item()
+        # Kiểm tra nếu không có cây nào khớp (confidence thấp)
+        if top_5_confidences[0].item() < 50:  # Thay đổi ngưỡng nếu cần
+            st.warning("Không nhận diện được cây nào khớp với ảnh này.")
+        else:
+            # Hiển thị top 5 kết quả
+            st.write("**Top 5 cây dự đoán:**")
+            for i in range(5):
+                label_code = labels[top_5_indices[i].item()]
+                label_vietnamese = label_mapping.get(label_code, label_code)  # Lấy tên tiếng Việt hoặc mã gốc
+                confidence = top_5_confidences[i].item()
 
-            # Accordion để mở thông tin chi tiết cây
-            with st.expander(f"{i + 1}. {label_vietnamese} ({confidence:.2f}%)"):
-                plant_details = plant_info.get(label_code, "Không có thông tin chi tiết cho cây này.")
-                plant_details = plant_details.split("\n")
-                for detail in plant_details:
-                    st.write(detail)
+                # Accordion để mở thông tin chi tiết cây
+                with st.expander(f"{i + 1}. {label_vietnamese} ({confidence:.2f}%)"):
+                    plant_details = plant_info.get(label_code, "Không có thông tin chi tiết cho cây này.")
+                    plant_details = plant_details.split("\n")
+                    for detail in plant_details:
+                        st.write(detail)
 
-                # Hiển thị hình ảnh cây (nếu có)
-                if label_code in plant_images:
-                    # Đảm bảo URL hình ảnh từ Google Drive có dạng https://drive.google.com/uc?id=ID_HÌNH_ẢNH
-                    image_url = plant_images[label_code]
-                    if "drive.google.com" in image_url:
-                        # Sửa lại URL để lấy ảnh trực tiếp từ Google Drive
-                        image_url = image_url.replace("https://drive.google.com/file/d/", "https://drive.google.com/uc?id=").split("/view")[0]
-                    st.image(image_url, caption=f"Hình ảnh của {label_vietnamese}")
+                    # Hiển thị hình ảnh cây (nếu có)
+                    if label_code in plant_images:
+                        # Đảm bảo URL hình ảnh từ Google Drive có dạng https://drive.google.com/uc?id=ID_HÌNH_ẢNH
+                        image_url = plant_images[label_code]
+                        if "drive.google.com" in image_url:
+                            # Sửa lại URL để lấy ảnh trực tiếp từ Google Drive
+                            image_url = image_url.replace("https://drive.google.com/file/d/", "https://drive.google.com/uc?id=").split("/view")[0]
+                        st.image(image_url, caption=f"Hình ảnh của {label_vietnamese}")
 
 # Trang đối chiếu
 elif page == "Trang đối chiếu":
