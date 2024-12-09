@@ -3,6 +3,7 @@ import requests
 from transformers import AutoModelForImageClassification, AutoProcessor
 import torch
 from PIL import Image
+from io import BytesIO
 
 # Thêm CSS để hiển thị hình nền
 forest_image_url = "https://images.pexels.com/photos/2318554/pexels-photo-2318554.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2"
@@ -79,6 +80,20 @@ model_name = "Laimaimai/herbal_identification"
 model = AutoModelForImageClassification.from_pretrained(model_name)
 processor = AutoProcessor.from_pretrained(model_name)
 
+# Hàm tải hình ảnh từ URL
+def load_image_from_url(image_url):
+    try:
+        response = requests.get(image_url)
+        if response.status_code == 200:
+            img = Image.open(BytesIO(response.content))
+            return img
+        else:
+            st.warning(f"Lỗi tải hình ảnh: {response.status_code}")
+            return None
+    except Exception as e:
+        st.warning(f"Không thể tải hình ảnh: {e}")
+        return None
+
 # Giao diện chính
 st.sidebar.title("Vui lòng chọn trang:")
 page = st.sidebar.radio("Điều hướng:", ["Trang chủ", "Trang đối chiếu"])
@@ -123,9 +138,12 @@ if page == "Trang chủ":
                     col1, col2 = st.columns([1, 2])
                     with col1:
                         if plant_image_url:
-                            st.image(plant_image_url, caption=f"Hình ảnh của {plant_name_vietnamese}")
+                            img = load_image_from_url(plant_image_url)  # Tải hình ảnh từ URL
+                            if img:
+                                st.image(img, caption=f"Hình ảnh của {plant_name_vietnamese}", use_column_width=True)
                     with col2:
                         st.write(plant_description)
+
 # Trang đối chiếu
 elif page == "Trang đối chiếu":
     st.title("Thông tin Dược liệu (Tham khảo từ sách Dược liệu)")
@@ -145,8 +163,9 @@ elif page == "Trang đối chiếu":
             col1, col2 = st.columns([1, 2])
             with col1:
                 if plant_image_url:
-                    st.image(plant_image_url, caption=f"Hình ảnh của {plant_name}")
+                    img = load_image_from_url(plant_image_url)  # Tải hình ảnh từ URL
+                    if img:
+                        st.image(img, caption=f"Hình ảnh của {plant_name}", use_column_width=True)
             with col2:
                 st.subheader(plant_name)
                 st.markdown(plant_description)
-
