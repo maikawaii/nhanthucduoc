@@ -117,7 +117,12 @@ if page == "Trang chủ":
 
                 # Hiển thị hình ảnh cây (nếu có)
                 if label_code in plant_images:
-                    st.image(plant_images[label_code], caption=f"Hình ảnh của {label_vietnamese}")
+                    # Đảm bảo URL hình ảnh từ Google Drive có dạng https://drive.google.com/uc?id=ID_HÌNH_ẢNH
+                    image_url = plant_images[label_code]
+                    if "drive.google.com" in image_url:
+                        # Sửa lại URL để lấy ảnh trực tiếp từ Google Drive
+                        image_url = image_url.replace("https://drive.google.com/file/d/", "https://drive.google.com/uc?id=").split("/view")[0]
+                    st.image(image_url, caption=f"Hình ảnh của {label_vietnamese}")
 
 # Trang đối chiếu
 elif page == "Trang đối chiếu":
@@ -141,7 +146,11 @@ elif page == "Trang đối chiếu":
 
             # Hiển thị hình ảnh cây (nếu có)
             if selected_label_code in plant_images:
-                st.image(plant_images[selected_label_code], caption=f"Hình ảnh của {selected_plant}")
+                image_url = plant_images[selected_label_code]
+                if "drive.google.com" in image_url:
+                    # Sửa lại URL để lấy ảnh trực tiếp từ Google Drive
+                    image_url = image_url.replace("https://drive.google.com/file/d/", "https://drive.google.com/uc?id=").split("/view")[0]
+                st.image(image_url, caption=f"Hình ảnh của {selected_plant}")
         else:
             st.warning("Không tìm thấy thông tin cây được chọn.")
     else:
