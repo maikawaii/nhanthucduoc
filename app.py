@@ -66,7 +66,7 @@ page = st.sidebar.radio("Chọn trang:", ["Trang chủ", "Trang đối chiếu"]
 # Trang chủ
 if page == "Trang chủ":
     st.title("Nhận diện dược liệu")
-    uploaded_file = st.file_uploader("Nhập ảnh vào đây bạn nhé, sau khi dự đoán vui lòng sang trang đối chiếu để confirm kết quả và xem thêm thông tin", type=["jpg", "jpeg", "png"])
+    uploaded_file = st.file_uploader("Nhập ảnh vào đây bạn nhé sau khi dự đoán vui lòng sang trang đối chiếu để confirm kết quả và xem thêm thông tin", type=["jpg", "jpeg", "png"])
 
     if uploaded_file is not None:
         # Hiển thị ảnh
