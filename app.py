@@ -35,7 +35,7 @@ label_mapping = {}
 if response_mapping.status_code == 200:
     mapping_data = response_mapping.text.splitlines()
     for line in mapping_data:
-        key, value = line.split("=", 1)  # Phân tách mã và tên tiếng Việt
+        key, value = line.split("=", 1)
         label_mapping[key.strip()] = value.strip()
 else:
     st.error("Không thể tải file ánh xạ mã sang tên tiếng Việt.")
@@ -44,31 +44,27 @@ else:
 info_url = "https://raw.githubusercontent.com/maikawaii/nhanthucduoc/main/label_info.txt"
 response_info = requests.get(info_url)
 plant_info = {}
-plant_images = {}  # Lưu URL hình ảnh cho mỗi cây
 
 if response_info.status_code == 200:
     info_data = response_info.text.splitlines()
     current_plant = None
-    current_info = []
-    current_image_url = None
-
     for line in info_data:
-        if any(line.startswith(label) for label in labels):
-            if current_plant:
-                plant_info[current_plant] = "\n".join(current_info)
-                if current_image_url:
-                    plant_images[current_plant] = current_image_url
+        if any(line.startswith(label) for label in labels):  # Dòng bắt đầu bằng mã cây
             current_plant = line.strip()
-            current_info = []
-            current_image_url = None  # Reset URL hình ảnh
-        elif line.startswith("Hình ảnh:"):
-            current_image_url = line.split(":")[1].strip()  # Lấy URL hình ảnh
-        current_info.append(line.strip())
-
-    if current_plant:
-        plant_info[current_plant] = "\n".join(current_info)
-        if current_image_url:
-            plant_images[current_plant] = current_image_url
+            plant_info[current_plant] = {"name": "", "description": "", "image": ""}
+        elif current_plant:
+            if line.startswith("Tên:"):
+                plant_info[current_plant]["name"] = line.split(":", 1)[1].strip()
+            elif line.startswith("Mô tả:"):
+                plant_info[current_plant]["description"] += line.split(":", 1)[1].strip() + "\n"
+            elif line.startswith("Hình ảnh:"):
+                image_url = line.split(":", 1)[1].strip()
+                if "drive.google.com" in image_url:
+                    # Chuyển đổi URL Google Drive
+                    image_url = image_url.replace("https://drive.google.com/file/d/", "https://drive.google.com/uc?id=").split("/view")[0]
+                plant_info[current_plant]["image"] = image_url
+            else:
+                plant_info[current_plant]["description"] += line.strip() + "\n"
 else:
     st.error("Không thể tải label_info.txt từ GitHub.")
 
@@ -79,7 +75,7 @@ processor = AutoProcessor.from_pretrained(model_name)
 
 # Giao diện chính
 st.sidebar.title("Vui lòng chọn trang:")
-page = st.sidebar.radio("Điều hướng:", ["Trang chủ", "Trang đối chiếu"])
+page = st.sidebar.radio("Điều hướng:", ["Trang chủ", "Trang đối chiếu", "Tìm kiếm cây"])
 
 # Trang chủ
 if page == "Trang chủ":
@@ -101,61 +97,74 @@ if page == "Trang chủ":
         top_5_indices = top_5.indices[0]
         top_5_confidences = torch.nn.functional.softmax(logits, dim=-1)[0][top_5_indices] * 100
 
-        # Kiểm tra nếu không có cây nào khớp (confidence thấp)
-        if top_5_confidences[0].item() < 50:  # Thay đổi ngưỡng nếu cần
+        if top_5_confidences[0].item() < 50:  # Ngưỡng xác suất
             st.warning("Không nhận diện được cây nào khớp với ảnh này.")
         else:
             # Hiển thị top 5 kết quả
             st.write("**Top 5 cây dự đoán:**")
             for i in range(5):
                 label_code = labels[top_5_indices[i].item()]
-                label_vietnamese = label_mapping.get(label_code, label_code)  # Lấy tên tiếng Việt hoặc mã gốc
-                confidence = top_5_confidences[i].item()
+                plant_details = plant_info.get(label_code, {})
+                plant_name = plant_details.get("name", label_code)
+                plant_description = plant_details.get("description", "Không có thông tin chi tiết.")
+                plant_image_url = plant_details.get("image", None)
 
-                # Accordion để mở thông tin chi tiết cây
-                with st.expander(f"{i + 1}. {label_vietnamese} ({confidence:.2f}%)"):
-                    plant_details = plant_info.get(label_code, "Không có thông tin chi tiết cho cây này.")
-                    plant_details = plant_details.split("\n")
-                    for detail in plant_details:
-                        st.write(detail)
-
-                    # Hiển thị hình ảnh cây (nếu có)
-                    if label_code in plant_images:
-                        # Đảm bảo URL hình ảnh từ Google Drive có dạng https://drive.google.com/uc?id=ID_HÌNH_ẢNH
-                        image_url = plant_images[label_code]
-                        if "drive.google.com" in image_url:
-                            # Sửa lại URL để lấy ảnh trực tiếp từ Google Drive
-                            image_url = image_url.replace("https://drive.google.com/file/d/", "https://drive.google.com/uc?id=").split("/view")[0]
-                        st.image(image_url, caption=f"Hình ảnh của {label_vietnamese}")
+                with st.expander(f"{i + 1}. {plant_name} ({top_5_confidences[i].item():.2f}%)"):
+                    col1, col2 = st.columns([1, 2])
+                    with col1:
+                        if plant_image_url:
+                            st.image(plant_image_url, caption=f"Hình ảnh của {plant_name}")
+                    with col2:
+                        st.write(plant_description)
 
 # Trang đối chiếu
 elif page == "Trang đối chiếu":
-    st.title("Thông tin Dược liệu-tham khảo từ sách Thực tập Dược liệu-Trường Đại học Dược Hà Nội ")
+    st.title("Thông tin Dược liệu (Tham khảo từ sách Dược liệu)")
 
     if labels and plant_info:
-        # Chuyển labels thành danh sách tên tiếng Việt
         vietnamese_labels = [label_mapping.get(label, label) for label in labels]
         selected_plant = st.selectbox("Chọn cây để xem thông tin:", options=vietnamese_labels)
 
-        # Tìm mã cây tương ứng với tên tiếng Việt
         selected_label_code = next((k for k, v in label_mapping.items() if v == selected_plant), None)
 
-        # Hiển thị thông tin cây được chọn
         if selected_label_code:
-            plant_details = plant_info.get(selected_label_code, "Không có thông tin cho cây này.")
-            st.subheader(selected_plant)
-            plant_details = plant_details.split("\n")
-            for detail in plant_details:
-                st.write(detail)
+            plant_details = plant_info.get(selected_label_code, {})
+            plant_name = plant_details.get("name", "Không rõ")
+            plant_description = plant_details.get("description", "Không có thông tin.")
+            plant_image_url = plant_details.get("image", None)
 
-            # Hiển thị hình ảnh cây (nếu có)
-            if selected_label_code in plant_images:
-                image_url = plant_images[selected_label_code]
-                if "drive.google.com" in image_url:
-                    # Sửa lại URL để lấy ảnh trực tiếp từ Google Drive
-                    image_url = image_url.replace("https://drive.google.com/file/d/", "https://drive.google.com/uc?id=").split("/view")[0]
-                st.image(image_url, caption=f"Hình ảnh của {selected_plant}")
+            col1, col2 = st.columns([1, 2])
+            with col1:
+                if plant_image_url:
+                    st.image(plant_image_url, caption=f"Hình ảnh của {plant_name}")
+            with col2:
+                st.subheader(plant_name)
+                st.write(plant_description)
+
+# Tìm kiếm cây
+elif page == "Tìm kiếm cây":
+    st.title("Tìm kiếm cây bằng từ khóa")
+    search_query = st.text_input("Nhập từ khóa tìm kiếm:")
+
+    if search_query:
+        results = [
+            (k, v["name"])
+            for k, v in plant_info.items()
+            if search_query.lower() in v["name"].lower() or search_query.lower() in v["description"].lower()
+        ]
+
+        if results:
+            for label_code, plant_name in results:
+                plant_details = plant_info[label_code]
+                plant_description = plant_details["description"]
+                plant_image_url = plant_details["image"]
+
+                st.subheader(plant_name)
+                col1, col2 = st.columns([1, 2])
+                with col1:
+                    if plant_image_url:
+                        st.image(plant_image_url, caption=f"Hình ảnh của {plant_name}")
+                with col2:
+                    st.write(plant_description)
         else:
-            st.warning("Không tìm thấy thông tin cây được chọn.")
-    else:
-        st.error("Dữ liệu cây hoặc thông tin cây chưa sẵn sàng.")
+            st.warning("Không tìm thấy cây phù hợp.")
