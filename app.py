@@ -37,23 +37,30 @@ if response_info.status_code == 200:
     plant_info = {}
     current_plant = None
     current_info = []
-    
+
+    # Duyệt qua từng dòng trong label_info.txt
     for line in info_data:
-        if line.startswith("39_"):  # Dò tìm tên cây bắt đầu bằng mã số (ví dụ 39_Duong_quy)
+        if line.startswith("10_") or line.startswith("11_"):  # Lọc các cây có mã số như ví dụ
             if current_plant:
                 # Lưu thông tin cây trước đó vào từ điển
                 plant_info[current_plant] = "\n".join(current_info)
             current_plant = line.strip()  # Lưu tên cây hiện tại
             current_info = []  # Khởi tạo lại thông tin cây
         current_info.append(line.strip())  # Thêm thông tin cây vào danh sách
-    
+
     # Lưu cây cuối cùng
     if current_plant:
         plant_info[current_plant] = "\n".join(current_info)
+    
+    # In ra thông tin các cây đã đọc được
+    for plant, details in plant_info.items():
+        print(f"{plant}: {details}")
+
     st.success("Tải thông tin cây thành công.")
 else:
     plant_info = {}
     st.error("Không thể tải label_info.txt từ GitHub.")
+
 
 # Tải mô hình và processor từ Hugging Face
 model_name = "Laimaimai/herbal_identification"
