@@ -130,7 +130,7 @@ if page == "Trang chủ":
 
 # Trang đối chiếu
 elif page == "Trang đối chiếu":
-    st.title("Thông tin Dược liệu")
+    st.title("Thông tin Dược liệu-tham khảo từ sách Thực tập Dược liệu-Trường Đại học Dược Hà Nội ")
 
     if labels and plant_info:
         # Chuyển labels thành danh sách tên tiếng Việt
