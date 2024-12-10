@@ -4,7 +4,6 @@ from transformers import AutoModelForImageClassification, AutoProcessor
 import torch
 from PIL import Image
 from io import BytesIO
-from image_loader import render_image  # Nhập hàm render_image từ tệp image_loader.py
 
 # Hàm tải hình ảnh từ URL
 def load_image_from_url(image_url):
@@ -131,10 +130,10 @@ if page == "Trang chủ":
             st.write("**Top 5 cây dự đoán:**")
             for i in range(5):
                 label_code = labels[top_5_indices[i].item()]
-
+                
                 # Lấy tên cây từ label_mapping (hoặc dùng label_code nếu không có trong label_mapping)
                 plant_name_vietnamese = label_mapping.get(label_code, label_code)  # Tên cây tiếng Việt
-
+                
                 # Lấy thông tin chi tiết từ plant_info
                 plant_details = plant_info.get(label_code, {})
                 plant_description = plant_details.get("description", "Không có thông tin chi tiết.")
@@ -146,7 +145,7 @@ if page == "Trang chủ":
                         if plant_image_url:
                             img = load_image_from_url(plant_image_url)
                             if img:
-                                render_image(plant_image_url)  # Hiển thị hình ảnh từ URL
+                                st.image(img, caption=f"Hình ảnh của {plant_name_vietnamese}")
                     with col2:
                         st.write(plant_description)
 
@@ -166,12 +165,12 @@ elif page == "Trang đối chiếu":
             plant_description = plant_details.get("description", "Không có thông tin.")
             plant_image_url = plant_details.get("image", None)
 
-            with st.expander(f"Thông tin {plant_name}"):
-                col1, col2 = st.columns([1, 2])
-                with col1:
-                    if plant_image_url:
-                        img = load_image_from_url(plant_image_url)
-                        if img:
-                            render_image(plant_image_url)  # Hiển thị hình ảnh từ URL
-                with col2:
-                    st.write(plant_description)
+            col1, col2 = st.columns([1, 2])
+            with col1:
+                if plant_image_url:
+                    img = load_image_from_url(plant_image_url)
+                    if img:
+                        st.image(img, caption=f"Hình ảnh của {plant_name}")
+            with col2:
+                st.subheader(plant_name)
+                st.markdown(plant_description)
