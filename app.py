@@ -34,7 +34,80 @@ st.markdown(
         background-position: center;
         background-attachment: fixed;
     }}
+    /* CSS cho hiệu ứng tuyết rơi */
+    .snowflake {{
+        position: absolute;
+        top: -10px;
+        z-index: 9999;
+        color: white;
+        font-size: 2em;
+        user-select: none;
+        pointer-events: none;
+        animation: snowfall linear infinite;
+    }}
+
+    @keyframes snowfall {{
+        to {{
+            transform: translateY(100vh);
+            opacity: 0;
+        }}
+    }}
+
+    .snowflake:nth-child(1) {{
+        left: 10%;
+        animation-duration: 10s;
+        animation-delay: 0s;
+        font-size: 1.5em;
+    }}
+
+    .snowflake:nth-child(2) {{
+        left: 30%;
+        animation-duration: 8s;
+        animation-delay: 2s;
+        font-size: 1.8em;
+    }}
+
+    .snowflake:nth-child(3) {{
+        left: 50%;
+        animation-duration: 12s;
+        animation-delay: 1s;
+        font-size: 2em;
+    }}
+
+    .snowflake:nth-child(4) {{
+        left: 70%;
+        animation-duration: 14s;
+        animation-delay: 3s;
+        font-size: 1.2em;
+    }}
+
+    .snowflake:nth-child(5) {{
+        left: 90%;
+        animation-duration: 16s;
+        animation-delay: 4s;
+        font-size: 1.4em;
+    }}
+
+    .snowfall {{
+        position: absolute;
+        top: 0;
+        left: 0;
+        right: 0;
+        bottom: 0;
+        pointer-events: none;
+        z-index: 999;
+    }}
     </style>
+    <div class="snowfall">
+        <span class="snowflake">❄</span>
+        <span class="snowflake">❄</span>
+        <span class="snowflake">❄</span>
+        <span class="snowflake">❄</span>
+        <span class="snowflake">❄</span>
+        <span class="snowflake">❄</span>
+        <span class="snowflake">❄</span>
+        <span class="snowflake">❄</span>
+    </div>
     """,
     unsafe_allow_html=True
 )
