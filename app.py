@@ -23,6 +23,21 @@ def load_image_from_url(image_url):
     except Exception as e:
         st.warning(f"Không thể tải hình ảnh: {e}")
         return None
+ # Thêm CSS để hiển thị hình nền
+forest_image_url = "https://images.pexels.com/photos/2318554/pexels-photo-2318554.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2"
+st.markdown(
+    f"""
+    <style>
+    .stApp {{
+        background-image: url("{forest_image_url}");
+        background-size: cover;
+        background-position: center;
+        background-attachment: fixed;
+    }}
+    </style>
+    """,
+    unsafe_allow_html=True
+)
 
 # Tải file labels.txt
 url = "https://raw.githubusercontent.com/maikawaii/nhanthucduoc/refs/heads/main/label.txt"
