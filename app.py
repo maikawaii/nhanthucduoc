@@ -53,41 +53,78 @@ st.markdown(
         }}
     }}
 
+    /* Điều chỉnh hiệu ứng cho tuyết rơi */
     .snowflake:nth-child(1) {{
-        left: 10%;
-        animation-duration: 10s;
+        left: 5%;
+        animation-duration: 7s;
         animation-delay: 0s;
         font-size: 1.5em;
     }}
 
     .snowflake:nth-child(2) {{
-        left: 30%;
+        left: 15%;
         animation-duration: 8s;
-        animation-delay: 2s;
+        animation-delay: 1s;
         font-size: 1.8em;
     }}
 
     .snowflake:nth-child(3) {{
-        left: 50%;
-        animation-duration: 12s;
-        animation-delay: 1s;
+        left: 25%;
+        animation-duration: 6s;
+        animation-delay: 2s;
         font-size: 2em;
     }}
 
     .snowflake:nth-child(4) {{
-        left: 70%;
-        animation-duration: 14s;
-        animation-delay: 3s;
-        font-size: 1.2em;
+        left: 35%;
+        animation-duration: 10s;
+        animation-delay: 0.5s;
+        font-size: 1.3em;
     }}
 
     .snowflake:nth-child(5) {{
-        left: 90%;
-        animation-duration: 16s;
-        animation-delay: 4s;
+        left: 45%;
+        animation-duration: 9s;
+        animation-delay: 3s;
+        font-size: 1.6em;
+    }}
+
+    .snowflake:nth-child(6) {{
+        left: 55%;
+        animation-duration: 12s;
+        animation-delay: 0s;
         font-size: 1.4em;
     }}
 
+    .snowflake:nth-child(7) {{
+        left: 65%;
+        animation-duration: 7s;
+        animation-delay: 4s;
+        font-size: 1.7em;
+    }}
+
+    .snowflake:nth-child(8) {{
+        left: 75%;
+        animation-duration: 8s;
+        animation-delay: 1s;
+        font-size: 1.8em;
+    }}
+
+    .snowflake:nth-child(9) {{
+        left: 85%;
+        animation-duration: 10s;
+        animation-delay: 2s;
+        font-size: 2em;
+    }}
+
+    .snowflake:nth-child(10) {{
+        left: 95%;
+        animation-duration: 11s;
+        animation-delay: 0.5s;
+        font-size: 1.5em;
+    }}
+
+    /* Thêm nhiều bông tuyết nữa để tạo hiệu ứng dày hơn */
     .snowfall {{
         position: absolute;
         top: 0;
@@ -99,6 +136,12 @@ st.markdown(
     }}
     </style>
     <div class="snowfall">
+        <span class="snowflake">❄</span>
+        <span class="snowflake">❄</span>
+        <span class="snowflake">❄</span>
+        <span class="snowflake">❄</span>
+        <span class="snowflake">❄</span>
+        <span class="snowflake">❄</span>
         <span class="snowflake">❄</span>
         <span class="snowflake">❄</span>
         <span class="snowflake">❄</span>
