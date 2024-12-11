@@ -198,7 +198,7 @@ if page == "Trang chủ":
         top_5_indices = top_5.indices[0]
         top_5_confidences = torch.nn.functional.softmax(logits, dim=-1)[0][top_5_indices] * 100
 
-        if top_5_confidences[0].item() < 50:  # Ngưỡng xác suất
+        if top_5_confidences[0].item() < 0:  # Ngưỡng xác suất
             st.warning("Không nhận diện được cây nào khớp với ảnh này.")
         else:
             # Hiển thị top 5 kết quả
@@ -223,6 +223,13 @@ if page == "Trang chủ":
                                 st.image(img, caption=f"Hình ảnh của {plant_name_vietnamese}")
                     with col2:
                         st.write(plant_description)
+                          
+    # Dòng cảm ơn
+    st.markdown("---")
+    st.markdown("<center>Cảm ơn bạn đã sử dụng website của chúng mình, chúc bạn một ngày tốt lành!</center>", unsafe_allow_html=True)
+
+# Trang đối chiếu
+elif page == "Trang đối chiếu":
 
 # Trang đối chiếu
 elif page == "Trang đối chiếu":
@@ -249,3 +256,9 @@ elif page == "Trang đối chiếu":
             with col2:
                 st.subheader(plant_name)
                 st.markdown(plant_description)
+                  
+    # Dòng cảm ơn
+    st.markdown("---")
+    st.markdown("<center>Cảm ơn bạn đã sử dụng website của chúng mình, chúc bạn một ngày tốt lành!</center>", unsafe_allow_html=True)
+
+
