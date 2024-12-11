@@ -147,7 +147,7 @@ if page == "Trang chủ":
     if uploaded_file:
         # Hiển thị ảnh
         image = Image.open(uploaded_file)
-        st.image(image, caption="Ảnh đã tải lên", use_column_width=True)
+        st.image(image, caption="Ảnh đã tải lên", use__container_width=True)
 
         # Dự đoán
         inputs = processor(images=image, return_tensors="pt")
