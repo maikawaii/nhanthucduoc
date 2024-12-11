@@ -151,10 +151,13 @@ st.markdown(
         <span class="snowflake">❄</span>
         <span class="snowflake">❄</span>
     </div>
+   <!-- Cuốn lịch ngày tháng -->
+    <div class="calendar">
+        {datetime.datetime.now().strftime("%A, %B %d, %Y")}
+    </div>
     """,
     unsafe_allow_html=True
 )
-
 # Tải file labels.txt
 url = "https://raw.githubusercontent.com/maikawaii/nhanthucduoc/refs/heads/main/label.txt"
 response = requests.get(url)
