@@ -118,7 +118,7 @@ plant_image_urls = {
   "48_Ngu_boi_tu": "https://drive.google.com/uc?id=1U2dNjrMr9Tats0t1m0Nqrnk-8iihYOZp",
   "49_Ngu_gia_bi": "https://drive.google.com/uc?id=1U2dNjrMr9Tats0t1m0Nqrnk-8iihYOZp",
   "4_Thong_thao": "https://drive.google.com/uc?id=1U2dNjrMr9Tats0t1m0Nqrnk-8iihYOZp",
-  "50_Rau_ngo": "https://drive.google.com/uc?id=1U2dNjrMr9Tats0t1m0Nqrnk-8iihYOZp"
+  "50_Rau_ngo": "https://drive.google.com/uc?id=1U2dNjrMr9Tats0t1m0Nqrnk-8iihYOZp",
   "71_Bo_cong_anh": "https://i.pinimg.com/736x/c1/47/bf/c147bf980de81960fd2ad580b3b8d145.jpg",
   "72_Tho_phuc_linh": "https://i.pinimg.com/736x/c1/47/bf/c147bf980de81960fd2ad580b3b8d145.jpg",
   "73_Mach_mon": "https://i.pinimg.com/736x/c1/47/bf/c147bf980de81960fd2ad580b3b8d145.jpg",
