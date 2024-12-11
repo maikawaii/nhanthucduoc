@@ -178,7 +178,7 @@ processor = AutoProcessor.from_pretrained(model_name)
 st.sidebar.title("Vui lòng chọn trang:")
 page = st.sidebar.radio("Điều hướng:", ["Trang chủ", "Trang đối chiếu"])
 
-# Kiểm tra nếu giá trị của page là "Trang chủ"
+# Trang chủ
 if page == "Trang chủ":
     st.title("Nhận diện Dược liệu")
     uploaded_file = st.file_uploader("Nhập ảnh của bạn:", type=["jpg", "jpeg", "png"])
@@ -198,7 +198,7 @@ if page == "Trang chủ":
         top_5_indices = top_5.indices[0]
         top_5_confidences = torch.nn.functional.softmax(logits, dim=-1)[0][top_5_indices] * 100
 
-        if top_5_confidences[0].item() < 50:  # Ngưỡng xác suất hợp lý
+        if top_5_confidences[0].item() < 0:  # Ngưỡng xác suất
             st.warning("Không nhận diện được cây nào khớp với ảnh này.")
         else:
             # Hiển thị top 5 kết quả
@@ -224,7 +224,7 @@ if page == "Trang chủ":
                     with col2:
                         st.write(plant_description)
 
- # Dòng cảm ơn
+# Dòng cảm ơn
 st.markdown("---")
 st.markdown(
     """
@@ -236,7 +236,7 @@ st.markdown(
     unsafe_allow_html=True
 )
 
-# Kiểm tra nếu giá trị của page là "Trang đối chiếu"
+# Trang đối chiếu
 elif page == "Trang đối chiếu":  # Đảm bảo dòng này không có vấn đề
     st.title("Thông tin Dược liệu (Tham khảo từ sách Dược liệu-Trường đại học Dược Hà Nội)")
 
