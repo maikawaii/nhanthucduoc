@@ -150,21 +150,6 @@ st.markdown(
         text-align: center;
     }}
   /* CSS cho thanh điều hướng và hình con người tuyết */
-    .navbar {{
-        position: fixed;
-        bottom: 20px;
-        left: 50%;
-        transform: translateX(-50%);
-        z-index: 1000;
-        display: flex;
-        justify-content: space-between;
-        width: 50%;
-        background-color: rgba(0, 0, 0, 0.6);
-        padding: 10px;
-        border-radius: 5px;
-        color: white;
-    }}
-
     .snowman {{
         width: 50px;
         height: auto;
