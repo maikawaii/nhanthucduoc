@@ -71,7 +71,7 @@ else:
     st.error("Không thể tải label_info.txt từ GitHub.")
 
 # Tải file imagine_info.txt (chứa URL ảnh)
-image_url = "https://raw.githubusercontent.com/maikawaii/nhanthucduoc/main/imagine_info.txt"
+image_url = "https://raw.githubusercontent.com/maikawaii/nhanthucduoc/refs/heads/main/image_info.txt"
 response_image = requests.get(image_url)
 image_info = {}
 if response_image.status_code == 200:
