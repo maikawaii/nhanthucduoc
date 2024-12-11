@@ -224,7 +224,7 @@ if page == "Trang chủ":
                     with col2:
                         st.write(plant_description)
 
-   # Dòng cảm ơn
+ # Dòng cảm ơn
 st.markdown("---")
 st.markdown(
     """
@@ -235,6 +235,7 @@ st.markdown(
     """, 
     unsafe_allow_html=True
 )
+
 # Kiểm tra nếu giá trị của page là "Trang đối chiếu"
 elif page == "Trang đối chiếu":  # Đảm bảo dòng này không có vấn đề
     st.title("Thông tin Dược liệu (Tham khảo từ sách Dược liệu-Trường đại học Dược Hà Nội)")
