@@ -178,7 +178,7 @@ processor = AutoProcessor.from_pretrained(model_name)
 st.sidebar.title("Vui lòng chọn trang:")
 page = st.sidebar.radio("Điều hướng:", ["Trang chủ", "Trang đối chiếu"])
 
-# Trang chủ
+# Kiểm tra nếu giá trị của page là "Trang chủ"
 if page == "Trang chủ":
     st.title("Nhận diện Dược liệu")
     uploaded_file = st.file_uploader("Nhập ảnh của bạn:", type=["jpg", "jpeg", "png"])
@@ -223,13 +223,13 @@ if page == "Trang chủ":
                                 st.image(img, caption=f"Hình ảnh của {plant_name_vietnamese}")
                     with col2:
                         st.write(plant_description)
-                          
-# Dòng cảm ơn
-st.markdown("---")
-st.markdown("<center>Cảm ơn bạn đã sử dụng website của chúng mình, chúc bạn một ngày tốt lành!</center>", unsafe_allow_html=True)
 
-# Trang đối chiếu
-elif page == "Trang đối chiếu":  # Không được thụt lùi dòng này
+    # Dòng cảm ơn
+    st.markdown("---")
+    st.markdown("<center>Cảm ơn bạn đã sử dụng website của chúng mình, chúc bạn một ngày tốt lành!</center>", unsafe_allow_html=True)
+
+# Kiểm tra nếu giá trị của page là "Trang đối chiếu"
+elif page == "Trang đối chiếu":  # Đảm bảo dòng này không có vấn đề
     st.title("Thông tin Dược liệu (Tham khảo từ sách Dược liệu-Trường đại học Dược Hà Nội)")
 
     if labels and plant_info:
