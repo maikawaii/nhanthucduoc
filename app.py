@@ -54,6 +54,23 @@ if response_mapping.status_code == 200:
         label_mapping[key.strip()] = value.strip()
 else:
     st.error("Không thể tải file ánh xạ mã sang tên tiếng Việt.")
+    # Tải file label_infor từ GitHub hoặc URL
+label_infor_url = "https://raw.githubusercontent.com/maikawaii/nhanthucduoc/main/label_infor.txt"
+response_label_infor = requests.get(label_infor_url)
+
+# Kiểm tra nếu file tải thành công
+if response_label_infor.status_code == 200:
+    plant_info = {}
+    # Phân tích cú pháp file
+    for line in response_label_infor.text.splitlines():
+        if ":" in line:
+            key, value = line.split(":", 1)  # Phân tách key và description
+            plant_info[key.strip()] = {"description": value.strip()}
+        else:
+            st.warning(f"Dòng không đúng định dạng trong file label_infor: {line}")
+else:
+    st.error("Không thể tải file label_infor từ GitHub.")
+
 
 # Tải file imagine_info.txt (chứa URL ảnh)
 image_url = "https://raw.githubusercontent.com/maikawaii/nhanthucduoc/refs/heads/main/image_info.txt"
