@@ -149,6 +149,63 @@ st.markdown(
         font-size: 18px;
         text-align: center;
     }}
+  /* CSS cho thanh điều hướng và hình con người tuyết */
+    .navbar {{
+        position: fixed;
+        bottom: 20px;
+        left: 50%;
+        transform: translateX(-50%);
+        z-index: 1000;
+        display: flex;
+        justify-content: space-between;
+        width: 50%;
+        background-color: rgba(0, 0, 0, 0.6);
+        padding: 10px;
+        border-radius: 5px;
+        color: white;
+    }}
+
+    .snowman {{
+        width: 50px;
+        height: auto;
+        margin-left: 20px;
+        animation: bounce 1s infinite;  /* Thêm hiệu ứng nhún nhảy */
+    }}
+
+    @keyframes bounce {{
+        0%, 100% {{
+            transform: translateY(0);
+        }}
+        50% {{
+            transform: translateY(-10px);
+        }}
+    }}
+    </style>
+    
+    <div class="snowfall">
+        <span class="snowflake">❄</span>
+        <span class="snowflake">❄</span>
+        <span class="snowflake">❄</span>
+        <span class="snowflake">❄</span>
+        <span class="snowflake">❄</span>
+        <span class="snowflake">❄</span>
+        <span class="snowflake">❄</span>
+        <span class="snowflake">❄</span>
+        <span class="snowflake">❄</span>
+        <span class="snowflake">❄</span>
+    </div>
+
+    <!-- Cuốn lịch ngày tháng -->
+    <div class="calendar">
+        {datetime.datetime.now().strftime("%A, %B %d, %Y")}
+    </div>
+
+    <!-- Thanh điều hướng và hình con người tuyết -->
+    <div class="navbar">
+        <button>Trang Chủ</button>
+        <button>Trang Đối Chiếu</button>
+        <img src="https://media.giphy.com/media/7nU9H2tG55ByI/giphy.gif" class="snowman" />
+    </div>
     </style>
     <div class="snowfall">
         <span class="snowflake">❄</span>
