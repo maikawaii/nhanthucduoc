@@ -1,4 +1,4 @@
-import streamlit as st
+ import streamlit as st
 import requests
 from transformers import AutoModelForImageClassification, AutoProcessor
 import torch
@@ -60,31 +60,39 @@ if response_mapping.status_code == 200:
 else:
     st.error("Không thể tải file ánh xạ mã sang tên tiếng Việt.")
 
-# Tải file imagine_info chứa URL ảnh cho từng cây
-imagine_info_url = "https://raw.githubusercontent.com/maikawaii/nhanthucduoc/main/imagine_info.txt"
-response_imagine_info = requests.get(imagine_info_url)
-imagine_info = {}
+# Tải file label_info.txt
+info_url = "https://raw.githubusercontent.com/maikawaii/nhanthucduoc/main/label_info.txt"
+response_info = requests.get(info_url)
+plant_info = {}
 
-if response_imagine_info.status_code == 200:
-    imagine_data = response_imagine_info.text.splitlines()
-    for line in imagine_data:
-        plant_code, image_url = line.split(":", 1)
-        imagine_info[plant_code.strip()] = image_url.strip()
+if response_info.status_code == 200:
+    info_data = response_info.text.splitlines()
+    current_plant = None
+    for line in info_data:
+        if any(line.startswith(label) for label in labels):  # Dòng bắt đầu bằng mã cây
+            current_plant = line.strip()
+            plant_info[current_plant] = {"name": "", "description": "", "image": ""}
+        elif current_plant:
+            if line.startswith("Tên:"):
+                plant_info[current_plant]["name"] = line.split(":", 1)[1].strip()
+            elif line.startswith("Mô tả:"):
+                plant_info[current_plant]["description"] += "\n\n**Mô tả:** " + line.split(":", 1)[1].strip()
+            elif line.startswith("Đặc điểm nhận thức chính:"):
+                plant_info[current_plant]["description"] += "\n\n**Đặc điểm nhận thức chính:** " + line.split(":", 1)[1].strip()
+            elif line.startswith("Thành phần hóa học:"):
+                plant_info[current_plant]["description"] += "\n\n**Thành phần hóa học:** " + line.split(":", 1)[1].strip()
+            elif line.startswith("Công dụng:"):
+                plant_info[current_plant]["description"] += "\n\n**Công dụng:** " + line.split(":", 1)[1].strip()
+            elif line.startswith("Hình ảnh:"):
+                image_url = line.split(":", 1)[1].strip()
+                if "drive.google.com" in image_url:
+                    # Chuyển đổi URL Google Drive
+                    image_url = image_url.replace("https://drive.google.com/file/d/", "https://drive.google.com/uc?id=").split("/view")[0]
+                plant_info[current_plant]["image"] = image_url
+            else:
+                plant_info[current_plant]["description"] += " " + line.strip()
 else:
-    st.error("Không thể tải imagine_info.txt từ GitHub.")
-
-# Tải file mô tả cây (hoặc lấy từ nguồn khác)
-description_url = "https://raw.githubusercontent.com/maikawaii/nhanthucduoc/main/plant_descriptions.txt"
-response_description = requests.get(description_url)
-descriptions = {}
-
-if response_description.status_code == 200:
-    description_data = response_description.text.splitlines()
-    for line in description_data:
-        plant_code, description = line.split(":", 1)
-        descriptions[plant_code.strip()] = description.strip()
-else:
-    st.error("Không thể tải file mô tả cây từ GitHub.")
+    st.error("Không thể tải label_info.txt từ GitHub.")
 
 # Tải mô hình và processor từ Hugging Face
 model_name = "Laimaimai/herbal_identification"
@@ -126,11 +134,10 @@ if page == "Trang chủ":
                 # Lấy tên cây từ label_mapping (hoặc dùng label_code nếu không có trong label_mapping)
                 plant_name_vietnamese = label_mapping.get(label_code, label_code)  # Tên cây tiếng Việt
                 
-                # Lấy thông tin URL ảnh từ imagine_info
-                plant_image_url = imagine_info.get(label_code, None)
-                
-                # Lấy mô tả từ descriptions
-                plant_description = descriptions.get(label_code, "Không có mô tả chi tiết.")
+                # Lấy thông tin chi tiết từ plant_info
+                plant_details = plant_info.get(label_code, {})
+                plant_description = plant_details.get("description", "Không có thông tin chi tiết.")
+                plant_image_url = plant_details.get("image", None)
 
                 with st.expander(f"{i + 1}. {plant_name_vietnamese} ({top_5_confidences[i].item():.2f}%)"):
                     col1, col2 = st.columns([1, 2])
@@ -140,23 +147,23 @@ if page == "Trang chủ":
                             if img:
                                 st.image(img, caption=f"Hình ảnh của {plant_name_vietnamese}")
                     with col2:
-                        st.write(f"**Tên cây**: {plant_name_vietnamese}")
-                        st.write(f"**Mô tả**: {plant_description}")
+                        st.write(plant_description)
 
 # Trang đối chiếu
 elif page == "Trang đối chiếu":
     st.title("Thông tin Dược liệu (Tham khảo từ sách Dược liệu)")
 
-    if labels and imagine_info:
+    if labels and plant_info:
         vietnamese_labels = [label_mapping.get(label, label) for label in labels]
         selected_plant = st.selectbox("Chọn cây để xem thông tin:", options=vietnamese_labels)
 
         selected_label_code = next((k for k, v in label_mapping.items() if v == selected_plant), None)
 
         if selected_label_code:
-            plant_name = label_mapping.get(selected_label_code, "Không rõ")
-            plant_image_url = imagine_info.get(selected_label_code, None)
-            plant_description = descriptions.get(selected_label_code, "Không có mô tả chi tiết.")
+            plant_details = plant_info.get(selected_label_code, {})
+            plant_name = plant_details.get("name", "Không rõ")
+            plant_description = plant_details.get("description", "Không có thông tin.")
+            plant_image_url = plant_details.get("image", None)
 
             col1, col2 = st.columns([1, 2])
             with col1:
@@ -166,4 +173,4 @@ elif page == "Trang đối chiếu":
                         st.image(img, caption=f"Hình ảnh của {plant_name}")
             with col2:
                 st.subheader(plant_name)
-                st.markdown(f"**Mô tả:** {plant_description}")
+                st.markdown(plant_description)
