@@ -140,7 +140,7 @@ st.markdown(
     .calendar {{
         position: fixed;
         top: 10px;
-        right: 10px;
+        left: 10px;
         background-color: rgba(0, 0, 0, 0.6);
         color: white;
         padding: 10px 20px;
