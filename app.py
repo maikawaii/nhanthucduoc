@@ -224,17 +224,17 @@ if page == "Trang chủ":
                     with col2:
                         st.write(plant_description)
 
- # Dòng cảm ơn
- st.markdown("---")
- st.markdown(
-    """
-    <div style='position: fixed; bottom: 20px; width: 100%; text-align: center; font-size: 22px; 
-    font-family: "Arial", sans-serif; font-weight: bold; color: #4CAF50;'>
-        Cảm ơn bạn đã sử dụng website của chúng mình, chúc bạn một ngày tốt lành!
-    </div>
-    """, 
-    unsafe_allow_html=True
-)
+    # Dòng cảm ơn
+    st.markdown("---")
+    st.markdown(
+        """
+        <div style='position: fixed; bottom: 20px; width: 100%; text-align: center; font-size: 22px; 
+        font-family: "Arial", sans-serif; font-weight: bold; color: #4CAF50;'>
+            Cảm ơn bạn đã sử dụng website của chúng mình, chúc bạn một ngày tốt lành!
+        </div>
+        """, 
+        unsafe_allow_html=True
+    )
 
 # Kiểm tra nếu giá trị của page là "Trang đối chiếu"
 elif page == "Trang đối chiếu":  # Đảm bảo dòng này không có vấn đề
