@@ -139,7 +139,7 @@ st.markdown(
     /* Cuốn lịch */
     .calendar {{
         position: fixed;
-        top: 35px;
+        top: 45px;
         left: 30px;
         background-color: rgba(0, 0, 0, 0.6);
         color: white;
