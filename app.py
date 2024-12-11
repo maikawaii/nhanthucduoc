@@ -229,8 +229,8 @@ if page == "Trang chủ":
     st.markdown(
         """
         <div style='position: fixed; bottom: 20px; width: 100%; text-align: center; font-size: 22px; 
-        font-family: "Arial", sans-serif; font-weight: bold; color: #4CAF50;'>
-            Cảm ơn bạn đã sử dụng website của chúng mình, chúc bạn một ngày tốt lành!
+        font-family: "Arial", sans-serif; font-weight: bold; color: ;'>
+            Cảm ơn bạn đã sử dụng website!
         </div>
         """, 
         unsafe_allow_html=True
