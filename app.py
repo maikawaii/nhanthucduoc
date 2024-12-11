@@ -139,9 +139,8 @@ st.markdown(
     /* Cuốn lịch */
     .calendar {{
         position: fixed;
-        bottom: 10px;
-        left: 50%;
-        transform: translateX(-50%);
+        top: 10px;
+        right: 10px;
         background-color: rgba(0, 0, 0, 0.6);
         color: white;
         padding: 10px 20px;
@@ -165,7 +164,7 @@ st.markdown(
         <span class="snowflake">❄</span>
     </div>
 
-     <!-- Cuốn lịch ngày tháng -->
+    <!-- Cuốn lịch ngày tháng -->
     <div class="calendar">
         {datetime.datetime.now().strftime("%A, %B %d, %Y")}
     </div>
