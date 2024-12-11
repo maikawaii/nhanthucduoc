@@ -127,9 +127,7 @@ plant_image_urls = {
   "76_Cam_thao_bac": "https://i.pinimg.com/736x/c1/47/bf/c147bf980de81960fd2ad580b3b8d145.jpg",
   "77_O_tac_cot": "https://i.pinimg.com/736x/c1/47/bf/c147bf980de81960fd2ad580b3b8d145.jpg",
   "78_Thao_quyet_minh": "https://i.pinimg.com/736x/c1/47/bf/c147bf980de81960fd2ad580b3b8d145.jpg"
-}
 
-}
 }
 
 # Tải mô hình và processor từ Hugging Face
