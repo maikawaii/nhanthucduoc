@@ -224,12 +224,9 @@ if page == "Trang chủ":
                     with col2:
                         st.write(plant_description)
                           
-    # Dòng cảm ơn
-    st.markdown("---")
-    st.markdown("<center>Cảm ơn bạn đã sử dụng website của chúng mình, chúc bạn một ngày tốt lành!</center>", unsafe_allow_html=True)
-
-# Trang đối chiếu
-elif page == "Trang đối chiếu":
+# Dòng cảm ơn
+st.markdown("---")
+st.markdown("<center>Cảm ơn bạn đã sử dụng website của chúng mình, chúc bạn một ngày tốt lành!</center>", unsafe_allow_html=True)
 
 # Trang đối chiếu
 elif page == "Trang đối chiếu":
@@ -256,9 +253,3 @@ elif page == "Trang đối chiếu":
             with col2:
                 st.subheader(plant_name)
                 st.markdown(plant_description)
-                  
-    # Dòng cảm ơn
-    st.markdown("---")
-    st.markdown("<center>Cảm ơn bạn đã sử dụng website của chúng mình, chúc bạn một ngày tốt lành!</center>", unsafe_allow_html=True)
-
-
