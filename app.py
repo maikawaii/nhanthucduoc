@@ -73,6 +73,19 @@ if response_imagine_info.status_code == 200:
 else:
     st.error("Không thể tải imagine_info.txt từ GitHub.")
 
+# Tải file mô tả cây (hoặc lấy từ nguồn khác)
+description_url = "https://raw.githubusercontent.com/maikawaii/nhanthucduoc/main/plant_descriptions.txt"
+response_description = requests.get(description_url)
+descriptions = {}
+
+if response_description.status_code == 200:
+    description_data = response_description.text.splitlines()
+    for line in description_data:
+        plant_code, description = line.split(":", 1)
+        descriptions[plant_code.strip()] = description.strip()
+else:
+    st.error("Không thể tải file mô tả cây từ GitHub.")
+
 # Tải mô hình và processor từ Hugging Face
 model_name = "Laimaimai/herbal_identification"
 model = AutoModelForImageClassification.from_pretrained(model_name)
@@ -115,6 +128,9 @@ if page == "Trang chủ":
                 
                 # Lấy thông tin URL ảnh từ imagine_info
                 plant_image_url = imagine_info.get(label_code, None)
+                
+                # Lấy mô tả từ descriptions
+                plant_description = descriptions.get(label_code, "Không có mô tả chi tiết.")
 
                 with st.expander(f"{i + 1}. {plant_name_vietnamese} ({top_5_confidences[i].item():.2f}%)"):
                     col1, col2 = st.columns([1, 2])
@@ -125,7 +141,8 @@ if page == "Trang chủ":
                                 st.image(img, caption=f"Hình ảnh của {plant_name_vietnamese}")
                     with col2:
                         st.write(f"**Tên cây**: {plant_name_vietnamese}")
-                        st.write(f"**Mô tả**: Không có mô tả chi tiết.")
+                        st.write(f"**Mô tả**: {plant_description}")
+
 # Trang đối chiếu
 elif page == "Trang đối chiếu":
     st.title("Thông tin Dược liệu (Tham khảo từ sách Dược liệu)")
@@ -139,6 +156,7 @@ elif page == "Trang đối chiếu":
         if selected_label_code:
             plant_name = label_mapping.get(selected_label_code, "Không rõ")
             plant_image_url = imagine_info.get(selected_label_code, None)
+            plant_description = descriptions.get(selected_label_code, "Không có mô tả chi tiết.")
 
             col1, col2 = st.columns([1, 2])
             with col1:
@@ -148,4 +166,4 @@ elif page == "Trang đối chiếu":
                         st.image(img, caption=f"Hình ảnh của {plant_name}")
             with col2:
                 st.subheader(plant_name)
-                st.markdown("**Mô tả:** Không có mô tả chi tiết.")
+                st.markdown(f"**Mô tả:** {plant_description}")
