@@ -55,20 +55,21 @@ if response_mapping.status_code == 200:
 else:
     st.error("Không thể tải file ánh xạ mã sang tên tiếng Việt.")
 
-# Tải file label_info.txt (chứa thông tin cây thuốc)
-info_url = "https://raw.githubusercontent.com/maikawaii/nhanthucduoc/main/label_info.txt"
-response_info = requests.get(info_url)
-plant_info = {}
-if response_info.status_code == 200:
-    current_label = None
-    for line in response_info.text.splitlines():
-        if any(line.startswith(label) for label in labels):
-            current_label = line.strip()
-            plant_info[current_label] = {"description": ""}
-        elif current_label:
-            plant_info[current_label]["description"] += f" {line.strip()}"
+# Tải file imagine_info.txt (chứa URL ảnh)
+image_url = "https://raw.githubusercontent.com/maikawaii/nhanthucduoc/refs/heads/main/image_info.txt"
+response_image = requests.get(image_url)
+image_info = {}
+if response_image.status_code == 200:
+    for line in response_image.text.splitlines():
+        # Kiểm tra xem có dấu ':' trong dòng không
+        if ":" in line:
+            key, value = line.split(":", 1)  # Chỉ lấy phần đầu tiên
+            image_info[key.strip()] = value.strip()
+        else:
+            st.warning(f"Dòng không có dấu ':' trong file image_info: {line}")
 else:
-    st.error("Không thể tải label_info.txt từ GitHub.")
+    st.error("Không thể tải imagine_info.txt từ GitHub.")
+
 
 # Tải file imagine_info.txt (chứa URL ảnh)
 image_url = "https://raw.githubusercontent.com/maikawaii/nhanthucduoc/refs/heads/main/image_info.txt"
