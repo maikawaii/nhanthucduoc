@@ -70,18 +70,6 @@ if response_image.status_code == 200:
 else:
     st.error("Không thể tải imagine_info.txt từ GitHub.")
 
-
-# Tải file imagine_info.txt (chứa URL ảnh)
-image_url = "https://raw.githubusercontent.com/maikawaii/nhanthucduoc/refs/heads/main/image_info.txt"
-response_image = requests.get(image_url)
-image_info = {}
-if response_image.status_code == 200:
-    for line in response_image.text.splitlines():
-        key, value = line.split(":", 1)
-        image_info[key.strip()] = value.strip()
-else:
-    st.error("Không thể tải imagine_info.txt từ GitHub.")
-
 # Tải mô hình và processor từ Hugging Face
 model_name = "Laimaimai/herbal_identification"
 model = AutoModelForImageClassification.from_pretrained(model_name)
@@ -106,28 +94,32 @@ if page == "Trang chủ":
         with torch.no_grad():
             logits = model(**inputs).logits
 
-        # Lấy top 1 kết quả
-        top_1_idx = torch.argmax(logits, dim=-1).item()
-        confidence = torch.nn.functional.softmax(logits, dim=-1)[0][top_1_idx].item() * 100
+        # Lấy top 5 kết quả
+        top_5_idx = torch.topk(logits, 5).indices[0]
+        top_5_confidence = torch.nn.functional.softmax(logits, dim=-1)[0][top_5_idx].tolist()
+        top_5_labels = [labels[idx] for idx in top_5_idx]
 
-        if confidence < 50:  # Ngưỡng xác suất
-            st.warning("Không nhận diện được cây nào khớp với ảnh này.")
-        else:
-            label_code = labels[top_1_idx]
-            plant_name = label_mapping.get(label_code, label_code)
-            plant_details = plant_info.get(label_code, {})
-            plant_description = plant_details.get("description", "Không có thông tin.")
-            plant_image_url = image_info.get(label_code, None)
+        # Hiển thị top 5 dự đoán
+        st.subheader("Top 5 Dự đoán:")
+        selected_label = st.selectbox("Chọn cây để xem thông tin:", options=top_5_labels, index=0)
 
-            col1, col2 = st.columns([1, 2])
-            with col1:
-                if plant_image_url:
-                    img = load_image_from_url(plant_image_url)
-                    if img:
-                        st.image(img, caption=f"Hình ảnh của {plant_name}")
-            with col2:
-                st.subheader(plant_name)
-                st.markdown(plant_description)
+        # Khi người dùng chọn cây, hiển thị thông tin chi tiết
+        selected_idx = top_5_idx[top_5_labels.index(selected_label)]
+        confidence = top_5_confidence[top_5_labels.index(selected_label)] * 100
+        plant_name = label_mapping.get(selected_label, selected_label)
+        plant_details = plant_info.get(selected_label, {})
+        plant_description = plant_details.get("description", "Không có thông tin.")
+        plant_image_url = image_info.get(selected_label, None)
+
+        col1, col2 = st.columns([1, 2])
+        with col1:
+            if plant_image_url:
+                img = load_image_from_url(plant_image_url)
+                if img:
+                    st.image(img, caption=f"Hình ảnh của {plant_name}")
+        with col2:
+            st.subheader(plant_name)
+            st.markdown(plant_description)
 
 # Trang đối chiếu
 elif page == "Trang đối chiếu":
