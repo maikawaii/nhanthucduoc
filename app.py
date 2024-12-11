@@ -148,7 +148,6 @@ st.markdown(
         font-family: "Arial", sans-serif;
         font-size: 18px;
         text-align: center;
-        z-index: 1000;  /* Đảm bảo lịch nằm trên bông tuyết */
     }}
     </style>
     <div class="snowfall">
