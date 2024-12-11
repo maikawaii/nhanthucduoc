@@ -133,7 +133,23 @@ st.markdown(
         right: 0;
         bottom: 0;
         pointer-events: none;
-        z-index: 999;
+        z-index: 1;  /* Đảm bảo tuyết nằm dưới phần tử ngày tháng */
+    }}
+
+    /* Cuốn lịch */
+    .calendar {{
+        position: fixed;
+        bottom: 10px;
+        left: 50%;
+        transform: translateX(-50%);
+        background-color: rgba(0, 0, 0, 0.6);
+        color: white;
+        padding: 10px 20px;
+        border-radius: 5px;
+        font-family: "Arial", sans-serif;
+        font-size: 18px;
+        text-align: center;
+        z-index: 1000;  /* Đảm bảo lịch nằm trên bông tuyết */
     }}
     </style>
     <div class="snowfall">
@@ -147,12 +163,9 @@ st.markdown(
         <span class="snowflake">❄</span>
         <span class="snowflake">❄</span>
         <span class="snowflake">❄</span>
-        <span class="snowflake">❄</span>
-        <span class="snowflake">❄</span>
-        <span class="snowflake">❄</span>
-        <span class="snowflake">❄</span>
     </div>
-   <!-- Cuốn lịch ngày tháng -->
+
+    <!-- Cuốn lịch ngày tháng -->
     <div class="calendar">
         {datetime.datetime.now().strftime("%A, %B %d, %Y")}
     </div>
