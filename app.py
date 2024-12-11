@@ -226,7 +226,7 @@ if page == "Trang chủ":
 
 # Trang đối chiếu
 elif page == "Trang đối chiếu":
-    st.title("Thông tin Dược liệu (Tham khảo từ sách Dược liệu)")
+    st.title("Thông tin Dược liệu (Tham khảo từ sách Dược liệu-Trường đại học Dược Hà Nội)")
 
     if labels and plant_info:
         vietnamese_labels = [label_mapping.get(label, label) for label in labels]
@@ -245,7 +245,7 @@ elif page == "Trang đối chiếu":
                 if plant_image_url:
                     img = load_image_from_url(plant_image_url)
                     if img:
-                        st.image(img, caption=f"Hình ảnh của {plant_name}")
+                        st.image(img, caption=f"Hình ảnh {plant_name}")
             with col2:
                 st.subheader(plant_name)
                 st.markdown(plant_description)
