@@ -229,7 +229,7 @@ st.markdown("---")
 st.markdown("<center>Cảm ơn bạn đã sử dụng website của chúng mình, chúc bạn một ngày tốt lành!</center>", unsafe_allow_html=True)
 
 # Trang đối chiếu
-elif page == "Trang đối chiếu":
+elif page == "Trang đối chiếu":  # Không được thụt lùi dòng này
     st.title("Thông tin Dược liệu (Tham khảo từ sách Dược liệu-Trường đại học Dược Hà Nội)")
 
     if labels and plant_info:
