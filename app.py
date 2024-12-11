@@ -4,6 +4,7 @@ from transformers import AutoModelForImageClassification, AutoProcessor
 import torch
 from PIL import Image
 from io import BytesIO
+import datetime
 
 # Hàm tải hình ảnh từ URL
 def load_image_from_url(image_url):
