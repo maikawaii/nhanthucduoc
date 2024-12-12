@@ -1,17 +1,21 @@
-﻿10_Tuc_doan
+10_Tuc_doan
 Tục đoạn
 Rễ đã phơi hay sấy khô của cây Tục đoạn (Dipsacus japonicus Miq.) và một số loài thuộc chi Dipsacus, họ Tục đoạn (Dipsacaceae). 
 Đặc điểm nhận thức chính: Rễ hình trụ, hơi cong queo. Mặt ngoài màu nâu nhạt, có nhiều nếp nhăn và rãnh dọc. Dễ bẻ gãy, mặt bẻ lờm chởm. Mặt cắt ngang có lớp bần mỏng, tầng sinh libe- gỗ màu nâu, bó libe-gỗ màu nâu nhạt, sắp xếp thành tia tỏa ra. Mùi nhẹ, vị đắng hơi ngọt và se.
 Thành phần hóa học: Saponin.
 Công dụng: Chữa gãy xương, đứt gân.
 
+
+
+ 
 11_Thien_mon
 Thiên môn đông
 Rễ đã chế biến phơi hay sấy khô của cây Thiên môn đông (Asparagus cochinchinensis (Lour.) Merr.), họ Thiên môn đông (Asparagaceae). 
 Đặc điểm nhận thức chính: Dược liệu là những đoạn rễ, hai đầu thuôn nhỏ dần, màu vàng nhạt đến vàng nâu (màu hổ phách), trong, mờ, sáng bóng. Thể chất cứng, dai, có chất nhầy dính, mặt cắt mịn bóng. Mùi nhẹ, vị hơi đắng. 
 Thành phần hóa học: Saponin, chất nhầy. 
 Công dụng: Chữa ho khan, họng khô, miệng khát, táo bón.
-  
+ 
+ 
  
 12_Sai_ho
 Sài hồ
@@ -42,7 +46,7 @@ Công dụng: Chữa sốt khát nước, vàng da, tiểu tiện ít, tiểu ti
  
  
 16_Cau_ky_tu
-Câu kỷ tử
+Câu kỷ ttử
 Quả chín phơi hay sấy khô của cây Khủ khởi (Lycium barbarum L.), họ Cà (Solanaceae). 
 Đặc điểm nhận thức chính: Quả hình trứng dài hay trái xoan. Mặt ngoài màu đỏ cam, mềm, bóng, thường nhăn nheo. Quả có nhiều hạt nhỏ hình thận dẹt. Hạt màu vàng nâu có nội nhũ, rốn hạt là một điểm lõm nhỏ ở mép hạt. Chất mềm, vị ngọt hơi chua. 
 Thành phần hóa học: Betain. 
@@ -536,25 +540,4 @@ Thân rễ đã phơi hay sấy khô của cây Tỳ giải (Dioscorea septemlob
 Đặc điểm nhận thức chính: Phiến vát không đều, cạnh không đều, kích thước thay đổi. Mặt ngoài màu nâu hơi vàng hoặc đen hơi nâu, rải rác vết của các rễ nhỏ, dạng hình nón nhô lên. Mặt cắt màu trắng hơi xám đến màu nâu hơi xám, các đốm màu nâu hơi vàng của các bó mạch rải rác. Chất xốp. Mùi nhẹ, không rõ rệt, vị hơi đắng. 
 Thành phần hóa học: Saponin. 
 Công dụng: Chữa phong thấp, đau lưng, đau đầu gối, tiểu đục, tiểu buốt. 
-
-10_Tuc_doan
-Tục đoạn
-Rễ đã phơi hay sấy khô của cây Tục đoạn (Dipsacus japonicus Miq.) và một số loài thuộc chi Dipsacus, họ Tục đoạn (Dipsacaceae). 
-Đặc điểm nhận thức chính: Rễ hình trụ, hơi cong queo. Mặt ngoài màu nâu nhạt, có nhiều nếp nhăn và rãnh dọc. Dễ bẻ gãy, mặt bẻ lờm chởm. Mặt cắt ngang có lớp bần mỏng, tầng sinh libe- gỗ màu nâu, bó libe-gỗ màu nâu nhạt, sắp xếp thành tia tỏa ra. Mùi nhẹ, vị đắng hơi ngọt và se.
-Thành phần hóa học: Saponin.
-Công dụng: Chữa gãy xương, đứt gân.
-
-9_Cot_toai_bo
-Rễ phơi hay sấy khô của cây Cốt toái bổ hay Tắc kè đá (Drynaria fortunei 
-(Kunze ex Mett.) J. Sm. hoặc Drynaria bonii H. Christ), họ Dương xỉ 
-(Polypodiaceae). 
-Đặc điểm nhận thức chính: Với loài Drynaria fortunei, dược liệu là đoạn 
-thân rễ dẹt, cong queo, phần nhiều phân nhánh, phủ dày đặc lông dạng vảy màu 
-nâu đến nâu tối. Chất cứng, mặt cắt ngang có màu nâu, có những đốm vàng xếp 
-thành một vòng, Vị nhạt và hơi se. 
-Với loài Drynaria bonii, đoạn thân rễ tương đối thẳng, ít phân nhánh. Lông 
-dạng vẩy màu vàng nâu dễ rụng, để lộ thân rỗ màu vàng nâu hoặc nâu nhạt. Chất 
-dai. Mặt cắt màu vàng. 
-Thành phần hóa học: Tinh bột, flavonoid. 
-Công dụng: Chữa thận yếu, đau thắt lưng, ù tai, đau do sang chấn, bong gân.
  
