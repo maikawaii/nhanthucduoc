@@ -316,12 +316,10 @@ model_name = "Laimaimai/herbal_identification"
 model = AutoModelForImageClassification.from_pretrained(model_name)
 processor = AutoProcessor.from_pretrained(model_name)
 
-# Hàm trích xuất tên Latin từ mô tả cây
-def extract_latin_name(plant_description):
-    match = re.search(r"\(([^)]+)\)", plant_description)
-    if match:
-        return match.group(1)  # Trả về tên Latin trong ngoặc
-    return None
+# Hàm thay thế phần trong ngoặc bằng in nghiêng
+def italicize_latin_in_description(plant_description):
+    # Sử dụng biểu thức chính quy để tìm phần trong ngoặc
+    return re.sub(r"\(([^)]+)\)", r"*\1*", plant_description)
 
 # Giao diện chính
 st.sidebar.title("Vui lòng chọn trang:")
@@ -363,8 +361,8 @@ if page == "Trang chủ":
                 plant_description = plant_details.get("description", "Không có thông tin chi tiết.")
                 plant_image_url = plant_image_urls.get(label_code, None)  # Lấy URL ảnh từ plant_image_urls
 
-                # Trích xuất tên Latin từ mô tả cây
-                latin_name = extract_latin_name(plant_description)
+                # In nghiêng phần trong ngoặc trong mô tả cây
+                italicized_description = italicize_latin_in_description(plant_description)
 
                 with st.expander(f"{i + 1}. {plant_name_vietnamese} ({top_5_confidences[i].item():.2f}%)"):
                     col1, col2 = st.columns([1, 2])
@@ -374,11 +372,9 @@ if page == "Trang chủ":
                             if img:
                                 st.image(img, caption=f"Hình ảnh của {plant_name_vietnamese}")
                     with col2:
-                        if latin_name:
-                            # In nghiêng tên Latin nếu có
-                            st.subheader(f"*{latin_name}*")  # In nghiêng tên Latin
                         st.subheader(plant_name_vietnamese)
-                        st.markdown(plant_description)
+                        # Hiển thị mô tả cây với phần trong ngoặc đã được in nghiêng
+                        st.markdown(italicized_description)
 
     # Dòng cảm ơn
     st.markdown("---")
@@ -386,7 +382,7 @@ if page == "Trang chủ":
         """
         <div style='position: fixed; bottom: 20px; left: 50%; transform: translateX(-50%); width: auto; text-align: center; font-size: 10px; 
     font-family: "Arial", sans-serif; font-weight: color: white; font-style: italic;'>
-            Desgin by NMai
+            Design by NMai
         </div>
         """, 
         unsafe_allow_html=True
@@ -407,9 +403,6 @@ elif page == "Trang đối chiếu":  # Đảm bảo dòng này không có vấn
             plant_name = plant_details.get("name", "Không rõ")
             plant_description = plant_details.get("description", "Không có thông tin.")
             plant_image_url = plant_image_urls.get(selected_label_code, None)
-
-            # Trích xuất tên Latin (tên trong ngoặc)
-            latin_name = extract_latin_name(plant_description)
 
             col1, col2 = st.columns([1, 2])
             with col1:
