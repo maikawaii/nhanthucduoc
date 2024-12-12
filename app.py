@@ -25,10 +25,8 @@ def load_image_from_url(image_url):
     except Exception as e:
         st.warning(f"Không thể tải hình ảnh: {e}")
         return None
- # Đặt URL cho hình nền
+ # Thêm CSS để hiển thị hình nền
 forest_image_url = "https://images.pexels.com/photos/2318554/pexels-photo-2318554.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2"
-
-# Thêm CSS để hiển thị hình nền và hiệu ứng tuyết rơi
 st.markdown(
     f"""
     <style>
@@ -38,7 +36,6 @@ st.markdown(
         background-position: center;
         background-attachment: fixed;
     }}
-    
     /* CSS cho hiệu ứng tuyết rơi */
     .snowflake {{
         position: absolute;
@@ -137,61 +134,47 @@ st.markdown(
         right: 0;
         bottom: 0;
         pointer-events: none;
-        z-index: 1;
+        z-index: 1;  /* Đảm bảo tuyết nằm dưới phần tử ngày tháng */
     }}
 
-    /* Đặt các bông hoa ở các góc của sidebar */
-    .sidebar .sidebar-content {{
-        position: relative;
+    /* Cuốn lịch */
+    .calendar {{
+        position: fixed;
+        top: 45px;
+        left: 30px;
+        background-color: rgba(0, 0, 0, 0.6);
+        color: white;
+        padding: 10px 20px;
+        border-radius: 5px;
+        font-family: "Arial", sans-serif;
+        font-size: 18px;
+        text-align: center;
     }}
+    <!-- Cuốn lịch ngày tháng -->
+    <div class="calendar">
+        {datetime.datetime.now().strftime("%A, %B %d, %Y")}
+    </div>
 
-    /* Bông hoa ở góc trên bên trái */
-    .flower-top-left {{
-        position: absolute;
-        top: 10px;
-        left: 10px;
-        z-index: 10;
-    }}
-
-    /* Bông hoa ở góc trên bên phải */
-    .flower-top-right {{
-        position: absolute;
-        top: 10px;
-        right: 10px;
-        z-index: 10;
-    }}
-
-    /* Bông hoa ở góc dưới bên trái */
-    .flower-bottom-left {{
-        position: absolute;
-        bottom: 10px;
-        left: 10px;
-        z-index: 10;
-    }}
-
-    /* Bông hoa ở góc dưới bên phải */
-    .flower-bottom-right {{
-        position: absolute;
-        bottom: 10px;
-        right: 10px;
-        z-index: 10;
-    }}
+    <!-- Thanh điều hướng và hình con người tuyết -->
+    <div class="navbar">
+        <button>Trang Chủ</button>
+        <button>Trang Đối Chiếu</button>
+        <img src="https://media.giphy.com/media/7nU9H2tG55ByI/giphy.gif" class="snowman" />
+    </div>
     </style>
+    <div class="snowfall">
+        <span class="snowflake">❄</span>
+        <span class="snowflake">❄</span>
+        <span class="snowflake">❄</span>
+        <span class="snowflake">❄</span>
+        <span class="snowflake">❄</span>
+        <span class="snowflake">❄</span>
+        <span class="snowflake">❄</span>
+        <span class="snowflake">❄</span>
+        <span class="snowflake">❄</span>
+        <span class="snowflake">❄</span>
+    </div>
 
-    <!-- Các bông hoa ở các góc -->
-    <div class="flower-top-left">
-        <img src="https://example.com/flower1.png" width="50">
-    </div>
-    <div class="flower-top-right">
-        <img src="https://example.com/flower2.png" width="50">
-    </div>
-    <div class="flower-bottom-left">
-        <img src="https://example.com/flower3.png" width="50">
-    </div>
-    <div class="flower-bottom-right">
-        <img src="https://example.com/flower4.png" width="50">
-    </div>
-    
     <!-- Cuốn lịch ngày tháng -->
     <div class="calendar">
         {datetime.datetime.now().strftime("%A, %B %d, %Y")}
@@ -199,7 +182,6 @@ st.markdown(
     """,
     unsafe_allow_html=True
 )
-
 # Tải file labels.txt
 url = "https://raw.githubusercontent.com/maikawaii/nhanthucduoc/refs/heads/main/label.txt"
 response = requests.get(url)
@@ -400,8 +382,8 @@ if page == "Trang chủ":
     st.markdown(
         """
         <div style='position: fixed; bottom: 20px; left: 50%; transform: translateX(-50%); width: auto; text-align: center; font-size: 10px; 
-    font-family: "Arial", sans-serif; font-weight: color: white; font-style: italic;'>
-            Design by NMai
+    font-family: "Arial", sans-serif; font-weight: color: gray; font-style: italic;'>
+            Design by NgocMai
         </div>
         """, 
         unsafe_allow_html=True
