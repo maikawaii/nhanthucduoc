@@ -174,7 +174,55 @@ st.markdown(
         <span class="snowflake">❄</span>
         <span class="snowflake">❄</span>
     </div>
+ /* Đặt các bông hoa ở các góc của sidebar */
+        .sidebar .sidebar-content {
+            position: relative;
+        }
 
+        /* Bông hoa ở góc trên bên trái */
+        .flower-top-left {
+            position: absolute;
+            top: 10px;
+            left: 10px;
+            z-index: 10;
+        }
+
+        /* Bông hoa ở góc trên bên phải */
+        .flower-top-right {
+            position: absolute;
+            top: 10px;
+            right: 10px;
+            z-index: 10;
+        }
+
+        /* Bông hoa ở góc dưới bên trái */
+        .flower-bottom-left {
+            position: absolute;
+            bottom: 10px;
+            left: 10px;
+            z-index: 10;
+        }
+
+        /* Bông hoa ở góc dưới bên phải */
+        .flower-bottom-right {
+            position: absolute;
+            bottom: 10px;
+            right: 10px;
+            z-index: 10;
+        }
+    </style>
+    <div class="flower-top-left">
+        <img src="path_to_flower1_image.png" width="50">
+    </div>
+    <div class="flower-top-right">
+        <img src="path_to_flower2_image.png" width="50">
+    </div>
+    <div class="flower-bottom-left">
+        <img src="path_to_flower3_image.png" width="50">
+    </div>
+    <div class="flower-bottom-right">
+        <img src="path_to_flower4_image.png" width="50">
+    </div>
     <!-- Cuốn lịch ngày tháng -->
     <div class="calendar">
         {datetime.datetime.now().strftime("%A, %B %d, %Y")}
