@@ -324,7 +324,7 @@ def italicize_latin_in_description(plant_description):
 
 # Giao diện chính
 st.sidebar.title("Vui lòng chọn trang:")
-page = st.sidebar.radio("Điều hướng:", ["Trang chủ", "Trang thông tin"])
+page = st.sidebar.radio("Điều hướng:", ["Trang chủ", "Trang đối chiếu"])
 
 # Trang chủ
 if page == "Trang chủ":
