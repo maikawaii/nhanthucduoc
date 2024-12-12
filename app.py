@@ -278,7 +278,6 @@ plant_image_urls = {
   "4_Thong_thao": "https://drive.google.com/uc?id=1nD7OagbOKtAhM4gBT0QXDGh6lX_w_-6Y",
   "50_Rau_ngo": "https://drive.google.com/uc?id=1XnjnfHOkmxT4tVGhv3c33Ca0XFQDb3iX",
   "51_Nguu_bang_tu:": "https://drive.google.com/uc?id=1Qtpys8ElQAcxv5NbjjCT64FYnVGBnKcQ",
-  "51_Nguu_bang_tu:": "https://drive.google.com/uc?id=1Qtpys8ElQAcxv5NbjjCT64FYnVGBnKcQ",
   "52_Cam_thao_dat:": "https://drive.google.com/uc?id=1hX70R5fT2f32ccMQwjuLa3AfT7sQfYZl",
   "53_Dai_hoang:": "https://drive.google.com/uc?id=1XTTGOqPJzrJPYzfCcZM54rCMbdvd2181",
   "54_Hoai_son:": "https://drive.google.com/uc?id=1cny9s77OY2VWk3PwdN3HsAUdbFRJyPyu",
@@ -371,9 +370,9 @@ if page == "Trang chủ":
     st.markdown("---")
     st.markdown(
         """
-        <div style='position: fixed; bottom: 20px; left: 50%; transform: translateX(-50%); width: auto; text-align: center; font-size: 22px; 
-    font-family: "Arial", sans-serif; font-weight: bold; color: white; font-style: italic;'>
-            Cảm ơn bạn đã sử dụng website!
+        <div style='position: fixed; bottom: 20px; left: 50%; transform: translateX(-50%); width: auto; text-align: center; font-size: 10px; 
+    font-family: "Arial", sans-serif; font-weight: color: white; font-style: italic;'>
+            Desgin by NMai
         </div>
         """, 
         unsafe_allow_html=True
