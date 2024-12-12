@@ -394,6 +394,9 @@ elif page == "Trang đối chiếu":  # Đảm bảo dòng này không có vấn
             plant_description = plant_details.get("description", "Không có thông tin.")
             plant_image_url = plant_image_urls.get(selected_label_code, None)
 
+            # Trích xuất tên Latin (tên trong ngoặc)
+            latin_name = extract_latin_name(plant_description)
+
             col1, col2 = st.columns([1, 2])
             with col1:
                 if plant_image_url:
@@ -401,5 +404,8 @@ elif page == "Trang đối chiếu":  # Đảm bảo dòng này không có vấn
                     if img:
                         st.image(img, caption=f"Hình ảnh {plant_name}")
             with col2:
+                if latin_name:
+                    # In nghiêng tên Latin nếu có
+                    st.subheader(f"_{latin_name}_")
                 st.subheader(plant_name)
                 st.markdown(plant_description)
