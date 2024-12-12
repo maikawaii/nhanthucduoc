@@ -320,7 +320,7 @@ processor = AutoProcessor.from_pretrained(model_name)
 # Hàm thay thế phần trong ngoặc bằng in nghiêng
 def italicize_latin_in_description(plant_description):
     # Sử dụng biểu thức chính quy để tìm phần trong ngoặc và thay thế bằng * (Markdown)
-    return re.sub(r"\(([^)]+)\)", r"*\1*", plant_description)
+    return re.sub(r"\(([^)]+)\)", r"\1", plant_description)
 
 # Giao diện chính
 st.sidebar.title("Vui lòng chọn trang:")
@@ -390,14 +390,16 @@ if page == "Trang chủ":
     )
 
 
-# Kiểm tra nếu giá trị của page là "Trang đối chiếu"
-elif page == "Trang đối chiếu":
+elif page == "Trang đối chiếu":  # Đảm bảo dòng này không có vấn đề
     st.title("Thông tin Dược liệu (Tham khảo từ sách Dược liệu-Trường đại học Dược Hà Nội)")
 
     if labels and plant_info:
-        vietnamese_labels = [label_mapping.get(label, label) for label in labels]
+        # Sắp xếp tên cây theo bảng chữ cái
+        vietnamese_labels = sorted([label_mapping.get(label, label) for label in labels])
+
         selected_plant = st.selectbox("Chọn cây để xem thông tin:", options=vietnamese_labels)
 
+        # Lấy mã cây tương ứng từ tên cây đã chọn
         selected_label_code = next((k for k, v in label_mapping.items() if v == selected_plant), None)
 
         if selected_label_code:
@@ -413,7 +415,8 @@ elif page == "Trang đối chiếu":
                     if img:
                         st.image(img, caption=f"Hình ảnh {plant_name}")
             with col2:
+                if latin_name:
+                    # In nghiêng tên Latin nếu có
+                    st.subheader(f"_{latin_name}_")
                 st.subheader(plant_name)
-                # Hiển thị mô tả cây với phần trong ngoặc đã được in nghiêng
-                italicized_description = italicize_latin_in_description(plant_description)
-                st.markdown(italicized_description)
+                st.markdown(plant_description)
