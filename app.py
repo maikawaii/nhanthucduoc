@@ -1,4 +1,4 @@
-
+import re
 import streamlit as st
 import requests
 from transformers import AutoModelForImageClassification, AutoProcessor
@@ -322,6 +322,7 @@ def extract_latin_name(plant_description):
     if match:
         return match.group(1)  # Trả về tên Latin trong ngoặc
     return None
+
 # Giao diện chính
 st.sidebar.title("Vui lòng chọn trang:")
 page = st.sidebar.radio("Điều hướng:", ["Trang chủ", "Trang đối chiếu"])
@@ -362,6 +363,9 @@ if page == "Trang chủ":
                 plant_description = plant_details.get("description", "Không có thông tin chi tiết.")
                 plant_image_url = plant_image_urls.get(label_code, None)  # Lấy URL ảnh từ plant_image_urls
 
+                # Trích xuất tên Latin từ mô tả cây
+                latin_name = extract_latin_name(plant_description)
+
                 with st.expander(f"{i + 1}. {plant_name_vietnamese} ({top_5_confidences[i].item():.2f}%)"):
                     col1, col2 = st.columns([1, 2])
                     with col1:
@@ -370,7 +374,11 @@ if page == "Trang chủ":
                             if img:
                                 st.image(img, caption=f"Hình ảnh của {plant_name_vietnamese}")
                     with col2:
-                        st.write(plant_description)
+                        if latin_name:
+                            # In nghiêng tên Latin nếu có
+                            st.subheader(f"*{latin_name}*")  # In nghiêng tên Latin
+                        st.subheader(plant_name_vietnamese)
+                        st.markdown(plant_description)
 
     # Dòng cảm ơn
     st.markdown("---")
