@@ -420,6 +420,7 @@ elif page == "Trang đối chiếu":  # Đảm bảo dòng này không có vấn
             with col2:
                 if latin_name:
                     # In nghiêng tên Latin nếu có
-                    st.subheader(f"_{latin_name}_")
+                    st.markdown(f"_{latin_name}_")  # Dùng st.markdown thay vì st.subheader
                 st.subheader(plant_name)
                 st.markdown(plant_description)
+
