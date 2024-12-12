@@ -391,7 +391,7 @@ if page == "Trang chủ":
 
 
 # Kiểm tra nếu giá trị của page là "Trang đối chiếu"
-elif page == "Trang đối chiếu":  # Đảm bảo dòng này không có vấn đề
+elif page == "Trang đối chiếu":
     st.title("Thông tin Dược liệu (Tham khảo từ sách Dược liệu-Trường đại học Dược Hà Nội)")
 
     if labels and plant_info:
@@ -413,8 +413,7 @@ elif page == "Trang đối chiếu":  # Đảm bảo dòng này không có vấn
                     if img:
                         st.image(img, caption=f"Hình ảnh {plant_name}")
             with col2:
-                if latin_name:
-                    # In nghiêng tên Latin nếu có
-                    st.subheader(f"_{latin_name}_")
                 st.subheader(plant_name)
-                st.markdown(plant_description)
+                # Hiển thị mô tả cây với phần trong ngoặc đã được in nghiêng
+                italicized_description = italicize_latin_in_description(plant_description)
+                st.markdown(italicized_description)
