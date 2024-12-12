@@ -9,7 +9,7 @@ Công dụng: Chữa gãy xương, đứt gân.
  
 11_Thien_mon
 Rễ đã chế biến phơi hay sấy khô của cây Thiên môn đông (Asparagus cochinchinensis (Lour.) Merr.), họ Thiên môn đông (Asparagaceae). 
-Đặc điểm nhận thức chính: Dược liệu là những đoạn rễ, hai đầu thuôn nhỏ dần, màu vàng nhạt đến vàng nâu (màu hổ phách), trong, mờ, sáng bóng. Thể chất cứng, dai, có chất nhầy dính, mặt cắt mịn bóng. Mùi nhẹ, vị hơi đắng. 
+Đặc điểm nhận thức chính: Dược liệu là những đoạn rễ, hai đầu thuôn nhỏ dần, màu vàng nhạt đến vàng nâu -màu hổ phách, trong, mờ, sáng bóng. Thể chất cứng, dai, có chất nhầy dính, mặt cắt mịn bóng. Mùi nhẹ, vị hơi đắng. 
 Thành phần hóa học: Saponin, chất nhầy. 
 Công dụng: Chữa ho khan, họng khô, miệng khát, táo bón.
  
@@ -23,7 +23,7 @@ Công dụng: Chữa sốt, sốt rét, nhức đầu, chóng mặt, kinh nguy�
  
 13_Vien_chi
 Rễ phơi hay sấy khô của cây Viễn chí lá nhỏ (Polygala tenuifolia Willd.) và cây Viễn chí Xiberi tức Viễn chí lá trứng (Polygala sibirica L.), họ Viễn chí (Polygalaceae). 
-Đặc điểm nhận thức chính: Dược liệu có dạng hình trụ, rỗng, hơi cong queo. Mặt ngoài màu vàng xám hoặc xám tro, có các nếp nhăn ngang dày đặc, các vết nứt ngang, các vết nhăn dọc nhỏ. Chất cứng và giòn, dễ bẻ gãy. Mặt gãy có phần vỏ màu vàng nâu, ruột rỗng (đối với rễ đã bỏ lõi); đối với rễ chưa bỏ lõi gỗ, khi cắt ngang thấy lớp lõi gỗ có màu trắng ngà, vỏ dễ bong khỏi lõi gỗ. Mùi nhẹ. Vị đắng, hơi cay, kích thích họng khi nhai. 
+Đặc điểm nhận thức chính: Dược liệu có dạng hình trụ, rỗng, hơi cong queo. Mặt ngoài màu vàng xám hoặc xám tro, có các nếp nhăn ngang dày đặc, các vết nứt ngang, các vết nhăn dọc nhỏ. Chất cứng và giòn, dễ bẻ gãy. Mặt gãy có phần vỏ màu vàng nâu, ruột rỗng - đối với rễ đã bỏ lõi; đối với rễ chưa bỏ lõi gỗ, khi cắt ngang thấy lớp lõi gỗ có màu trắng ngà, vỏ dễ bong khỏi lõi gỗ. Mùi nhẹ. Vị đắng, hơi cay, kích thích họng khi nhai. 
 Thành phần hóa học: Saponin. 
 Công dụng: Chữa mất ngủ, hay quên, ho đờm nhiều
  
@@ -87,7 +87,7 @@ Công dụng: Chữa liệt dương, di tinh, lưng gối mỏi đau, suy như�
 21_Hoang_ky
 Rễ phơi hay sấy khô của cây thuốc Hoàng kỳ (Astragalus membranaceus (Fisch.) Bunge.), họ Đậu (Fabaceae). 
 Đặc điểm nhận thức chính: Rễ hình trụ, đôi khi phân nhánh, trên to, phần dưới nhỏ dần. Mặt ngoài màu vàng hơi nâu nhạt hoặc màu nâu nhạt, với nếp nhăn dọc và rãnh dọc không đều. Chất cứng, dai, không dễ bẻ gãy, mặt gãy nhiều sợi và nhiều tinh bột; phần vỏ màu trắng hơi vàng, gỗ màu vàng nhạt với những vết nứt và tia hình nan quạt. Mùi thơm nhẹ, vị hơi ngọt và hơi tanh như mùi đậu khi nhai. 
-Thành phần hóa học: Polysacharid, saponin (astragalosid). 
+Thành phần hóa học: Polysacharid, saponin <astragalosid>. 
 Công dụng: Dùng sống chữa đái tháo đường, đái buốt, phù thũng. Hoàng kỳ chế mật chữa suy nhược lâu ngày, mệt mỏi, kém ăn, ra nhiều mồ hôi. 
 Chú ý: Cần phân biệt với Hồng kỳ (Hedysarum polybotrys Hand.-Mazz.) có hình dạng tương tự nhưng vỏ màu nâu.
  
@@ -116,7 +116,7 @@ Công dụng: Chữa đau nhức cơ khớp, chân tay co duỗi khó khăn.
 Chó đẻ răng cưa (Diệp hạ châu đắng):
 Toàn cây tươi hoặc đã phơi sấy khô của cây Chó đẻ răng cưa (Phyllanthus urinaria L.), họ Thầu dầu (Euphorbiaceae). 
 Đặc điểm nhận thức chính: Thân gần như nhẵn, mang nhiều cành nhỏ màu hơi tía. Lá mọc so le xếp thành hai dãy xít nhau trông như lá kép lông chim. Phiến lá thuôn bầu dục hay trái xoan ngược, đầu nhọn hay hơi tù, mặt dưới màu xanh lơ, không cuống hay có cuống rất ngắn. 
-Thành phần hóa học: Lignan (phyllanthin), flavonoid. 
+Thành phần hóa học: Lignan <phyllanthin>, flavonoid. 
 Công dụng: Chữa viêm họng, mụn nhọt, viêm da thần kinh, trẻ em tưa lưỡi. 
 Chú ý: Diệp hạ châu đắng hay chó đẻ răng cưa thân xanh (Phyllanthus amarus Schum., et Thonn.) mới có tác dụng chữa viêm gan, vàng da.
  
@@ -154,7 +154,7 @@ Công dụng: Chữa cao huyết áp, xuất huyết, chảy máu cam, ho ra má
  
 30_To_moc
 Gỗ lõi để nguyên hay chẻ nhỏ được phơi hay sấy khô của cây Vang (Caesalpinia sappan L.), họ Đậu (Fabaceae). 
-Đặc điểm nhận thức chính: Dược liệu có hình trụ hay nửa trụ tròn. Mặt ngoài các miếng lớn có màu đỏ vang đến đỏ nâu, thường có khe nứt dọc. Mặt cắt ngang hơi bóng, vòng tuổi thấv rõ rệt (màu da cam), có thể thấv màu nâu tối, có các lỗ nhỏ (mạch gỗ). Dễ tách thành mảnh theo thớ gỗ, tủy có lỗ rõ. Các thanh được chẻ nhỏ có màu hồng đỏ. Chất cứng, nặng, không mùi, vị hơi se. 
+Đặc điểm nhận thức chính: Dược liệu có hình trụ hay nửa trụ tròn. Mặt ngoài các miếng lớn có màu đỏ vang đến đỏ nâu, thường có khe nứt dọc. Mặt cắt ngang hơi bóng, vòng tuổi thấv rõ rệt (màu da cam), có thể thấv màu nâu tối, có các lỗ nhỏ - mạch gỗ. Dễ tách thành mảnh theo thớ gỗ, tủy có lỗ rõ. Các thanh được chẻ nhỏ có màu hồng đỏ. Chất cứng, nặng, không mùi, vị hơi se. 
 Thành phần hóa học: Flavonoid, tanin. 
 Công dụng: Chữa đau bụng kinh, sản hậu huyết ứ, sưng đau do sang chấn.
 31_Kim_tien_thao
@@ -203,7 +203,7 @@ Công dụng: Chữa tiêu hoá kém, đầy bụng.
  
 38_Nhan_tran
 Thân mang cành, lá, hoa phơi hay sấy khô của cây Nhân trần (Adenosma caeruleum R.Br.), họ Hoa mõm chó (Scrophulariaceae).
- Đặc điểm nhận thức chính: Thân hình trụ, rỗng ruột, màu nâu đen, có lông nhỏ, mịn. Lá mọc đối, nhăn nheo, hình trái xoan. Mặt trên lá màu nâu sẫm, mặt dưới màu nâu nhạt, hai mặt đều có lông. Mép lá khía răng cưa tù. Gân lá hình lông chim. Cụm hoa chùm hoặc bông ở kẽ lá. Cánh hoa thường rụng, còn sót lá bắc và đài xẻ 5 thuỳ. Quả nang, nhiều hạt nhỏ (ít gặp). Dược liệu có màu tím nâu, mùi thơm nhẹ, vị cay mát, hơi đắng, hơi ngọt. 
+ Đặc điểm nhận thức chính: Thân hình trụ, rỗng ruột, màu nâu đen, có lông nhỏ, mịn. Lá mọc đối, nhăn nheo, hình trái xoan. Mặt trên lá màu nâu sẫm, mặt dưới màu nâu nhạt, hai mặt đều có lông. Mép lá khía răng cưa tù. Gân lá hình lông chim. Cụm hoa chùm hoặc bông ở kẽ lá. Cánh hoa thường rụng, còn sót lá bắc và đài xẻ 5 thuỳ. Quả nang, nhiều hạt nhỏ -ít gặp. Dược liệu có màu tím nâu, mùi thơm nhẹ, vị cay mát, hơi đắng, hơi ngọt. 
 Thành phần hóa học: Tinh dầu. 
 Công dụng: Chữa viêm gan, vàng da, tiêu hóa kém ở phụ nữ sau sinh. 
 Chú ý: Người ta còn dùng cây Bồ bồ, còn gọi là Nhân trần bồ bồ (Adenosma indianum (Lour.) Merr.) với công dụng như Nhân trần.
