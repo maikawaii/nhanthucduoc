@@ -9,7 +9,7 @@
 18_Dang_sam=Đẳng Sâm
 19_Cau_tich=Cẩu Tích
 1_Boi_mau=Bối Mẫu
-20_Tho_ty_tu=Thổ Ty Tử
+20_Tho_ty_tu=Thỏ Ty Tử
 21_Hoang_ky=Hoàng Kỳ
 22_Coi_xay=Cối Xay
 23_Huyen_sam=Huyền Sâm
@@ -20,7 +20,7 @@
 28_Co_ngot=Cỏ Ngọt
 29_Cuc_hoa=Cúc Hoa
 2_Hoe_hoa=Hòe Hoa
-30_To_moc=Táo Mộc
+30_To_moc=Tô Mộc
 31_Kim_tien_thao=Kim Tiền Thảo
 32_Dan_sam=Đan Sâm
 33_Chi_tu=Chi Tử
@@ -44,7 +44,7 @@
 4_Thong_thao=Thông Thảo
 50_Rau_ngo=Râu Ngô
 51_Nguu_bang_tu=Ngưu Bàng Tử
-52_Cam_thao_dat=Cảm Thảo Đất
+52_Cam_thao_dat=Cam Thảo Đất
 53_Dai_hoang=Đại Hoàng
 54_Hoai_son=Hoài Sơn
 55_Dam_duong_hoac=Dâm Dương Hoắc
