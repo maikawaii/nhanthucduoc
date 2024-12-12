@@ -1,5 +1,4 @@
 10_Tuc_doan
-Tục đoạn
 Rễ đã phơi hay sấy khô của cây Tục đoạn (Dipsacus japonicus Miq.) và một số loài thuộc chi Dipsacus, họ Tục đoạn (Dipsacaceae). 
 Đặc điểm nhận thức chính: Rễ hình trụ, hơi cong queo. Mặt ngoài màu nâu nhạt, có nhiều nếp nhăn và rãnh dọc. Dễ bẻ gãy, mặt bẻ lờm chởm. Mặt cắt ngang có lớp bần mỏng, tầng sinh libe- gỗ màu nâu, bó libe-gỗ màu nâu nhạt, sắp xếp thành tia tỏa ra. Mùi nhẹ, vị đắng hơi ngọt và se.
 Thành phần hóa học: Saponin.
@@ -9,7 +8,6 @@ Công dụng: Chữa gãy xương, đứt gân.
 
  
 11_Thien_mon
-Thiên môn đông
 Rễ đã chế biến phơi hay sấy khô của cây Thiên môn đông (Asparagus cochinchinensis (Lour.) Merr.), họ Thiên môn đông (Asparagaceae). 
 Đặc điểm nhận thức chính: Dược liệu là những đoạn rễ, hai đầu thuôn nhỏ dần, màu vàng nhạt đến vàng nâu (màu hổ phách), trong, mờ, sáng bóng. Thể chất cứng, dai, có chất nhầy dính, mặt cắt mịn bóng. Mùi nhẹ, vị hơi đắng. 
 Thành phần hóa học: Saponin, chất nhầy. 
@@ -18,14 +16,12 @@ Công dụng: Chữa ho khan, họng khô, miệng khát, táo bón.
  
  
 12_Sai_ho
-Sài hồ
 Rễ đã phơi hay sấy khô của cây Bắc sài hồ (Bupleurum chinensis DC.), họ Cần (Apiaceae). 
 Đặc điểm nhận thức chính: Rễ hình trụ hoặc hình nón thon dài. Phần đầu rễ phình to, ở đỉnh rễ có các gốc thân hoặc có gốc lá dạng sợi ngắn. Phần dưới của rễ phân nhánh. Mặt ngoài màu nâu đen hoặc nâu sáng, có nhiều vết nhăn dọc, vết sẹo của rễ con và lỗ vỏ. Chất cứng và dai, khó bẻ. Mùi thơm nhẹ, vị hơi đắng. 
 Thành phần hóa học: Saponin, tinh dầu. 
 Công dụng: Chữa sốt, sốt rét, nhức đầu, chóng mặt, kinh nguyệt không đều.
  
 13_Vien_chi
-Viễn chí
 Rễ phơi hay sấy khô của cây Viễn chí lá nhỏ (Polygala tenuifolia Willd.) và cây Viễn chí Xiberi tức Viễn chí lá trứng (Polygala sibirica L.), họ Viễn chí (Polygalaceae). 
 Đặc điểm nhận thức chính: Dược liệu có dạng hình trụ, rỗng, hơi cong queo. Mặt ngoài màu vàng xám hoặc xám tro, có các nếp nhăn ngang dày đặc, các vết nứt ngang, các vết nhăn dọc nhỏ. Chất cứng và giòn, dễ bẻ gãy. Mặt gãy có phần vỏ màu vàng nâu, ruột rỗng (đối với rễ đã bỏ lõi); đối với rễ chưa bỏ lõi gỗ, khi cắt ngang thấy lớp lõi gỗ có màu trắng ngà, vỏ dễ bong khỏi lõi gỗ. Mùi nhẹ. Vị đắng, hơi cay, kích thích họng khi nhai. 
 Thành phần hóa học: Saponin. 
@@ -38,7 +34,7 @@ Hạt đã phơi hay sấy khô lấy từ quả già của cây Quả giun (Qui
 Thành phần hóa học: Chất béo. 
 Công dụng: Chữa giun đũa, giun kim
 15_Bach_mao_can
-Cỏ tranh
+Cỏ tranh:
 Thân rễ đã phơi hay sấy khô của cây Cỏ tranh (Imperata cylindrica (L.) Raeusch.), Họ Lúa (Poaceae). 
 Đặc điểm nhận thức chính: Thân rễ hình trụ. Mặt ngoài trắng ngà hay vàng nhạt, có nhiều nếp nhăn dọc và nhiều đốt, trên các đốt còn sót lại vết tích của lá vẩy và của rễ con. Dược liệu dai, dễ bè gãy ở đốt, mặt bẻ có sợi. Mặt cắt ngang gần hình tròn, mặt ngoài lồi lõm không đều, ờ giữa thường rách nứt. Dược liệu không mùi, không vị, sau hơi ngọt. 
 Thành phần hóa học: Carbohydrat. 
@@ -46,7 +42,6 @@ Công dụng: Chữa sốt khát nước, vàng da, tiểu tiện ít, tiểu ti
  
  
 16_Cau_ky_tu
-Câu kỷ ttử
 Quả chín phơi hay sấy khô của cây Khủ khởi (Lycium barbarum L.), họ Cà (Solanaceae). 
 Đặc điểm nhận thức chính: Quả hình trứng dài hay trái xoan. Mặt ngoài màu đỏ cam, mềm, bóng, thường nhăn nheo. Quả có nhiều hạt nhỏ hình thận dẹt. Hạt màu vàng nâu có nội nhũ, rốn hạt là một điểm lõm nhỏ ở mép hạt. Chất mềm, vị ngọt hơi chua. 
 Thành phần hóa học: Betain. 
@@ -69,7 +64,6 @@ Công dụng: Bồi dưỡng cơ thể, chữa kém ăn, mệt mỏi, ốm lâu 
  
  
 19_Cau_tich
-Cẩu tích
 Thân rễ đã loại bỏ lông và phơi hay sấy khô của cây Lông culi (Cibotium barometz J. Sm.), họ Cẩu tích (Dicksoniaceae). 
 Đặc điểm nhận thức chính: Đoạn thân rễ đã loại bỏ lớp lông màu vàng nâu bên ngoài, mặt ngoài rất gồ ghề, khúc khuỷu, có những chỗ lồi lên thành mấu, màu nâu hoặc nâu hơi đỏ, rất cứng, khó cắt, khó bẻ gãy; đôi khi còn sót lại ít lông màu vàng nâu. Dược liệu khi dùng thường đã thái thành phiến mỏng hình dạng thay đổi, mặt cắt ngang nhẵn, màu nâu hồng hay nâu nhạt, có vân. 
 Thành phần hóa học: Tinh bột. 
@@ -77,7 +71,6 @@ Công dụng: Chữa tay chân nhức mỏi, đau lưng, đau dây thần kinh t
  
  
 1_Boi_mau
-Bối mẫu
 Thân hành đã phơi hay sấy khô của cây Xuyên bối mẫu (Fritillaria cirrhosa D. Don), Ám tử bối mẫu (F. unibracteata Hsiao et K.C.Hsia), Cam túc bối mẫu (F. przewalskii Maxim.) hoặc Thoa sa bối mẫu (F. delavayi Franch.), họ Loa kèn (Liliaceae). 
 Đặc điểm nhận thức chính: Dược liệu hình cầu dẹt hoặc gần hình cầu, vùng đầu nhọn, vùng dưới rộng mặt ngoài màu trắng phấn, vùng vỏ tàng dư màu vàng nhạt nâu. Vị ngọt. 
 Thành phần hóa học: Tinh bột, alcaloid. 
@@ -85,14 +78,13 @@ Công dụng: Chữa ho khan, ho đờm có máu.
  
  
 20_Tho_ty_tu
-Tơ hồng (Thỏ ty tử)
+Tơ hồng:
 Hạt lấy ở quả chín phơi hay sấy khô của cây Dây tơ hồng (Cuscuta chinensis Lam.), họ Tơ hồng (Cuscutaceae). 
 Đặc điểm nhận thức chính: Hạt gần hình cầu. Mặt ngoài có màu nâu xám hoặc nâu vàng, hoặc nâu đỏ, thô ráp cùng nhiều nốt sần nhỏ. Một đầu có rãnh hình dải hẹp, hơi trũng xuống. Chất rắn chắc, khó bóp vỡ. Mùi thơm nhẹ. Vị nhạt. 
 Thành phần hóa học: Flavonoid. 
 Công dụng: Chữa liệt dương, di tinh, lưng gối mỏi đau, suy nhược cơ thể. 
  
 21_Hoang_ky
-Hoàng kỳ
 Rễ phơi hay sấy khô của cây thuốc Hoàng kỳ (Astragalus membranaceus (Fisch.) Bunge.), họ Đậu (Fabaceae). 
 Đặc điểm nhận thức chính: Rễ hình trụ, đôi khi phân nhánh, trên to, phần dưới nhỏ dần. Mặt ngoài màu vàng hơi nâu nhạt hoặc màu nâu nhạt, với nếp nhăn dọc và rãnh dọc không đều. Chất cứng, dai, không dễ bẻ gãy, mặt gãy nhiều sợi và nhiều tinh bột; phần vỏ màu trắng hơi vàng, gỗ màu vàng nhạt với những vết nứt và tia hình nan quạt. Mùi thơm nhẹ, vị hơi ngọt và hơi tanh như mùi đậu khi nhai. 
 Thành phần hóa học: Polysacharid, saponin (astragalosid). 
@@ -100,14 +92,12 @@ Công dụng: Dùng sống chữa đái tháo đường, đái buốt, phù thũ
 Chú ý: Cần phân biệt với Hồng kỳ (Hedysarum polybotrys Hand.-Mazz.) có hình dạng tương tự nhưng vỏ màu nâu.
  
 22_Coi_xay
-Cối xay
 Phần trên mặt đất đã phơi hay sấy khô của cây Cối xay (Abutilon indicum (L.) Sweet), họ Bông (Malvaceae). 
 Đặc điểm nhận thức chính: gồm các đoạn thân, cành, lá, hoa, quả, có lông. Vỏ thân có vân nhăn nheo, màu nâu xám nhạt hay lục xám, vỏ cành thường nhẵn. Lá khô bị nhăn nheo, nhàu nát, mặt trên màu lục sẫm, mặt dưới nhạt hơn. Quả hình cầu cụt đầu giống thớt cối xay, có lông dày, chứa hạt màu đen nhạt, hình thận. 
 Thành phần hóa học: Chất nhầy.
  Công dụng: Lá giã đắp mụn nhọt hay sắc uống để thông tiểu tiện, chữa sốt.
  
 23_Huyen_sam
-Huyền sâm
 Rễ phơi hay sấy khô của cây Huyền sâm (Scrophularia ningpoensis Hemsl. hoặc Scrophularia buergeriana Miq.), họ Hoa mõm chó (Scrophulariaceae). 
 Đặc điểm nhận thức chính: Rễ (củ) khô, hình trụ, chính giữa phình lớn, phía dưới thuôn nhỏ, mặt ngoài màu nâu đất, có nếp nhăn sâu rõ ràng, chất cứng dẻo, khó bẻ gãy, mặt cắt ngang mềm màu đen nhiều thịt, vị hơi ngọt mặn. 
 Thành phần hóa học: Iridoid glycosid. 
@@ -115,7 +105,7 @@ Công dụng: Chữa sốt cao, sốt nóng về chiều, viêm họng, loét mi
  
  
 24_Tang_chi
-Dâu tằm
+Dâu tằm:
 Cành non đã phơi hay sấy khô của cây Dâu tằm (Morus alba L.), họ Dâu tằm (Moraceae). 
 Đặc điểm nhận thức chính: Cành hình trụ dài. Mặt ngoài màu vàng xám hoặc vàng nâu, có nhiều lỗ vỏ màu nâu nhạt và các nếp vân dọc nhỏ. Chất cứng, dai, chắc, khó bẻ gãy, mặt gãy có xơ, màu trắng ngà. Hơi có mùi, vị nhạt. 
 Thành phần hóa học: Flavonoid. 
@@ -123,7 +113,7 @@ Công dụng: Chữa đau nhức cơ khớp, chân tay co duỗi khó khăn.
 
  
 25_Diep_ha_chau
-Chó đẻ răng cưa (Diệp hạ châu đắng)
+Chó đẻ răng cưa (Diệp hạ châu đắng):
 Toàn cây tươi hoặc đã phơi sấy khô của cây Chó đẻ răng cưa (Phyllanthus urinaria L.), họ Thầu dầu (Euphorbiaceae). 
 Đặc điểm nhận thức chính: Thân gần như nhẵn, mang nhiều cành nhỏ màu hơi tía. Lá mọc so le xếp thành hai dãy xít nhau trông như lá kép lông chim. Phiến lá thuôn bầu dục hay trái xoan ngược, đầu nhọn hay hơi tù, mặt dưới màu xanh lơ, không cuống hay có cuống rất ngắn. 
 Thành phần hóa học: Lignan (phyllanthin), flavonoid. 
@@ -131,34 +121,31 @@ Công dụng: Chữa viêm họng, mụn nhọt, viêm da thần kinh, trẻ em 
 Chú ý: Diệp hạ châu đắng hay chó đẻ răng cưa thân xanh (Phyllanthus amarus Schum., et Thonn.) mới có tác dụng chữa viêm gan, vàng da.
  
 26_Kim_anh
-Kim anh
 Quả giả chín đã phơi hay sấy khô của cây Kim anh (Rosa laevigata Michx.), họ Hoa hồng (Rosaceae).
  Đặc điểm nhận thức chính: Quả giả (đế hoa lõm biến thành) bổ dọc, hình bầu dục. Mép cắt thường quăn gập lại. Mặt ngoài màu da cam, nâu đỏ hoặc nâu sẫm bóng, hơi nhăn nheo, có vết của gai đã rụng. Phần lớn đã được nạo sạch hạt (quả đóng) và lông. Quả đóng có góc, màu vàng nâu nhạt, rất cứng, có nhiều lông tơ, Vị hơi ngọt, chát. 
 Thành phần hóa học: Vitamin C, tanin. 
 Công dụng: Chữa di tinh, tiêu chảy lâu ngày không khỏi. Quả kim anh là nguồn vitamin C quan trọng, làm thuốc tăng cường sức đề kháng của cơ thể và cầm máu. Chú ý: Hạt Kim anh có độc tính, phải loại bỏ trong quá trình chế biến.
  
 27_Cat_can
-Sắn dây
+Sắn dây:
 Rễ củ đã phơi hay sấy khô của cây Sắn dây (Pueraria thomsonii Benth.), họ Đậu (Fabaceae). 
 Đặc điểm nhận thức chính: Rễ củ đã cạo lớp bần bên ngoài, hình trụ. Mặt ngoài màu trắng hơi vàng, đôi khi còn sót lại một ít lớp bần màu nâu. Mặt cắt ngang có nhiều sợi tạo thành những vòng đồng tâm màu nâu nhạt; mặt cắt dọc có nhiều vân dọc do các sợi tạo nên. Mùi thơm nhẹ, vị hơi ngọt, mát. 
 Thành phần hóa học: Tinh bột, flavonoid. 
 Công dụng: Chữa sốt cảm nóng, giải nhiệt, lỵ, tiêu chảy.
 28_Co_ngot
-Cỏ ngọt
 Bộ phận trên mặt đất của cây Cỏ ngọt (Stevia rebaudiana (Bert.) Hemsl.), họ Cúc (Asteraceae).
  Đặc điểm nhận thức chính: Lá và búp cây (đã loại bỏ cành) là bộ phận được sử dụng làm thuốc. Lá hình mũi mác, mép lá có răng cưa ở nửa phần trên. Màu xanh nhạt. Vị ngọt. 
 Thành phần hóa học: Glycosid diterpenic: steviosid, rebaudiosid. 
 Công dụng: Chữa đái tháo đường, đái tháo nhạt, huyết áp cao; steviosid làm chất điều vị cho các loại trà thuốc, trà túi lọc và dùng trong công nghiệp thực phẩm. 
  
 29_Cuc_hoa
-Cúc hoa vàng
+Cúc hoa vàng:
 Cụm hoa đã chế biến và làm khô của cây Cúc hoa vàng (Chrysanthemum indicum L.), họ Cúc (Asteraceae).
  Đặc điểm nhận thức chính: Hoa khô bên ngoài có mấy lớp cánh hoa như hình lưỡi, cánh dẹt, ở giữa có nhiều hoa hình ống tụ lại. Mùi thơm mát, vị ngọt, hơi đắng. 
 Thành phần hóa học: Tinh dầu, flavonoid 
 Công dụng: Chữa nhức đầu, hoa mắt, chóng mặt, cao huyết áp, đau mắt đỏ, mắt mờ, chảy nước mắt. 
  
 2_Hoe_hoa
-Hoa hòe
 Nụ hoa đã phơi hay sấy nhẹ đến khô của cây Hòe (Styphnolobium japonicum (L.) Schott), họ Đậu (Fabaceae). 
 Đặc điểm nhận thức chính: Nụ hoa hình trứng có cuống nhỏ, ngắn, một đầu hơi nhọn. Đài hình chuông, màu vàng xám, phía trên xẻ thành 5 răng. Cánh hoa chưa nở màu vàng, mùi thơm, vị hơi đắng. 
 Thành phần hóa học: Flavonoid. 
@@ -166,55 +153,49 @@ Công dụng: Chữa cao huyết áp, xuất huyết, chảy máu cam, ho ra má
  
  
 30_To_moc
-Tô mộc
 Gỗ lõi để nguyên hay chẻ nhỏ được phơi hay sấy khô của cây Vang (Caesalpinia sappan L.), họ Đậu (Fabaceae). 
 Đặc điểm nhận thức chính: Dược liệu có hình trụ hay nửa trụ tròn. Mặt ngoài các miếng lớn có màu đỏ vang đến đỏ nâu, thường có khe nứt dọc. Mặt cắt ngang hơi bóng, vòng tuổi thấv rõ rệt (màu da cam), có thể thấv màu nâu tối, có các lỗ nhỏ (mạch gỗ). Dễ tách thành mảnh theo thớ gỗ, tủy có lỗ rõ. Các thanh được chẻ nhỏ có màu hồng đỏ. Chất cứng, nặng, không mùi, vị hơi se. 
 Thành phần hóa học: Flavonoid, tanin. 
 Công dụng: Chữa đau bụng kinh, sản hậu huyết ứ, sưng đau do sang chấn.
 31_Kim_tien_thao
-Kim tiền thảo
 Thân, cành mang lá của cây Kim tiền thảo (Desmodium styracifolium Merr.), họ Đậu (Fabaceae).
  Đặc điểm nhận thức chính: Thân hình trụ, có lông. Chất hơi giòn, mặt bẻ lởm chởm. Lá tròn hoặc thuôn, đỉnh tròn, tù, đáy hình tim hoặc tù, mép nguyên, mặt trên màu lục hơi vàng hoặc màu lục xám, nhẵn, mặt dưới hơi trắng, có lông. Mùi thơm, vị hơi ngọt. 
 Thành phần hóa học: Saponin, flavonoid 
 Công dụng: Chữa sỏi thận, sỏi túi mật, sỏi bàng quang, phù thũng, tiểu buốt, tiểu rắt.
  
 32_Dan_sam
-Đan Sâm
 Rễ và thân rễ phơi hoặc sấy khô của cây Đan sâm (Salvia miltiorrhiza Bunge), họ Bạc hà (Lamiaceae). 
 Đặc điểm nhận thức chính: Thân rễ ngắn, cứng chắc, hình trụ dài, hơi cong, có khi phân nhánh và có rễ con. Mặt ngoài màu đỏ nâu hoặc đỏ nâu tối, thô ráp, có vân nhăn dọc. Vỏ rễ già có màu nâu tía, thường bong ra. Chất cứng và giòn, mặt bẻ gãy không chắc có vết nứt, hoặc hơi phẳng và đặc, phần gỗ màu vàng xám hoặc màu nâu tía với bó mạch màu trắng vàng, xếp theo hướng xuyên tâm. Mùi nhẹ, vị hơi đắng và se. 
 Thành phần hóa học: Diterpenoid. 
 Công dụng: Chữa thiếu máu, thiểu năng mạch vành, kinh nguyệt không đều, đau bụng kinh, nhức đầu, mất ngủ
  
 33_Chi_tu
-Dành dành
+Dành dành:
 Quả phơi khô của cây Dành dành (Gardenia jasminoides Ellis.), họ Cà phê (Rubiaceae). 
 Đặc điểm nhận thức chính: Quả khô hình trứng hoặc bầu dục, hai đầu nhỏ dần. Vỏ ngoài màu vàng đỏ hoặc nâu hơi bóng mượt, có nhiều gân nhỏ, và quả chất cứng mỏng, trong có nhiều hạt hình tròn trứng, dẹt, phẳng, vỏ hạt màu đỏ vàng, mùi thơm, vị đắng.
  Thành phần hóa học: Iridoid glycosid. 
 Công dụng: Chữa sốt cao, tiểu đỏ, ho ra máu, tiểu tiện ra máu, làm màu nhuộm thực phẩm
  
 34_Ngai_Cuu
-Ngải diệp
+Ngải diệp:
 Phần trên mặt đất phơi hay sấy khô của cây Ngải cứu (Artemisia vulgaris L.), họ Cúc (Asteraceae). 
 Đặc điểm nhận thức chính: Thân có khía dọc, màu vàng nâu hay nâu xám, có lông tơ. Lá mọc so le, thường nhãn nheo, cuộn vào nhau. Mặt trên lá màu xám đến xanh đen, có rất ít lông tơ, mặt dưới lá màu tro trắng, có rất nhiều lông tơ trắng. Cụm hoa đầu, gồm nhiều hoa hình ống. Mùi thơm nhẹ. 
 Thành phần hóa học: Tinh dầu.
  Công dụng: Chữa rối loạn kinh nguyệt, cầm máu. 
  
 35_Sinh_dia
-Sinh địa
 Rễ củ phơi hay sấy khô của cây Địa hoàng (Rehmania glutinosa (Gaerth.) Libosh.), họ Hoa mõm chó (Scrophulariaceae). 
 Đặc điểm nhận thức chính: Rễ hình thoi. Vỏ ngoài mỏng, có vết nhăn dài. Chất thịt. Mùi thơm nhẹ, vị hơi ngọt đắng. 
 Thành phần hóa học: Iridoid glycosid, flavonoid. 
 Công dụng: Chữa viêm họng sưng đau, chảy máu cam, nôn ra máu, sốt phát ban.
  
 36_Nguu_tat
-Ngưu tất
 Rễ đã phơi hay sấy khô của cây Ngưu tất (Achyranthes bidentata Blume), họ Rau giền (Amaranthaceae). 
 Đặc điểm nhận thức chính: Rễ hình trụ, đầu trên mang vết tích của gốc thân, đầu dưới thuôn nhỏ. Mặt ngoài màu vàng nâu, có nhiều nếp nhăn dọc nhỏ và vết tích của rễ con. 
 Thành phần hóa học: Saponin. 
 Công dụng: Chữa thấp khớp, đau lưng, tăng huyết áp, rối loạn chuyển hoá lipid.
  
 37_Bach_truat
-Bạch truật
 Thân rễ phơi hay sấy khô của cây Bạch truật (Atractylodes macrocephala Koidz.), họ Cúc (Asteraceae). 
 Đặc điểm nhận thức chính: Thân rễ to hình chùy. Mặt ngoài màu nâu nhạt hoặc xám, có nhiều mấu, có vân hình hoa cúc, có nhiều nếp nhăn dọc. Chất cứng khó bẻ gãy, mặt cắt không phẳng, có màu vàng đến nâu nhạt, rải rác có khoang chứa tinh dầu màu nâu vàng, mùi đặc trưng. 
 Thành phần hóa học: Tinh dầu. 
@@ -229,7 +210,6 @@ Chú ý: Người ta còn dùng cây Bồ bồ, còn gọi là Nhân trần bồ
  
  
 39_Duong_quy
-Đương quy
 Rễ phơi hay sấy khô của cây Đương quy (Angelica sinensis (Oliv.) Diels.), họ Cần (Apiaceae). 
 Đặc điểm nhận thức chính: Rễ gồm nhiều nhánh, thường phân biệt thành 3 phẩn: Phần đầu gọi là quy đầu, phần giữa gọi là quy thân, phân dưới gọi là quy vĩ. Mặt ngoài màu nâu nhạt, có nhiều nếp nhăn dọc. Mặt cắt ngang màu vàng ngà có vân tròn và nhiều điểm tinh dầu. Mùi thơm đặc biệt, vị ngọt, cay, hơi đắng. 
 Thành phần hóa học: Tinh dầu, coumarin. 
@@ -237,7 +217,6 @@ Công dụng: Chữa thiếu máu, suy nhược cơ thế, kinh nguyệt không 
 Chú ý: Có thể sử dụng Đương quy di thực (Angelica acutiloba (Sieb. et Zucc.) Kitagawa) với công năng tương tự như Đương quy (theo DĐVN V). 
  
 3_Linh_chi
-Nấm linh chi
 Tên tiếng Việt: Linh chi
 Tên khoa học: Ganoderma lucidum (Leyss ex. Fr.) Karst
 Họ: Ganodermataceae
@@ -262,46 +241,41 @@ Nhân hạt của quả chín phơi khô của cây Đào (Prunus persica (L.) B
 h phần hóa học: Amygdalin (nhóm glycosid cyanogenic), dầu béo. 
 Công dụng: Chữa bế kinh, táo bón, chấn thương tụ máu.
 42_Cat_canh
-Cát cánh
 Rễ để nguyên hoặc đã cạo vỏ ngoài, phơi hoặc sấy khô của cây Cát cánh (Platycodon grandiflorum (Jacq.) A. DC.), họ Hoa chuông (Campanulaceae).
  Đặc điểm nhận thức chính: Rễ hình trụ thuôn dần về phía dưới hoặc có dạng hình trụ nhỏ và dài, hơi vặn xoắn lại, đôi khi phân nhánh. Mặt ngoài màu vàng nhạt hay vàng nâu nhạt, có nhiều rãnh nhăn nheo theo chiều dọc và những nếp nhăn ngang. Thể chất giòn, mặt bẻ không phẳng. Không mùi hoặc có mùi đường cháy nhẹ, vị ngọt sau hơi đắng. 
 Thành phần hóa học: Saponin. 
 Công dụng: Chữa ho đờm nhiều, viêm họng, áp xe phổi. 
  
 43_Ha_kho_thao
-Hạ khô thảo
 Cụm quả đã phơi hay sấy khô của cây Hạ khô thảo (Prunella vulgaris L.), họ Bạc hà (Lamiaceae). 
 Đặc điểm nhận thức chính: Dược liệu hình chùy do bị ép nên hơi dẹt, màu từ nâu nhạt đến nâu đỏ. Toàn cụm quả có hơn 10 vòng đài còn lại và lá bắc, mỗi vòng lại có hai lá bắc mọc đối trên cuống hoa hay quả như hình quạt, đỉnh nhọn, có gân gợn rõ, mặt ngoài phủ lông trắng. Thể nhẹ, chất giòn, mùi thơm nhẹ, vị nhạt. 
 Thành phần hóa học: Alcaloid, tinh dầu. 
 Công dụng: Chữa mắt đỏ sưng đau, nhọt vú sưng đau, huyết áp cao. 
  
 44_Xa_tien_tu
-Hạt mã đề
+Hạt mã đề:
 Hạt đã phơi hay sấy khô của cây Mã đề (Plantago major L.), họ Mã đề (Plantaginaceae). 
 Đặc điểm nhận thức chính: Hạt rất nhỏ, hình bầu dục, hơi dẹt, dài rộng khoảng 1 mm. Mặt ngoài màu nâu hay tím đen. Nhìn gần thấy trên mặt hạt có chấm nhỏ màu trắng khá rõ. Nhìn qua kính lúp thấy những vân lăn tăn trên bề mặt hạt. Rốn hạt lõm. 
 Thành phần hóa học: Chất nhầy. 
 Công dụng: Chữa ho nhiều đờm, sỏi tiết niệu, tiểu tiện ra máu, chảy máu cam.
 45_Che_day
-Chè dây
 Lá phơi hay sấy khô của cây Chè dây (Ampelopsis cantoniensis (Hook. et Arn.) Planch.), họ Nho (Vitaceae).
  Đặc điểm nhận thức chính: Lá khô thường nhàu nát, khi dàn phẳng có hình trái xoan hoặc hình mũi mác, phía cuống tù hay hơi tròn, đầu lá nhọn, mép có ít răng cưa. Mặt trên màu lục xám, có những vết trắng loang lổ trông như mốc, mặt dưới màu nhạt hơn. Thể nhẹ, chất giòn, dễ gãy nát, mùi thơm, vị đắng sau hơi ngọt nhẹ. 
 Thành phần hóa học: Flavonoid. 
 Công dụng: Chữa đau dạ dày, tá tràng, viêm đại tràng, chậm liền sẹo. 
 46_Xa_can
-Xạ can
 Thân rễ thái phiến phơi hay sấy khô của cây Rẻ quạt (Belamcanda chinensis (L.) DC.), họ La dơn (Iridaceae). 
 Đặc điểm nhận thức chính: Phiến hình trái xoan, mặt ngoài màu vàng nâu, nhiều nếp nhăn dọc, mang vết rễ con. Mặt cắt ngang màu trắng hay vàng nhạt. Không mùi, vị hơi đắng. 
 Thành phần hóa học: Isoflavonoid. 
 Công dụng: Chữa viêm họng, ho và khó thở, nhiều đờm.
  
 47_Tang_diep
-Lá Dâu
+Lá Dâu:
 Lá phơi hay sấy khô của cây Dâu tằm (Morus alba L.), họ Dâu tằm (Moraceae). 
 Đặc điểm nhận thức chính: Lá nhăn nheo, dễ gãy vụn. Lá nguyên hình trứng, có cuống; đầu lá nhọn, gốc lá cụt, tròn hay hình tim, mép có răng cưa, đôi khi chia thùy không đều. Mặt trên lá có màu lục vàng hoặc nâu vàng nhạt. Mặt dưới lá có màu nhạt, nổi rõ các gân lớn chạy từ cuống lá và nhiều gân nhỏ hình mạng lưới, có lông tơ mịn rải rác trên gân lá. Chất giòn. Hơi có mùi, vị nhạt, hơi chát, đắng. 
 Thành phần hóa học: Flavonoid. 
 Công dụng: Chữa cảm mạo phong nhiệt, ho do phế nhiệt
 48_Ngu_boi_tu
-Cây muối
 Tổ đã phơi hay sấy khô của ấu trùng sâu Ngũ bội tử (Melaphis chinensis (Bell.) Baker) ký sinh trên cây Muối (Rhus chinensis Muell.), họ Đào lộn hột (Anacardiaceae). 
 Thành phần hóa học: Tanin. 
 Đặc điểm nhận thức chính: Túi hình trứng hoặc hình củ ấu, phân nhánh nhiều hay ít, mặt ngoài màu nâu xám, có lông tơ mềm. Mùi đặc biệt, vị se. 
@@ -314,14 +288,12 @@ Thành phần hóa học: Saponin, tinh dầu.
 Công dụng: Chữa đau lưng, đau xương cốt, gân xương co rút hoặc sưng đau do sang chấn. 
  
 4_Thong_thao
-Thông thảo
 Lõi thân khô của thân cây Thông thảo (Tetrapanax papyrifer (Hook.) K.Koch), họ Nhân sâm (Araliaceae). 
 Đặc điểm nhận thức chính: Hình trụ, mặt ngoài có màu trắng hoặc vàng nhạt, có rãnh dọc nông. Thể nhẹ. chất mềm, xốp, hơi có tính đàn hồi, dễ bẻ gãy, mặt bẻ phẳng, cỏ màu trắng bạc, sáng bóng, phần giữa có tâm rỗng. Ruột đặc ít thấy. Không mùi, vị nhạt. 
 Thành phần hóa học: Cellulose.
  Công dụng: Chữa tiểu tiện bí tắc, phù nề, sau sinh không ra sữa.
  
 50_Rau_ngo
-Râu ngô
 Vòi và núm nhụy phơi khô của hoa cây Ngô (Zea mays L.), họ Lúa (Poaceae) đã già và cho bắp, râu ngô hái vào lúc thu hoạch ngô. 
 Đặc điểm nhận thức chính: Dược liệu dạng sợi mảnh, khá dai, dài tới 20 cm, mầu vàng nhạt hoặc nâu đậm, gồm những vòi nhụy cong queo, dẹt, phía trên mang đầu nhụy hai thùy. Các thùy đầu nhụy mảnh, có lông mịn. 
 Thành phần hóa học: Saponin, muối khoáng. 
@@ -338,30 +310,30 @@ Toàn cây kể cả rễ dạng tươi hay đã phơi hoặc sấy khô của c
 Thành phần hóa học: Alcaloid.
  Công dụng: Chữa ho, viêm họng, mụn nhọt, rôm sẩy trẻ em. 
 53_Dai_hoang
-Đại hoàng
 Thân rễ đã cạo vỏ để nguyên hay thái thành phiến phơi hay sấy khô của của các loài Đại hoàng (Rheum palmatum L.) hoặc (Rheum officinale Baillon), hoặc giống lai của hai loài trên, họ Rau răm (Polygonaceae). 
 Đặc điểm nhận thức chính: Dược liệu là thân rễ hình trụ, hình nón, dạng cầu hay méo mó không đều hay những phiến mỏng. Thân rễ có mặt ngoài màu nâu vàng hay nâu đỏ, đôi khi có những đám đen nhạt. Mùi đặc trưng, vị đắng và chát. 
 Thành phần hóa học: Anthranoid, tanin. 
 Công dụng: Làm thuốc kích thích tiêu hóa, nhuận tràng, tẩy xổ (tùy thuộc vào liều dùng). 
  
 54_Hoai_son
-Hoài Sơn
-Tên tiếng Việt: Củ mài, Sơn dược, Mằm chén (Tày), Khoai mài, Mán địn, Co mằn kép (Thái), Glờn (Kdong), Mằn ôn (Nùng), Hìa dòi (Dao)
-Tên khoa học: Dioscorea persimilis Prain et Burk.
-Họ: Dioscoreaceae (Củ Nâu)
-Công dụng: Thuốc bổ, chữa di tinh, mồ hôi trộm, lỵ (Rễ sắc hoặc tán bột uống).
-Thành phần hóa học
-Ngoài tinh bột ra trong hoài sơn của Trung Quốc và Nhật Bản các nhà nghiên cứu Nhật Bản đã lấy ra chất muxin là một loại protit nhớt, allantoin, axit amin, acginin và cholin. Ngoài ra còn có mantaza là mem tiêu hóa mantoza. Về mặt thực phẩm, trong củ mài có chừng 63,25% chất bột, 0,45% chất béo, 6,75% chất protit. Gần đây người ta có tìm thấy trong một số giống Dioscorea chất saponin có nhân sterol.
+Rễ củ đã chế biến, phơi hay sấy khô của cây Củ mài (Dioscorea persimilis 
+Prain & Burkill), họ Củ nâu (Dioscoreaceae). 
+Đặc điểm nhận thức chính: Rễ củ phình to có nhiều hình dạng, thường có 
+hình trụ, mặt ngoài màu vàng nâu, nhẵn, chất chắc, vết bẻ có nhiều bột màu trắng 
+ngà, không có xơ.  
+Thành phần hóa học: Tinh bột, saponin. 
+Công dụng: Chữa kém ăn, tiêu chảy lâu ngày, di tinh, tiểu đêm. 
+Chú ý: Cần phân biệt với các vị có tên “Hoài sơn” từ một số loài khác thuộc 
+chi Dioscorea như củ Cọc (D. glabra Roxb.), củ Cái (D. alata L.), củ Mỡ (D. 
+bulbifera L.). 
  
 55_Dam_duong_hoac
-Dâm dương hoắc
 Phần trên mặt đất đã phơi hay sấy khô của các loài Dâm dương hoắc lá hình tim (Epimedium brevicornum Maxim.), Dâm dương hoắc lá mác (E. sagittatum Sieb. et Zucc.) và một số loài khác của chi Epimedium, họ Hoàng liên gai (Berberidaceae). 
 Đặc điểm nhận thức chính: Thân hình trụ tròn nhỏ, mặt ngoài màu lục hoặc màu vàng nhạt. Lá kép mọc đối hai lần ba lá chét. Lá chét hình trứng. Lá chét tận cùng có đáy hình tim, hai lá chét bên nhỏ hơn, hình tim lệch, tai phía ngoài to hơn, mép có răng cưa nhỏ như gai, cuống nhỏ. Không mùi, vị hơi đắng. 
 Thành phần hóa học: Flavonoid, alcaloid. 
 Công dụng: Chữa nam giới không có khả năng sinh hoạt tình dục, lưng gối đau mỏi, chân tay tê bại, bán thân bất toại. 
  
 57_Bo_cong_anh
-Bồ công anh
 Thân mang lá đã phơi hay sấy khô của cây Bồ công anh (Lactuca indica L.), họ Cúc (Asteraceae). 
 Đặc điểm nhận thức chính: Lá mỏng nhăn nheo, nhiều hình dạng, thường hình mũi mác, gần như không có cuống, mặt trên màu nâu sẫm, mặt dưới màu nâu nhạt, mép lá khía răng cưa, to nhỏ không đều. Gân giữa to và nổi nhiều. Vị hơi đắng. Thân tròn, thẳng, lõi xốp, mặt ngoài màu nâu nhạt, lốm đốm, có mấu mang lá hoặc vết tích của cuống lá. 
 Thành phần hóa học: Flavonoid. 
@@ -369,41 +341,36 @@ Công dụng: Chữa mụn nhọt, tắc tia sữa, viêm tuyến vú.
 Chú ý: Có thể dùng Bồ công anh thấp hoặc Bồ công anh Trung Quốc (Taraxacum officinale Wigg.) với công dụng tương tự
  
 58_Tho_phuc_linh
-Thổ phục linh
 Thân rễ đã phơi hay sấy khô của cây Thổ phục linh, còn có tên là Khúc khắc (Smilax glabra Roxb.), họ Khúc khắc (Smilacaceae). 
 Đặc điểm nhận thức chính: Các đoạn hình trụ hơi dẹt hoặc khối dài ngắn không đều, mang các mấu chồi, mặt ngoài màu nâu vàng hay nâu tía, có vết sẹo thân nhô lên và các rễ nhỏ và rễ sợi cứng chắc còn sót lại. Chất cứng, khó bẻ gãy, mặt gãy có sợi, màu vàng nâu hoặc nâu đỏ. Không mùi, vị hơi ngọt và se. Dược liệu có thể được thái thành các lát mỏng không đều hoặc hình bầu dục, mép không phẳng. Mặt cắt màu trắng ngà đến nâu đỏ, có tinh bột, nhớt và trơn khi bị ướt.  
 Thành phần hóa học: Saponin. 
 Công dụng: Chữa phong thấp, đau nhức xương khớp, phù thũng, tiểu đục.
  
 59_Mach_mon
-Mạch môn 
 Rễ củ đã phơi hay sấy khô của cây Mạch môn đông (Ophiopogon japonicus (L.f.) Ker-Gawl.), họ Mạch môn đông (Convallariaceae). 
 Đặc điểm nhận thức chính: Rễ hình thoi, hai đầu hơi nhỏ lại. Mặt ngoài có màu vàng nâu hoặc trắng ngà và nhiều nếp nhăn dọc nhỏ; trong mờ; một đầu thấy lõi giữa nhỏ. Chất mềm dẻo. Mặt cắt ngang có lớp vỏ mỏng màu nâu nhạt, phần ruột trắng ngà, có lõi nhỏ ở chính giữa. Mùi thơm nhẹ, vị hơi ngọt sau đó hơi đắng. Dính răng khi nhai.
  Thành phần hóa học: Saponin, chất nhầy. 
 Công dụng: Chữa ho khan, ho lao, táo bón.
  
 5_Trach_ta
-Trạch tả
 Thân rễ khô đã cạo sạch vỏ ngoài của cây Trạch tả (Alisma plantago-aquatica L.), họ Trạch tả (Alismataceae). 
 Đặc điểm nhận thức chính: Thân rễ hình cầu, hình trứng hay hình con quay. Mặt ngoài màu trắng hơi vàng hay nâu hơi vàng, có nhiều vết sẹo rễ nhỏ dạng bướu, ở đầu thân rễ có vết của thân cây còn sót lại. Chất chắc, mặt bẻ gãy màu trắng vàng, có tinh bột. Mùi thơm nhẹ, vị hơi đắng.
  Thành phần hóa học: Carbohydrat, chất nhày. 
 Công dụng: Chữa phù thũng, viêm thận, tiểu tiện rắt, tiểu tiện ra máu.
  
 60_Ke_dau_ngua
-Ké đầu ngựa
 Quả già đã phơi hay sấy khô của cây Ké đầu ngựa (Xanthium strumarium L.), họ Cúc (Asteraceae). 
 Đặc điểm nhận thức chính: Quả hình trứng hay hình thoi. Mặt ngoài màu xám vàng hay xám nâu, có nhiều gai hình móc câu. Vỏ quả rất cứng và dai.
  Thành phần hóa học: Alcaloid, sesquiterpen lacton.
  Công dụng: Chữa mụn nhọt, mề đay, lở ngứa, tràng nhạc. 
  
 61_Tang_bach_bi
-DÂU (Vỏ rễ) 
+DÂU (Vỏ rễ):
 Vỏ rễ đã cạo lớp bần, phơi hay sấy khô của cây Dâu tằm (Morus alba L.), họ Dâu tằm (Moraceae). 
 Đặc điểm nhận thức chính: Mảnh vỏ rễ hình ống, hình máng hai mép cuốn lại hoặc mảnh dẹt phẳng, hoặc quăn queo; mặt ngoài màu trắng hoặc vàng nhạt, tương đối nhẵn, đôi chỗ còn sót lại mảnh bần màu vàng hoặc màu vàng nâu; mặt trong màu vàng nhạt hay vàng xám, có nếp nhăn dọc nhỏ. Chất nhẹ và dai, có sợi chắc, khó bẻ ngang, nhưng dễ tước dọc thành dải nhỏ. Mùi nhẹ, vị hơi ngọt. 
 Thành phần hóa học: Flavonoid, tanin. 
 Công dụng: Chữa ho, phù thũng, tiểu tiện ít
 62_Cam_thao_bac
-Cam thảo
 Rễ và thân rễ còn vỏ hoặc đã cạo lớp bần, được phơi hay sấy khô của ba loài Cam thảo Glycyrrhiza uralensis Fisch., Glycyrrhiza inflata Bat. hoặc Glycyrrhiza glabra L., họ Đậu (Fabaceae). 
 Đặc điểm nhận thức chính: Đoạn rễ hình trụ. Rễ chưa cạo lớp bần bên ngoài có màu nâu đỏ hoặc nâu xám. Chất cứng chắc, khó bẻ gãy, vết bẻ màu vàng nhạt, nhiều xơ dọc. Mặt cắt ngang có nhiều tia ruột từ trung tâm tỏa ra giống nan hoa bánh xe. Mùi đặc biệt, vị ngọt hơi khé cổ. T
 hành phần hóa học: Saponin, flavonoid.
@@ -417,34 +384,29 @@ Mai rửa sạch phơi hay sấy khô của con Cá mực (Sepia esculenta Hoyle
 Công dụng: Chữa các chứng bệnh đau dạ dày do thừa acid dịch vị, ợ chua.
  
 64_Thao_quyet_minh
-Thảo quyết minh
 Hạt già đã phơi hay sấy khô của cây Thảo quyết minh (Senna tora (L.) Roxb.), họ Đậu (Fabaceae). 
 Đặc điểm nhận thức chính: Hạt hình trụ, đôi khi hình tháp, hai đầu vát chéo. Mặt ngoài màu nâu nhạt hay lục nâu, bóng. Bốn cạnh bên thường nổi rõ thành đường gờ, một đường gờ nhô lên thành ngấn. Thể chất cứng, khó tán vỡ. Không mùi, vị hơi đắng. 
 Thành phần hóa học: Anthranoid. 
 Công dụng: Chữa đau mắt đỏ, cao huyết áp, mất ngủ (sao đen), táo bón (dùng sống).
  
 65_Dai_tao
-Đại Táo
 Quả chín đã phơi hay sấy khô của cây Đại táo (Ziziphus jujuba Mill. var. inermis (Bge.) Rehd.), họ Táo ta (Rhamnaceae).
  Đặc điểm nhận thức chính: Quả hình bầu dục hoặc hình trứng, gốc quả lõm, cuống ngắn. Vỏ quả ngoài mỏng, nhăn nheo, màu hồng, vỏ quả giữa mềm, xốp, ngọt và có dầu, màu vàng nâu, vỏ quả trong là một hạch cứng rắn, hình thoi có 2 ô, chứa các hạt nhỏ hình trứng. Mùi thơm đặc biệt, vị ngọt. T
 hành phần hóa học: Đường, acid hữu cơ, vitamin. 
 Công dụng: Chữa ăn uống kém, người mệt mỏi, suy nhược, thiếu máu, mất ngủ, bồn chồn, lo lắng. 
  
 66_Kim_ngan_hoa
-Kim ngân
 Nụ hoa có lẫn một số hoa phơi hay sấy khô của cây Kim ngân (Lonicera japonica Thunb.), họ Kim ngân (Caprifoliaceae). 
 Đặc điểm nhận thức chính: Nụ hoa hình ống hơi cong queo, đầu to. Mặt ngoài màu vàng đến nâu, phủ đầy lông ngắn. Mùi thơm nhẹ, vị hơi đắng. Hoa đã nở tràng chia thành 2 môi cuộn ngược lại. Môi trên xẻ thành 4 thùy, môi dưới nguyên. Nhị và vòi nhụy thường thò ra ngoài tràng hoa. 
 Thành phần hóa học: Flavonoid, saponin. 
 Công dụng: Chữa mụn nhọt, dị ứng.
 67_Tao_nhan
-Táo ta
 Nhân hạt già đã phơi hay sấy khô của cây Táo ta hay còn gọi là cây Táo chua (Ziziphus mauritiana Lamk.), họ Táo ta (Rhamnaceae).
  Đặc điểm nhận thức chính: Hạt hình cầu hay hình trứng dẹt có một đầu hơi nhọn, một mặt gần như phẳng, một mặt khum hình thấu kính. Ở đầu nhọn có rốn hạt hơi lõm xuống, màu nâu thẫm. Mặt ngoài màu nâu đỏ hay nâu vàng, đôi khì có màu nâu thẫm. Chất mềm, dễ cắt ngang. 
 Thành phần hóa học: Saponin. 
 Công dụng: Chữa mất ngủ, cơ thể hư nhược do ra nhiều mồ hôi.
  
 68_Ban_ha
-Bán hạ
 Thân rễ già được chế biến thành phiến khô của cây Chóc chuột (Typhonium trilobatum (L.) Schott), họ Ráy (Araceae).
  Đặc điểm nhận thức chính: Phiến có hình tròn, hình trứng, hình bầu dục dài; màu trắng đục, trắng ngà hay vàng nhạt. Xung quanh phiến còn ít vỏ mỏng và vết tích sẹo của rễ con. Thể chất chắc, khô cứng, giòn, dễ bẻ gãy. Vị nhạt, gây tê lưỡi, ngứa. 
 Thành phần hóa học: Saponin. 
@@ -458,42 +420,37 @@ Thành phần hóa học: glycoalcaloid
 Công dụng: Đau nhức các đầu gân xương, ho khan, xơ gan, viêm nhiễm quanh răng.
  
 6_Y_di
-Ý dĩ
 Hạt của quả chín đã phơi hay sấy khô của cây Ý dĩ (Coix lacryma-jobi L.), họ Lúa (Poaceae). 
 Đặc điểm nhận thức chính: Hạt hình trứng ngắn hay hơi tròn. Mặt ngoài màu trắng hay trắng ngà, hơi bóng, đôi khi còn sót lại những mành vỏ quả màu đỏ nâu. Mặt trong có rãnh hình máng. Chất rắn chắc. Chỗ vỡ màu trắng ngà, có bột.
  Thành phần hóa học: Tinh bột. 
 Công dụng: Chữa phù thũng, chân tay đau nhức co rút, tiêu chảy. 
 Chú ý: Tránh nhầm lẫn với hạt cây Cao lương (Sorghum vulgare Pers.) với tên gọi là “Ý dĩ bắc”. 
 70_Kho_qua
-Mướp đắng
+Mướp đắng:
 Quả xanh còn tươi hoặc phơi hay sấy khô của cây Mướp đắng (Momordica charantia L.), họ Bí (Cucurbitaceae).
  Đặc điểm nhận thức chính: Quả hình thoi, mặt ngoài có nhiều u lồi. Hạt dẹp, trông gần giống hạt Bí ngô. Phiến cắt ngang khô màu xanh. Vị đắng. 
 Thành phần hóa học: Saponin. 
 Công dụng: Chữa ho, sốt, đi tiểu rắt; tắm cho trẻ con trừ rôm sẩy.
  
 71_Xuyen_tam_lien
-Xuyên tâm liên
 Phần trên mặt đất đã phơi hay sấy khô của cây Xuyên tâm liên (Andrographis paniculata (Burm.f.) Nees), họ Ô rô (Acanthaceae). 
 Đặc điểm nhận thức chính: Thân hình vuông, thường phân nhánh, đốt hơi phình ra, kết cấu mỏng manh, dễ gãy. Lá đơn, mọc đối, có cuống ngắn, hình mác, gốc thuôn, đầu nhọn dài, hai mặt nhẵn, mặt trên màu xanh đậm, mặt dưới màu xanh nhạt. Hoa nhỏ, mọc thành chùm ở nách lá và ở ngọn cành. Mùi nhẹ, đặc trưng, vị rất đắng. 
 Thành phần hóa học: Glycosid đắng (andrographolid). 
 Công dụng: Làm thuốc bổ đắng, chữa lỵ, viêm ruột, dạ dày, viêm amidan.
  
 72_Nhan_sam
-Nhân sâm
 Rễ đã phơi hay sấy khô của cây Nhân sâm (Panax ginseng C.A.Mey), họ Nhân sâm (Araliaceae). 
 Đặc điểm nhận thức chính: Rễ cái có hình thoi hoặc hình trụ tròn, mặt ngoài màu vàng hơi xám, phần trên hoặc toàn bộ rễ có vân nhăn dọc, có khía vân ngang, thô, không liên tục, phần dưới có các rễ nhánh và nhiều rễ con nhỏ, dài, thường có mấu dạng củ nhỏ không rõ. Mùi thơm đặc trưng, vị hơi đắng và ngọt. 
 Thành phần hóa học: Saponin.  
 Công dụng: Chữa cơ thể suy nhược, kém ăn, mệt mỏi.
  
 73_Bach_gioi_tu
-Bạch giới tử
 Hạt của quả chín đã phơi hay sấy khô của cây Cải trắng (Sinapis alba L.), họ Cải (Brassicaceae). 
 Đặc điểm nhận thức chính: Hạt hình cầu, vỏ ngoài mầu trắng tro hoặc mầu trắng vàng, một bên có đường vân rãnh hoặc không rõ ràng. Bẻ ra bên trong có nhân thành từng lớp mầu trắng vàng, có dầu. Không mùi, vị cay, tê. 
 Thành phần hóa học: Chất béo, glycosinolat. 
 Công dụng: Chữa ho nhiều đờm, hen suyễn, tức ngực.
  
 74_Tam_that
-Tam thất
 Rễ củ đã phơi hay sấy khô của cây Tam thất (Panax notoginseng (Burkill) F.H.Chen), họ Nhân sâm (Araliaceae). 
 Đặc điểm nhận thức chính: Rễ củ có hình dạng thay đổi, hình trụ hay hình chùy, mặt ngoài màu vàng xám nhạt, có khi được đánh bóng, trên mặt có những vết nhăn dọc rất nhỏ. Trên một đầu có những bướu nhỏ là vết tích của rễ con, phần dưới có khi phân nhánh. Chất cứng rắn, khó bẻ, khó cắt. Mùi thơm nhẹ đặc biệt, vị đắng hơi ngọt. 
 Thành phần hóa học: Saponin. 
@@ -501,34 +458,30 @@ Công dụng: Bổ máu, dùng cho người thiếu máu, mới ốm dậy, ph�
  
  
 75_Bach_chi
-Bạch chỉ
 Rễ phơi hay sấy khô của cây Bạch chỉ (Angelica dahurica (Fisch. ex Hoffm.) Benth. et Hook.), họ Cần (Apiaceae).
  Đặc điểm nhận thức chính: Rễ hình chuỳ, thẳng hay cong, phần cuối thon nhỏ dần. Mặt ngoài củ có màu vàng nâu nhạt, còn dấu vết của rễ con đã cắt bỏ, có nhiều vết nhăn dọc và nhiều lỗ vỏ lồi lên thành những vết sần ngang. Mùi thơm hắc, vị cay hơi đắng. 
 Thành phần hóa học: Tinh dầu, coumarin. 
 Công dụng: Chữa cảm sốt, nhức đầu, đặc biệt vùng trán, đau nhức răng, mụn nhọt
  
 76_Sa_sam
-Sa sâm 
 Rễ phơi hay sấy khô của cây Sa sâm bắc (Glehnia littoralis Fr. Schmidt ex Miq.), họ Cần (Apiaceae). 
 Đặc điểm nhận thức chính: Rễ hình trụ, đôi khi phân nhánh. Đầu trên hơi nhỏ, phần giữa phình to, phần dưới nhỏ dần. Mặt ngoài màu trắng vàng nhạt, hơi thô, đôi khi còn sót lại lớp ngoài màu nâu vàng. Chất giòn, dễ bẻ gãy, mặt bẻ có phần ngoài màu trắng hoặc vàng nhạt, phần gỗ ở trong màu vàng. Mùi đặc biệt. Vị hơi ngọt. 
 Thành phần hóa học: Tinh dầu, coumarin. 
 Công dụng: Chữa ho khan, ho lâu ngày, miệng khô, chảy máu chân răng.
 77_Bach_thuoc
-Bạch thược
 Rễ đã cạo bỏ lớp bần và phơi hay sấy khô của cây Thược dược (Paeonia lactiflora Pall.), họ Hoàng liên (Ranunculaceae). 
 Đặc điểm nhận thức chính: Rễ hình trụ tròn, thẳng hoặc đôi khi hơi uốn cong, hai đầu phẳng; đều nhau hoặc một đầu to hơn. Mặt ngoài hơi trắng hoặc hồng nhạt, đôi khi có màu nâu thẫm, nhẵn hoặc có nếp nhăn dọc và vết tích của rễ nhỏ. Chất rắn chắc, nặng, khó bẻ gãy. Mặt cắt phẳng màu trắng ngà hoặc hơi phớt hồng, vỏ hẹp, gỗ thành tia rõ đôi khi có khe nứt. Không mùi. Vị hơi đắng và chua. 
 Thành phần hóa học: Saponin.
  Công dụng: Chữa kinh nguyệt không đều, chóng mặt đau đầu, da xanh xao, chân tay co rút.
  
 78_Cam_thao_day
-Cam thảo dây
 Phần trên mặt đất phơi hoặc sấy khô của cây Cam thảo dây (Abrus precatorius L.); họ Đậu (Fabaceae). 
 Đặc điểm nhận thức chính: Dây leo, lá kép lông chim có 8-20 đôi lá chét nhỏ. 
 Thành phần hóa học: Saponin, flavonoid. 
 Công dụng: Chữa ho, giải cảm. Chú ý: Hạt chứa một albumin độc (toxalbumin) là abrin có cấu trúc và tính chất gần với ricin trong hạt thầu dầu.
  
 7_Can_khuong
-Gừng
+Gừng:
 Thân rễ phơi hay sấy khô của cây Gừng (Zingiber officinale Rose), họ Gừng (Zingiberaceae). 
 Đặc điểm nhận thức chính: Thân rễ không có hình dạng nhất định, thường phân nhánh. Mặt ngoài màu trắng tro hay vàng nhạt, có vết nhăn dọc. Vết bẻ màu trắng tro hoặc ngà vàng, có bột. Mặt cắt ngang có sợi thưa. Mùi thơm, vị cay nóng.
  Thành phần hóa học: Chất cay, tinh dầu.
