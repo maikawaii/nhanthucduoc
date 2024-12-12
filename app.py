@@ -346,8 +346,8 @@ if page == "Trang chủ":
         top_5_indices = top_5.indices[0]
         top_5_confidences = torch.nn.functional.softmax(logits, dim=-1)[0][top_5_indices] * 100
 
-        if top_5_confidences[0].item() < 0:  # Ngưỡng xác suất
-            st.warning("Xác suất dự đoán của cây này khá thấp, vui lòng cân nhắc lại dự đoán")
+        if top_5_confidences[0].item() < 50:  # Ngưỡng xác suất là 50%
+            st.warning("Xác suất dự đoán của cây này khá thấp, vui lòng cân nhắc lại dự đoán.")
 
             # Hiển thị top 5 kết quả
             st.write("**Top 5 cây dự đoán:**")
