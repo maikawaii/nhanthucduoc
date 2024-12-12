@@ -408,6 +408,9 @@ elif page == "Trang đối chiếu":  # Đảm bảo dòng này không có vấn
             plant_description = plant_details.get("description", "Không có thông tin.")
             plant_image_url = plant_image_urls.get(selected_label_code, None)
 
+            # Lấy tên Latin nếu có
+            latin_name = plant_details.get("latin_name", None)  # Kiểm tra trường hợp không có latin_name
+
             col1, col2 = st.columns([1, 2])
             with col1:
                 if plant_image_url:
