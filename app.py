@@ -422,5 +422,5 @@ elif page == "Trang đối chiếu":  # Đảm bảo dòng này không có vấn
                     # In nghiêng tên Latin nếu có
                     st.markdown(f"_{latin_name}_")  # Dùng st.markdown thay vì st.subheader
                 st.subheader(plant_name)
-                st.markdown(plant_description)
-
+                # Hiển thị mô tả cây với phần trong ngoặc đã được in nghiêng
+                st.markdown(italicize_latin_in_description(plant_description))
