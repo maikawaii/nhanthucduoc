@@ -316,9 +316,10 @@ model_name = "Laimaimai/herbal_identification"
 model = AutoModelForImageClassification.from_pretrained(model_name)
 processor = AutoProcessor.from_pretrained(model_name)
 
+
 # Hàm thay thế phần trong ngoặc bằng in nghiêng
 def italicize_latin_in_description(plant_description):
-    # Sử dụng biểu thức chính quy để tìm phần trong ngoặc
+    # Sử dụng biểu thức chính quy để tìm phần trong ngoặc và thay thế bằng * (Markdown)
     return re.sub(r"\(([^)]+)\)", r"*\1*", plant_description)
 
 # Giao diện chính
@@ -361,7 +362,7 @@ if page == "Trang chủ":
                 plant_description = plant_details.get("description", "Không có thông tin chi tiết.")
                 plant_image_url = plant_image_urls.get(label_code, None)  # Lấy URL ảnh từ plant_image_urls
 
-                # In nghiêng phần trong ngoặc trong mô tả cây
+                # Thay thế phần trong ngoặc bằng in nghiêng
                 italicized_description = italicize_latin_in_description(plant_description)
 
                 with st.expander(f"{i + 1}. {plant_name_vietnamese} ({top_5_confidences[i].item():.2f}%)"):
@@ -387,6 +388,7 @@ if page == "Trang chủ":
         """, 
         unsafe_allow_html=True
     )
+
 
 # Kiểm tra nếu giá trị của page là "Trang đối chiếu"
 elif page == "Trang đối chiếu":  # Đảm bảo dòng này không có vấn đề
