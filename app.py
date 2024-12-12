@@ -316,6 +316,12 @@ model_name = "Laimaimai/herbal_identification"
 model = AutoModelForImageClassification.from_pretrained(model_name)
 processor = AutoProcessor.from_pretrained(model_name)
 
+# Hàm trích xuất tên Latin từ mô tả cây
+def extract_latin_name(plant_description):
+    match = re.search(r"\(([^)]+)\)", plant_description)
+    if match:
+        return match.group(1)  # Trả về tên Latin trong ngoặc
+    return None
 # Giao diện chính
 st.sidebar.title("Vui lòng chọn trang:")
 page = st.sidebar.radio("Điều hướng:", ["Trang chủ", "Trang đối chiếu"])
