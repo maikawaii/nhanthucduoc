@@ -317,14 +317,14 @@ model = AutoModelForImageClassification.from_pretrained(model_name)
 processor = AutoProcessor.from_pretrained(model_name)
 
 
-# Hàm thay thế phần trong ngoặc bằng in nghiêng
+# Hàm thay thế phần trong ngoặc bằng in nghiêng và xóa dấu ngoặc
 def italicize_latin_in_description(plant_description):
-    # Sử dụng biểu thức chính quy để tìm phần trong ngoặc và thay thế bằng * (Markdown)
-    return re.sub(r"\(([^)]+)\)", r"\1", plant_description)
+    # Sử dụng biểu thức chính quy để tìm phần trong ngoặc và thay thế bằng in nghiêng (Markdown) và xóa dấu ngoặc
+    return re.sub(r"\(([^)]+)\)", r"*\1*", plant_description)
 
 # Giao diện chính
 st.sidebar.title("Vui lòng chọn trang:")
-page = st.sidebar.radio("Điều hướng:", ["Trang chủ", "Trang đối chiếu"])
+page = st.sidebar.radio("Điều hướng:", ["Trang chủ", "Trang thông tin"])
 
 # Trang chủ
 if page == "Trang chủ":
