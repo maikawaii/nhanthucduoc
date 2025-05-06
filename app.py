@@ -312,7 +312,7 @@ plant_image_urls = {
 }
 
 # Tải mô hình và processor từ Hugging Face
-model_name = "Laimaimai/herbal_identificatio"
+model_name = "catmeomeo/herbal_identification"
 model = AutoModelForImageClassification.from_pretrained(model_name)
 processor = AutoProcessor.from_pretrained(model_name)
 
