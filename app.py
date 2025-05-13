@@ -320,10 +320,11 @@ model = AutoModelForImageClassification.from_pretrained(model_name)
 processor = AutoProcessor.from_pretrained(model_name)
 # Cố gắng chuyển từng phần của mô hình sang đúng thiết bị
 try:
-    model = model.to(device)  # Chuyển mô hình sang thiết bị (GPU hoặc CPU)
-except Exception as e:
-    print(f"Error moving model to device: {e}")
+    model = model.to(device)  
+    inputs = processor(images=input_image, return_tensors="pt").to(device)
 
+# Dự đoán
+logits = model(**inputs).logit
 
 
 # Hàm thay thế phần trong ngoặc bằng in nghiêng và xóa dấu ngoặc
