@@ -320,24 +320,25 @@ processor = AutoProcessor.from_pretrained(model_name)
 def italicize_latin_in_description(plant_description):
     return re.sub(r"\(([^)]+)\)", r"*\1*", plant_description)
 
+# … (các import và load model/processor của bạn phía trên)
+
 # Giao diện chính
 st.sidebar.title("Vui lòng chọn trang:")
 page = st.sidebar.radio("Điều hướng:", ["Trang chủ", "Trang đối chiếu"])
 
-# Trang chủ
 if page == "Trang chủ":
     st.title("Nhận diện Dược liệu")
     uploaded_file = st.file_uploader("Nhập ảnh của bạn:", type=["jpg", "jpeg", "png"])
 
-     if uploaded_file:
-        # Bắt đầu khối thụt 4 khoảng trắng (hoặc 1 tab)
+    # Tất cả code sau if uploaded_file: phải thụt 4 spaces
+    if uploaded_file:
         image = Image.open(uploaded_file).convert("RGB")
         st.image(image, caption="Ảnh đã tải lên", use_container_width=True)
 
         # 1) Chọn device
         device = torch.device("cuda" if torch.cuda.is_available() else "cpu")
 
-        # 2) Chuyển model (meta hoặc bình thường) lên device
+        # 2) Di chuyển model
         if hasattr(model, "to_empty"):
             model = model.to_empty(device=device)
         else:
@@ -366,13 +367,12 @@ if page == "Trang chủ":
                 code = labels[idx.item()]
                 name = label_mapping.get(code, code)
                 desc = plant_info.get(code, {}).get("description", "Không có thông tin.")
-                url  = plant_image_urls.get(code)
+                url = plant_image_urls.get(code)
                 st.write(f"{i+1}. **{name}** — {confs[i].item():.2f}%")
                 st.write(italicize_latin_in_description(desc))
                 if url:
                     st.image(url, caption=name)
-        # Kết thúc khối if uploaded_file
-    # Kết thúc khối if page == "Trang chủ"
+
 
                 # Thay thế phần trong ngoặc bằng in nghiêng
                 italicized_description = italicize_latin_in_description(plant_description)
