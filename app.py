@@ -336,16 +336,19 @@ if page == "Trang chủ":
         
         # Chọn thiết bị (GPU nếu có, nếu không thì CPU)
         device = torch.device("cuda" if torch.cuda.is_available() else "cpu")
-        # Sử dụng to_empty() để chuyển mô hình về trạng thái "rỗng"
-        model = model.to_empty()  # Đưa mô hình về trạng thái "rỗng"
-        # Sau đó, chuyển mô hình sang thiết bị (GPU/CPU)
-        model = model.to(device)  # Đưa mô hình lên thiết bị (GPU/CPU)
-        
-        # Dự đoán
-        inputs = processor(images=image, return_tensors="pt").to(device)
-        with torch.no_grad():
-            logits = model(**inputs).logits
+        # 2) Chuyển model từ meta (nếu có) hoặc bình thường lên device
+    #    Lưu ý: to_empty cần gọi với keyword-only `device=device`
+        if hasattr(model, "to_empty"):
+           model = model.to_empty(device=device)
+        else:
+           model = model.to(device)
 
+    # 3) Xử lý và chuyển inputs lên cùng device
+        inputs = processor(images=image, return_tensors="pt").to(device)
+
+    # 4) Forward pass
+        with torch.no_grad():
+           logits = model(**inputs).logits
         # Lấy top 5 kết quả
         top_5 = torch.topk(logits, 5)
         top_5_indices = top_5.indices[0]
