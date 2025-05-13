@@ -337,7 +337,7 @@ if page == "Trang chủ":
         st.image(image, caption="Ảnh đã tải lên", use_container_width=True)
         
         # Chọn thiết bị (GPU nếu có, nếu không thì CPU)
-        device = torch.device("cuda" if torch.cuda.is_available() else "cpu")
+    device = torch.device("cuda" if torch.cuda.is_available() else "cpu")
     if hasattr(model, "to_empty"):
         model = model.to_empty(device=device)
     else:
