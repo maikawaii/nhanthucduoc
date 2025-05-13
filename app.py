@@ -338,7 +338,7 @@ if page == "Trang chủ":
         
         # Chọn thiết bị (GPU nếu có, nếu không thì CPU)
         device = torch.device("cuda" if torch.cuda.is_available() else "cpu")
-        model = model.to(device)  # Chuyển mô hình lên thiết bị
+        model = model.to_empty(device)  # Chuyển mô hình lên thiết bị
         # Dự đoán
         inputs = processor(images=image, return_tensors="pt").to(device)  
         with torch.no_grad():
