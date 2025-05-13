@@ -318,7 +318,6 @@ processor = AutoProcessor.from_pretrained(model_name)
 
 # Hàm thay thế phần trong ngoặc bằng in nghiêng và xóa dấu ngoặc
 def italicize_latin_in_description(plant_description):
-    # Sử dụng biểu thức chính quy để tìm phần trong ngoặc và thay thế bằng in nghiêng (Markdown) và xóa dấu ngoặc
     return re.sub(r"\(([^)]+)\)", r"*\1*", plant_description)
 
 # Giao diện chính
@@ -337,10 +336,12 @@ if page == "Trang chủ":
         
         # Chọn thiết bị (GPU nếu có, nếu không thì CPU)
         device = torch.device("cuda" if torch.cuda.is_available() else "cpu")
-        model.to(device)  # Đưa mô hình lên thiết bị (GPU/CPU)
+        
+        # Sử dụng to_empty() thay vì to() để chuyển mô hình
+        model = model.to_empty(device)  # Đưa mô hình lên thiết bị (GPU/CPU)
         
         # Dự đoán
-        inputs = processor(images=image, return_tensors="pt").to(device)  
+        inputs = processor(images=image, return_tensors="pt").to(device)
         with torch.no_grad():
             logits = model(**inputs).logits
 
@@ -364,6 +365,7 @@ if page == "Trang chủ":
                 plant_details = plant_info.get(label_code, {})
                 plant_description = plant_details.get("description", "Không có thông tin chi tiết.")
                 plant_image_url = plant_image_urls.get(label_code, None)  # Lấy URL ảnh từ plant_image_urls
+
 
                 # Thay thế phần trong ngoặc bằng in nghiêng
                 italicized_description = italicize_latin_in_description(plant_description)
