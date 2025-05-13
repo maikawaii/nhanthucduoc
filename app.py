@@ -329,46 +329,50 @@ if page == "Trang chủ":
     st.title("Nhận diện Dược liệu")
     uploaded_file = st.file_uploader("Nhập ảnh của bạn:", type=["jpg", "jpeg", "png"])
 
-    if uploaded_file:
-    image = Image.open(uploaded_file).convert("RGB")
-    st.image(image, caption="Ảnh đã tải lên", use_container_width=True)
+     if uploaded_file:
+        # Bắt đầu khối thụt 4 khoảng trắng (hoặc 1 tab)
+        image = Image.open(uploaded_file).convert("RGB")
+        st.image(image, caption="Ảnh đã tải lên", use_container_width=True)
 
-    device = torch.device("cuda" if torch.cuda.is_available() else "cpu")
-    # Chuyển model (meta hoặc bình thường) lên device
-    if hasattr(model, "to_empty"):
-        model = model.to_empty(device=device)
-    else:
-        model = model.to(device)
+        # 1) Chọn device
+        device = torch.device("cuda" if torch.cuda.is_available() else "cpu")
 
-    # Chuẩn bị inputs & đưa lên đúng device
-    inputs = processor(images=image, return_tensors="pt")
-    inputs = {k: v.to(device) for k, v in inputs.items()}
+        # 2) Chuyển model (meta hoặc bình thường) lên device
+        if hasattr(model, "to_empty"):
+            model = model.to_empty(device=device)
+        else:
+            model = model.to(device)
 
-    # Forward pass
-    with torch.no_grad():
-        logits = model(**inputs).logits
+        # 3) Chuẩn bị inputs & đưa lên đúng device
+        inputs = processor(images=image, return_tensors="pt")
+        inputs = {k: v.to(device) for k, v in inputs.items()}
 
-    # Nếu logits chứa NaN, thay NaN bằng 0
-    logits = torch.nan_to_num(logits, nan=0.0)
+        # 4) Forward pass
+        with torch.no_grad():
+            logits = model(**inputs).logits
 
-    # Lấy top-5
-    top5 = torch.topk(logits, 5)
-    idxs = top5.indices[0]
-    confs = torch.nn.functional.softmax(logits, dim=-1)[0][idxs] * 100
+        # 5) Thay NaN bằng 0 và lấy top-5
+        logits = torch.nan_to_num(logits, nan=0.0)
+        top5 = torch.topk(logits, 5)
+        idxs = top5.indices[0]
+        confs = torch.nn.functional.softmax(logits, dim=-1)[0][idxs] * 100
 
-    if confs[0].item() <= 0:
-        st.warning("Không nhận diện được cây nào khớp với ảnh này.")
-    else:
-        st.write("**Top 5 cây dự đoán:**")
-        for i, idx in enumerate(idxs):
-            code = labels[idx.item()]
-            name = label_mapping.get(code, code)
-            desc = plant_info.get(code, {}).get("description", "Không có thông tin.")
-            url  = plant_image_urls.get(code)
-            st.write(f"{i+1}. **{name}** — {confs[i].item():.2f}%")
-            st.write(italicize_latin_in_description(desc))
-            if url:
-                st.image(url, caption=name)
+        # 6) Hiển thị kết quả
+        if confs[0].item() <= 0:
+            st.warning("Không nhận diện được cây nào khớp với ảnh này.")
+        else:
+            st.write("**Top 5 cây dự đoán:**")
+            for i, idx in enumerate(idxs):
+                code = labels[idx.item()]
+                name = label_mapping.get(code, code)
+                desc = plant_info.get(code, {}).get("description", "Không có thông tin.")
+                url  = plant_image_urls.get(code)
+                st.write(f"{i+1}. **{name}** — {confs[i].item():.2f}%")
+                st.write(italicize_latin_in_description(desc))
+                if url:
+                    st.image(url, caption=name)
+        # Kết thúc khối if uploaded_file
+    # Kết thúc khối if page == "Trang chủ"
 
                 # Thay thế phần trong ngoặc bằng in nghiêng
                 italicized_description = italicize_latin_in_description(plant_description)
