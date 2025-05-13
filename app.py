@@ -316,7 +316,6 @@ model_name = "Laimaimai/herbal_identification"
 model = AutoModelForImageClassification.from_pretrained(model_name)
 processor = AutoProcessor.from_pretrained(model_name)
 
-
 # Hàm thay thế phần trong ngoặc bằng in nghiêng và xóa dấu ngoặc
 def italicize_latin_in_description(plant_description):
     # Sử dụng biểu thức chính quy để tìm phần trong ngoặc và thay thế bằng in nghiêng (Markdown) và xóa dấu ngoặc
@@ -337,13 +336,11 @@ if page == "Trang chủ":
         st.image(image, caption="Ảnh đã tải lên", use_container_width=True)
         
         # Chọn thiết bị (GPU nếu có, nếu không thì CPU)
-    device = torch.device("cuda" if torch.cuda.is_available() else "cpu")
-    if hasattr(model, "to_empty"):
-        model = model.to_empty(device=device)
-    else:
-        model = model.to(device)
-    # Dự đoán
-        inputs = processor(images=image, return_tensors="pt").to(device)
+        device = torch.device("cuda" if torch.cuda.is_available() else "cpu")
+        model.to(device)  # Đưa mô hình lên thiết bị (GPU/CPU)
+        
+        # Dự đoán
+        inputs = processor(images=image, return_tensors="pt").to(device)  
         with torch.no_grad():
             logits = model(**inputs).logits
 
