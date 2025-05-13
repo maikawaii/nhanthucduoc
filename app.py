@@ -335,9 +335,12 @@ if page == "Trang chủ":
         # Hiển thị ảnh
         image = Image.open(uploaded_file)
         st.image(image, caption="Ảnh đã tải lên", use_container_width=True)
-
+        
+        # Chọn thiết bị (GPU nếu có, nếu không thì CPU)
+        device = torch.device("cuda" if torch.cuda.is_available() else "cpu")
+        model = model.to(device)  # Chuyển mô hình lên thiết bị
         # Dự đoán
-        inputs = processor(images=image, return_tensors="pt")
+        inputs = processor(images=image, return_tensors="pt").to(device)  
         with torch.no_grad():
             logits = model(**inputs).logits
 
