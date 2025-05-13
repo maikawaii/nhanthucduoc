@@ -336,9 +336,10 @@ if page == "Trang chủ":
         
         # Chọn thiết bị (GPU nếu có, nếu không thì CPU)
         device = torch.device("cuda" if torch.cuda.is_available() else "cpu")
-        
-        # Sử dụng to_empty() thay vì to() để chuyển mô hình
-        model = model.to_empty(device)  # Đưa mô hình lên thiết bị (GPU/CPU)
+        # Sử dụng to_empty() để chuyển mô hình về trạng thái "rỗng"
+        model = model.to_empty()  # Đưa mô hình về trạng thái "rỗng"
+        # Sau đó, chuyển mô hình sang thiết bị (GPU/CPU)
+        model = model.to(device)  # Đưa mô hình lên thiết bị (GPU/CPU)
         
         # Dự đoán
         inputs = processor(images=image, return_tensors="pt").to(device)
