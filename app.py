@@ -355,21 +355,7 @@ if page == "Trang chủ":
         idxs = top5.indices[0]
         confs = torch.nn.functional.softmax(logits, dim=-1)[0][idxs] * 100
 
-        # 6) hiển thị
-        if confs[0].item() <= 0:
-            st.warning("Không nhận diện được cây nào khớp với ảnh này.")
-        else:
-            st.write("**Top 5 cây dự đoán:**")
-            for i, idx in enumerate(idxs):
-                code = labels[idx.item()]
-                name = label_mapping.get(code, code)
-                desc = plant_info.get(code, {}).get("description", "Không có thông tin.")
-                url  = plant_image_urls.get(code)
-                st.write(f"{i+1}. **{name}** — {confs[i].item():.2f}%")
-                st.write(italicize_latin_in_description(desc))
-                if url:
-                    st.image(url, caption=name)
-
+        
         # Lấy top 5 kết quả
         top_5 = torch.topk(logits, 5)
         top_5_indices = top_5.indices[0]
