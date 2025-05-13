@@ -310,23 +310,11 @@ plant_image_urls = {
   "8_Ty_Giai": "https://drive.google.com/uc?id=1eMMdvroU0qpK-4NzK8lx1RClDGelo1if",
   "9_Cot_toai_bo": "https://drive.google.com/uc?id=1-ig3AkD06Jz6o6E4ymVWqI9RFmYfvv83"
 }
-import torch
-from transformers import AutoModelForImageClassification, AutoProcessor
 
-device = torch.device("cuda" if torch.cuda.is_available() else "cpu")
 # Tải mô hình và processor từ Hugging Face
 model_name = "Laimaimai/herbal_identification"
 model = AutoModelForImageClassification.from_pretrained(model_name)
 processor = AutoProcessor.from_pretrained(model_name)
-# Cố gắng chuyển từng phần của mô hình sang đúng thiết bị
-try:
-    logits = model(**inputs).logit
-    probs = torch.nn.functional.softmax(logits, dim=1)
-except Exception as e:
-    print("Lỗi khi chạy mô hình:", e)
-    probs = None
-# Dự đoán
-logits = model(**inputs).logit
 
 
 # Hàm thay thế phần trong ngoặc bằng in nghiêng và xóa dấu ngoặc
