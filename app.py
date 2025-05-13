@@ -342,8 +342,8 @@ if page == "Trang chủ":
         model = model.to_empty(device=device)
     else:
         model = model.to(device)
-        # Dự đoán
-        inputs = processor(images=image, return_tensors="pt").to(device)  
+    # Dự đoán
+        inputs = processor(images=image, return_tensors="pt").to(device)
         with torch.no_grad():
             logits = model(**inputs).logits
 
