@@ -311,35 +311,64 @@ plant_image_urls = {
   "9_Cot_toai_bo": "https://drive.google.com/uc?id=1-ig3AkD06Jz6o6E4ymVWqI9RFmYfvv83"
 }
 
-# Tải mô hình và processor từ Hugging Face
+# 1) Tải đủ weights về CPU (tắt lazy init)
 model_name = "Laimaimai/herbal_identification"
-model = AutoModelForImageClassification.from_pretrained(model_name)
+model = AutoModelForImageClassification.from_pretrained(
+    model_name,
+    low_cpu_mem_usage=False   # <-- thêm dòng này
+)
 processor = AutoProcessor.from_pretrained(model_name)
 
-
-# Hàm thay thế phần trong ngoặc bằng in nghiêng và xóa dấu ngoặc
+# Hàm italics
 def italicize_latin_in_description(plant_description):
-    # Sử dụng biểu thức chính quy để tìm phần trong ngoặc và thay thế bằng in nghiêng (Markdown) và xóa dấu ngoặc
     return re.sub(r"\(([^)]+)\)", r"*\1*", plant_description)
 
-# Giao diện chính
+# Giao diện
 st.sidebar.title("Vui lòng chọn trang:")
 page = st.sidebar.radio("Điều hướng:", ["Trang chủ", "Trang đối chiếu"])
 
-# Trang chủ
 if page == "Trang chủ":
     st.title("Nhận diện Dược liệu")
     uploaded_file = st.file_uploader("Nhập ảnh của bạn:", type=["jpg", "jpeg", "png"])
 
     if uploaded_file:
-        # Hiển thị ảnh
-        image = Image.open(uploaded_file)
+        # hiển thị ảnh
+        image = Image.open(uploaded_file).convert("RGB")
         st.image(image, caption="Ảnh đã tải lên", use_container_width=True)
 
-        # Dự đoán
+        # 2) chọn device & chuyển model
+        device = torch.device("cuda" if torch.cuda.is_available() else "cpu")
+        model = model.to(device)
+        model.eval()
+
+        # 3) chuẩn bị inputs & chuyển lên device
         inputs = processor(images=image, return_tensors="pt")
+        inputs = {k: v.to(device) for k, v in inputs.items()}
+
+        # 4) forward
         with torch.no_grad():
             logits = model(**inputs).logits
+
+        # 5) xử lý NaN & top-5
+        logits = torch.nan_to_num(logits, nan=0.0)
+        top5 = torch.topk(logits, 5)
+        idxs = top5.indices[0]
+        confs = torch.nn.functional.softmax(logits, dim=-1)[0][idxs] * 100
+
+        # 6) hiển thị
+        if confs[0].item() <= 0:
+            st.warning("Không nhận diện được cây nào khớp với ảnh này.")
+        else:
+            st.write("**Top 5 cây dự đoán:**")
+            for i, idx in enumerate(idxs):
+                code = labels[idx.item()]
+                name = label_mapping.get(code, code)
+                desc = plant_info.get(code, {}).get("description", "Không có thông tin.")
+                url  = plant_image_urls.get(code)
+                st.write(f"{i+1}. **{name}** — {confs[i].item():.2f}%")
+                st.write(italicize_latin_in_description(desc))
+                if url:
+                    st.image(url, caption=name)
 
         # Lấy top 5 kết quả
         top_5 = torch.topk(logits, 5)
