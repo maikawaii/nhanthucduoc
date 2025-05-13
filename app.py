@@ -320,7 +320,7 @@ model = AutoModelForImageClassification.from_pretrained(model_name)
 processor = AutoProcessor.from_pretrained(model_name)
 # Cố gắng chuyển từng phần của mô hình sang đúng thiết bị
 try:
-    logits = model(**inputs).logits
+    logits = model(**inputs).logit
     probs = torch.nn.functional.softmax(logits, dim=1)
 except Exception as e:
     print("Lỗi khi chạy mô hình:", e)
