@@ -330,46 +330,45 @@ if page == "Trang chủ":
     uploaded_file = st.file_uploader("Nhập ảnh của bạn:", type=["jpg", "jpeg", "png"])
 
     if uploaded_file:
-        # Hiển thị ảnh
-        image = Image.open(uploaded_file)
-        st.image(image, caption="Ảnh đã tải lên", use_container_width=True)
-        
-        # Chọn thiết bị (GPU nếu có, nếu không thì CPU)
-        device = torch.device("cuda" if torch.cuda.is_available() else "cpu")
-        # 2) Chuyển model từ meta (nếu có) hoặc bình thường lên device
-    #    Lưu ý: to_empty cần gọi với keyword-only `device=device`
-        if hasattr(model, "to_empty"):
-           model = model.to_empty(device=device)
-        else:
-           model = model.to(device)
+    image = Image.open(uploaded_file).convert("RGB")
+    st.image(image, caption="Ảnh đã tải lên", use_container_width=True)
 
-    # 3) Xử lý và chuyển inputs lên cùng device
-        inputs = processor(images=image, return_tensors="pt").to(device)
+    device = torch.device("cuda" if torch.cuda.is_available() else "cpu")
+    # Chuyển model (meta hoặc bình thường) lên device
+    if hasattr(model, "to_empty"):
+        model = model.to_empty(device=device)
+    else:
+        model = model.to(device)
 
-    # 4) Forward pass
-        with torch.no_grad():
-           logits = model(**inputs).logits
-        # Lấy top 5 kết quả
-        top_5 = torch.topk(logits, 5)
-        top_5_indices = top_5.indices[0]
-        top_5_confidences = torch.nn.functional.softmax(logits, dim=-1)[0][top_5_indices] * 100
+    # Chuẩn bị inputs & đưa lên đúng device
+    inputs = processor(images=image, return_tensors="pt")
+    inputs = {k: v.to(device) for k, v in inputs.items()}
 
-        if top_5_confidences[0].item() < 0:  # Ngưỡng xác suất
-            st.warning("Không nhận diện được cây nào khớp với ảnh này.")
-        else:
-            # Hiển thị top 5 kết quả
-            st.write("**Top 5 cây dự đoán:**")
-            for i in range(5):
-                label_code = labels[top_5_indices[i].item()]
-                
-                # Lấy tên cây từ label_mapping (hoặc dùng label_code nếu không có trong label_mapping)
-                plant_name_vietnamese = label_mapping.get(label_code, label_code)  # Tên cây tiếng Việt
-                
-                # Lấy thông tin chi tiết từ plant_info
-                plant_details = plant_info.get(label_code, {})
-                plant_description = plant_details.get("description", "Không có thông tin chi tiết.")
-                plant_image_url = plant_image_urls.get(label_code, None)  # Lấy URL ảnh từ plant_image_urls
+    # Forward pass
+    with torch.no_grad():
+        logits = model(**inputs).logits
 
+    # Nếu logits chứa NaN, thay NaN bằng 0
+    logits = torch.nan_to_num(logits, nan=0.0)
+
+    # Lấy top-5
+    top5 = torch.topk(logits, 5)
+    idxs = top5.indices[0]
+    confs = torch.nn.functional.softmax(logits, dim=-1)[0][idxs] * 100
+
+    if confs[0].item() <= 0:
+        st.warning("Không nhận diện được cây nào khớp với ảnh này.")
+    else:
+        st.write("**Top 5 cây dự đoán:**")
+        for i, idx in enumerate(idxs):
+            code = labels[idx.item()]
+            name = label_mapping.get(code, code)
+            desc = plant_info.get(code, {}).get("description", "Không có thông tin.")
+            url  = plant_image_urls.get(code)
+            st.write(f"{i+1}. **{name}** — {confs[i].item():.2f}%")
+            st.write(italicize_latin_in_description(desc))
+            if url:
+                st.image(url, caption=name)
 
                 # Thay thế phần trong ngoặc bằng in nghiêng
                 italicized_description = italicize_latin_in_description(plant_description)
