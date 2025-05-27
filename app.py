@@ -26,7 +26,7 @@ def load_image_from_url(image_url):
         st.warning(f"Không thể tải hình ảnh: {e}")
         return None
  # Thêm CSS để hiển thị hình nền
-forest_image_url = "https://images.pexels.com/photos/2318554/pexels-photo-2318554.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2"
+forest_image_url = "https://images.pexels.com/photos/247113/anise-spices-seeds-sprockets-247113.jpeg"
 st.markdown(
     f"""
     <style>
@@ -362,10 +362,10 @@ if page == "Trang chủ":
         top_5_confidences = torch.nn.functional.softmax(logits, dim=-1)[0][top_5_indices] * 100
 
         if top_5_confidences[0].item() < 0:  # Ngưỡng xác suất
-            st.warning("Không nhận diện được cây nào khớp với ảnh này.")
+            st.warning("Không nhận diện được dược liệu nào khớp với ảnh này.")
         else:
             # Hiển thị top 5 kết quả
-            st.write("**Top 5 cây dự đoán:**")
+            st.write("**Top 5 dược liệu dự đoán:**")
             for i in range(5):
                 label_code = labels[top_5_indices[i].item()]
                 
